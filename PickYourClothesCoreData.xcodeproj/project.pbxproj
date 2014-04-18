@@ -22,6 +22,47 @@
 		784A728018EF888200AA746D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A726418EF888100AA746D /* CoreData.framework */; };
 		784A728818EF888200AA746D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 784A728618EF888200AA746D /* InfoPlist.strings */; };
 		784A728A18EF888200AA746D /* PickYourClothesCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784A728918EF888200AA746D /* PickYourClothesCoreDataTests.m */; };
+		7875CB8618F314840073BBA0 /* imageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875CB8518F314840073BBA0 /* imageEditViewController.m */; };
+		787DB49E18F0928400F96ECF /* Umbrella.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB49D18F0928400F96ECF /* Umbrella.m */; };
+		787DB4A118F0928400F96ECF /* Glove.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4A018F0928400F96ECF /* Glove.m */; };
+		787DB4A418F0928400F96ECF /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4A318F0928400F96ECF /* Friends.m */; };
+		787DB4A718F0928400F96ECF /* Pants.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4A618F0928400F96ECF /* Pants.m */; };
+		787DB4AD18F0928400F96ECF /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4AC18F0928400F96ECF /* People.m */; };
+		787DB4B018F0928400F96ECF /* Glass.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4AF18F0928400F96ECF /* Glass.m */; };
+		787DB4B318F0928400F96ECF /* Belt.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4B218F0928400F96ECF /* Belt.m */; };
+		787DB4B918F0928400F96ECF /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4B818F0928400F96ECF /* Shoes.m */; };
+		787DB4BD18F095A400F96ECF /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4BC18F095A400F96ECF /* CameraViewController.m */; };
+		787DB4C118F098D400F96ECF /* PickYourClothesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */; };
+		787DB4C318F09C6000F96ECF /* 67-tshirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4C218F09C6000F96ECF /* 67-tshirt.png */; };
+		787DB4CD18F0C4BC00F96ECF /* KindOfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */; };
+		787DB4EC18F0DD6A00F96ECF /* Select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E418F0DD6A00F96ECF /* Select.jpg */; };
+		787DB4ED18F0DD6A00F96ECF /* Pants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E518F0DD6A00F96ECF /* Pants.jpg */; };
+		787DB4EE18F0DD6A00F96ECF /* Belt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E618F0DD6A00F96ECF /* Belt.jpg */; };
+		787DB4EF18F0DD6A00F96ECF /* Glove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E718F0DD6A00F96ECF /* Glove.jpg */; };
+		787DB4F018F0DD6A00F96ECF /* Eyeglass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E818F0DD6A00F96ECF /* Eyeglass.jpg */; };
+		787DB4F118F0DD6A00F96ECF /* Shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E918F0DD6A00F96ECF /* Shoes.jpg */; };
+		787DB4F218F0DD6A00F96ECF /* Umbrella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4EA18F0DD6A00F96ECF /* Umbrella.jpg */; };
+		787DB4F318F0DD6A00F96ECF /* Jacketing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4EB18F0DD6A00F96ECF /* Jacketing.jpg */; };
+		787DB4FB18F11A1800F96ECF /* btn_close_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4F518F11A1800F96ECF /* btn_close_normal.png */; };
+		787DB4FC18F11A1800F96ECF /* btn_close_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4F618F11A1800F96ECF /* btn_close_normal@2x.png */; };
+		787DB4FD18F11A1800F96ECF /* btn_close_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4F718F11A1800F96ECF /* btn_close_selected.png */; };
+		787DB4FE18F11A1800F96ECF /* btn_close_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4F818F11A1800F96ECF /* btn_close_selected@2x.png */; };
+		787DB4FF18F11A1800F96ECF /* DXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4FA18F11A1800F96ECF /* DXAlertView.m */; };
+		787DB50918F1E4A000F96ECF /* ClothesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB50818F1E4A000F96ECF /* ClothesTableViewController.m */; };
+		787DB50C18F1EB7300F96ECF /* ShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB50B18F1EB7300F96ECF /* ShowDetailViewController.m */; };
+		787DB51018F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB50F18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m */; };
+		787DB51618F258C500F96ECF /* EditDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB51518F258C500F96ECF /* EditDetailTableViewController.m */; };
+		78FF138F18F33FC400EBC87F /* NameEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF138E18F33FC400EBC87F /* NameEditViewController.m */; };
+		78FF139218F348CC00EBC87F /* BrandSeriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF139118F348CC00EBC87F /* BrandSeriesViewController.m */; };
+		78FF139518F34C8500EBC87F /* DescribeEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF139418F34C8500EBC87F /* DescribeEditViewController.m */; };
+		78FF13D818F376D700EBC87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FF13D718F376D700EBC87F /* Main.storyboard */; };
+		78FF144618F37CA200EBC87F /* backgroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144018F37CA200EBC87F /* backgroundStar.png */; };
+		78FF144718F37CA200EBC87F /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144118F37CA200EBC87F /* backgroundStar@2x.png */; };
+		78FF144818F37CA200EBC87F /* foregroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144218F37CA200EBC87F /* foregroundStar.png */; };
+		78FF144918F37CA200EBC87F /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144318F37CA200EBC87F /* foregroundStar@2x.png */; };
+		78FF144A18F37CA200EBC87F /* TQStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144518F37CA200EBC87F /* TQStarRatingView.m */; };
+		78FF144D18F385B100EBC87F /* viewStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144C18F385B100EBC87F /* viewStarViewController.m */; };
+		78FF145018F393A200EBC87F /* Clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144F18F393A200EBC87F /* Clothes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +94,70 @@
 		784A728518EF888200AA746D /* PickYourClothesCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickYourClothesCoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		784A728718EF888200AA746D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		784A728918EF888200AA746D /* PickYourClothesCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesCoreDataTests.m; sourceTree = "<group>"; };
+		7875CB8418F314840073BBA0 /* imageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageEditViewController.h; sourceTree = "<group>"; };
+		7875CB8518F314840073BBA0 /* imageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageEditViewController.m; sourceTree = "<group>"; };
+		787DB49C18F0928400F96ECF /* Umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Umbrella.h; sourceTree = "<group>"; };
+		787DB49D18F0928400F96ECF /* Umbrella.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Umbrella.m; sourceTree = "<group>"; };
+		787DB49F18F0928400F96ECF /* Glove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glove.h; sourceTree = "<group>"; };
+		787DB4A018F0928400F96ECF /* Glove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glove.m; sourceTree = "<group>"; };
+		787DB4A218F0928400F96ECF /* Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends.h; sourceTree = "<group>"; };
+		787DB4A318F0928400F96ECF /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
+		787DB4A518F0928400F96ECF /* Pants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pants.h; sourceTree = "<group>"; };
+		787DB4A618F0928400F96ECF /* Pants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pants.m; sourceTree = "<group>"; };
+		787DB4AB18F0928400F96ECF /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		787DB4AC18F0928400F96ECF /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		787DB4AE18F0928400F96ECF /* Glass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glass.h; sourceTree = "<group>"; };
+		787DB4AF18F0928400F96ECF /* Glass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glass.m; sourceTree = "<group>"; };
+		787DB4B118F0928400F96ECF /* Belt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Belt.h; sourceTree = "<group>"; };
+		787DB4B218F0928400F96ECF /* Belt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Belt.m; sourceTree = "<group>"; };
+		787DB4B718F0928400F96ECF /* Shoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoes.h; sourceTree = "<group>"; };
+		787DB4B818F0928400F96ECF /* Shoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shoes.m; sourceTree = "<group>"; };
+		787DB4BB18F095A400F96ECF /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		787DB4BC18F095A400F96ECF /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		787DB4BF18F098D400F96ECF /* PickYourClothesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickYourClothesViewController.h; sourceTree = "<group>"; };
+		787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesViewController.m; sourceTree = "<group>"; };
+		787DB4C218F09C6000F96ECF /* 67-tshirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "67-tshirt.png"; path = "../../../Downloads/Glyphish Icons - Free/icons/67-tshirt.png"; sourceTree = "<group>"; };
+		787DB4CB18F0C4BC00F96ECF /* KindOfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindOfViewController.h; sourceTree = "<group>"; };
+		787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindOfViewController.m; sourceTree = "<group>"; };
+		787DB4E418F0DD6A00F96ECF /* Select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Select.jpg; sourceTree = "<group>"; };
+		787DB4E518F0DD6A00F96ECF /* Pants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pants.jpg; sourceTree = "<group>"; };
+		787DB4E618F0DD6A00F96ECF /* Belt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Belt.jpg; sourceTree = "<group>"; };
+		787DB4E718F0DD6A00F96ECF /* Glove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glove.jpg; sourceTree = "<group>"; };
+		787DB4E818F0DD6A00F96ECF /* Eyeglass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eyeglass.jpg; sourceTree = "<group>"; };
+		787DB4E918F0DD6A00F96ECF /* Shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shoes.jpg; sourceTree = "<group>"; };
+		787DB4EA18F0DD6A00F96ECF /* Umbrella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Umbrella.jpg; sourceTree = "<group>"; };
+		787DB4EB18F0DD6A00F96ECF /* Jacketing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jacketing.jpg; sourceTree = "<group>"; };
+		787DB4F518F11A1800F96ECF /* btn_close_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_normal.png; sourceTree = "<group>"; };
+		787DB4F618F11A1800F96ECF /* btn_close_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_normal@2x.png"; sourceTree = "<group>"; };
+		787DB4F718F11A1800F96ECF /* btn_close_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_selected.png; sourceTree = "<group>"; };
+		787DB4F818F11A1800F96ECF /* btn_close_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_selected@2x.png"; sourceTree = "<group>"; };
+		787DB4F918F11A1800F96ECF /* DXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXAlertView.h; sourceTree = "<group>"; };
+		787DB4FA18F11A1800F96ECF /* DXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXAlertView.m; sourceTree = "<group>"; };
+		787DB50718F1E4A000F96ECF /* ClothesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesTableViewController.h; sourceTree = "<group>"; };
+		787DB50818F1E4A000F96ECF /* ClothesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesTableViewController.m; sourceTree = "<group>"; };
+		787DB50A18F1EB7300F96ECF /* ShowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDetailViewController.h; sourceTree = "<group>"; };
+		787DB50B18F1EB7300F96ECF /* ShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDetailViewController.m; sourceTree = "<group>"; };
+		787DB50E18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickYourClothesCoreDataTableViewCell.h; sourceTree = "<group>"; };
+		787DB50F18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesCoreDataTableViewCell.m; sourceTree = "<group>"; };
+		787DB51418F258C500F96ECF /* EditDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDetailTableViewController.h; sourceTree = "<group>"; };
+		787DB51518F258C500F96ECF /* EditDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDetailTableViewController.m; sourceTree = "<group>"; };
+		78FF138D18F33FC400EBC87F /* NameEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameEditViewController.h; sourceTree = "<group>"; };
+		78FF138E18F33FC400EBC87F /* NameEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameEditViewController.m; sourceTree = "<group>"; };
+		78FF139018F348CC00EBC87F /* BrandSeriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandSeriesViewController.h; sourceTree = "<group>"; };
+		78FF139118F348CC00EBC87F /* BrandSeriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandSeriesViewController.m; sourceTree = "<group>"; };
+		78FF139318F34C8500EBC87F /* DescribeEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEditViewController.h; sourceTree = "<group>"; };
+		78FF139418F34C8500EBC87F /* DescribeEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEditViewController.m; sourceTree = "<group>"; };
+		78FF13D718F376D700EBC87F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		78FF144018F37CA200EBC87F /* backgroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundStar.png; sourceTree = "<group>"; };
+		78FF144118F37CA200EBC87F /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
+		78FF144218F37CA200EBC87F /* foregroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foregroundStar.png; sourceTree = "<group>"; };
+		78FF144318F37CA200EBC87F /* foregroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foregroundStar@2x.png"; sourceTree = "<group>"; };
+		78FF144418F37CA200EBC87F /* TQStarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TQStarRatingView.h; path = ../TQStarRatingView.h; sourceTree = "<group>"; };
+		78FF144518F37CA200EBC87F /* TQStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TQStarRatingView.m; path = ../TQStarRatingView.m; sourceTree = "<group>"; };
+		78FF144B18F385B100EBC87F /* viewStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewStarViewController.h; sourceTree = "<group>"; };
+		78FF144C18F385B100EBC87F /* viewStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewStarViewController.m; sourceTree = "<group>"; };
+		78FF144E18F393A200EBC87F /* Clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clothes.h; sourceTree = "<group>"; };
+		78FF144F18F393A200EBC87F /* Clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clothes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +224,10 @@
 				784A727018EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m */,
 				784A727518EF888200AA746D /* Images.xcassets */,
 				784A727218EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld */,
+				787DB4BA18F0929000F96ECF /* model */,
+				787DB4BE18F095B400F96ECF /* add&edite */,
+				787DB50318F1DFBA00F96ECF /* tableview */,
+				784A729518EF88F200AA746D /* New Group */,
 				784A726718EF888100AA746D /* Supporting Files */,
 			);
 			path = PickYourClothesCoreData;
@@ -128,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				784A726818EF888100AA746D /* PickYourClothesCoreData-Info.plist */,
+				787DB4C218F09C6000F96ECF /* 67-tshirt.png */,
 				784A726918EF888100AA746D /* InfoPlist.strings */,
 				784A726C18EF888100AA746D /* main.m */,
 				784A726E18EF888100AA746D /* PickYourClothesCoreData-Prefix.pch */,
@@ -151,6 +261,145 @@
 				784A728618EF888200AA746D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		784A729518EF88F200AA746D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				78FF143E18F37CA200EBC87F /* TQStarRating */,
+				78FF13D718F376D700EBC87F /* Main.storyboard */,
+				787DB4BF18F098D400F96ECF /* PickYourClothesViewController.h */,
+				787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		7875CB8318F3145C0073BBA0 /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				7875CB8418F314840073BBA0 /* imageEditViewController.h */,
+				7875CB8518F314840073BBA0 /* imageEditViewController.m */,
+				78FF138D18F33FC400EBC87F /* NameEditViewController.h */,
+				78FF138E18F33FC400EBC87F /* NameEditViewController.m */,
+				78FF139018F348CC00EBC87F /* BrandSeriesViewController.h */,
+				78FF139118F348CC00EBC87F /* BrandSeriesViewController.m */,
+				78FF139318F34C8500EBC87F /* DescribeEditViewController.h */,
+				78FF139418F34C8500EBC87F /* DescribeEditViewController.m */,
+				78FF144B18F385B100EBC87F /* viewStarViewController.h */,
+				78FF144C18F385B100EBC87F /* viewStarViewController.m */,
+			);
+			name = edit;
+			sourceTree = "<group>";
+		};
+		787DB4BA18F0929000F96ECF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				787DB49C18F0928400F96ECF /* Umbrella.h */,
+				787DB49D18F0928400F96ECF /* Umbrella.m */,
+				78FF144E18F393A200EBC87F /* Clothes.h */,
+				78FF144F18F393A200EBC87F /* Clothes.m */,
+				787DB4B718F0928400F96ECF /* Shoes.h */,
+				787DB4B818F0928400F96ECF /* Shoes.m */,
+				787DB4B118F0928400F96ECF /* Belt.h */,
+				787DB4B218F0928400F96ECF /* Belt.m */,
+				787DB4AE18F0928400F96ECF /* Glass.h */,
+				787DB4AF18F0928400F96ECF /* Glass.m */,
+				787DB4AB18F0928400F96ECF /* People.h */,
+				787DB4AC18F0928400F96ECF /* People.m */,
+				787DB4A518F0928400F96ECF /* Pants.h */,
+				787DB4A618F0928400F96ECF /* Pants.m */,
+				787DB4A218F0928400F96ECF /* Friends.h */,
+				787DB4A318F0928400F96ECF /* Friends.m */,
+				787DB49F18F0928400F96ECF /* Glove.h */,
+				787DB4A018F0928400F96ECF /* Glove.m */,
+				787DB4CA18F0C49600F96ECF /* kindof */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		787DB4BE18F095B400F96ECF /* add&edite */ = {
+			isa = PBXGroup;
+			children = (
+				787DB4BB18F095A400F96ECF /* CameraViewController.h */,
+				787DB4BC18F095A400F96ECF /* CameraViewController.m */,
+			);
+			name = "add&edite";
+			sourceTree = "<group>";
+		};
+		787DB4CA18F0C49600F96ECF /* kindof */ = {
+			isa = PBXGroup;
+			children = (
+				787DB4F418F11A1800F96ECF /* Vendor */,
+				787DB4E418F0DD6A00F96ECF /* Select.jpg */,
+				787DB4E518F0DD6A00F96ECF /* Pants.jpg */,
+				787DB4E618F0DD6A00F96ECF /* Belt.jpg */,
+				787DB4E718F0DD6A00F96ECF /* Glove.jpg */,
+				787DB4E818F0DD6A00F96ECF /* Eyeglass.jpg */,
+				787DB4E918F0DD6A00F96ECF /* Shoes.jpg */,
+				787DB4EA18F0DD6A00F96ECF /* Umbrella.jpg */,
+				787DB4EB18F0DD6A00F96ECF /* Jacketing.jpg */,
+				787DB4CB18F0C4BC00F96ECF /* KindOfViewController.h */,
+				787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */,
+			);
+			name = kindof;
+			sourceTree = "<group>";
+		};
+		787DB4F418F11A1800F96ECF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				787DB4F518F11A1800F96ECF /* btn_close_normal.png */,
+				787DB4F618F11A1800F96ECF /* btn_close_normal@2x.png */,
+				787DB4F718F11A1800F96ECF /* btn_close_selected.png */,
+				787DB4F818F11A1800F96ECF /* btn_close_selected@2x.png */,
+				787DB4F918F11A1800F96ECF /* DXAlertView.h */,
+				787DB4FA18F11A1800F96ECF /* DXAlertView.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		787DB50318F1DFBA00F96ECF /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				787DB50E18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.h */,
+				787DB50F18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m */,
+				787DB50718F1E4A000F96ECF /* ClothesTableViewController.h */,
+				787DB50818F1E4A000F96ECF /* ClothesTableViewController.m */,
+				787DB50D18F1EC6000F96ECF /* detail */,
+			);
+			name = tableview;
+			sourceTree = "<group>";
+		};
+		787DB50D18F1EC6000F96ECF /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				787DB50A18F1EB7300F96ECF /* ShowDetailViewController.h */,
+				787DB50B18F1EB7300F96ECF /* ShowDetailViewController.m */,
+				787DB51418F258C500F96ECF /* EditDetailTableViewController.h */,
+				787DB51518F258C500F96ECF /* EditDetailTableViewController.m */,
+				7875CB8318F3145C0073BBA0 /* edit */,
+			);
+			name = detail;
+			sourceTree = "<group>";
+		};
+		78FF143E18F37CA200EBC87F /* TQStarRating */ = {
+			isa = PBXGroup;
+			children = (
+				78FF143F18F37CA200EBC87F /* Image */,
+			);
+			path = TQStarRating;
+			sourceTree = "<group>";
+		};
+		78FF143F18F37CA200EBC87F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				78FF144018F37CA200EBC87F /* backgroundStar.png */,
+				78FF144118F37CA200EBC87F /* backgroundStar@2x.png */,
+				78FF144218F37CA200EBC87F /* foregroundStar.png */,
+				78FF144318F37CA200EBC87F /* foregroundStar@2x.png */,
+				78FF144418F37CA200EBC87F /* TQStarRatingView.h */,
+				78FF144518F37CA200EBC87F /* TQStarRatingView.m */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +478,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787DB4ED18F0DD6A00F96ECF /* Pants.jpg in Resources */,
+				787DB4FC18F11A1800F96ECF /* btn_close_normal@2x.png in Resources */,
+				787DB4F018F0DD6A00F96ECF /* Eyeglass.jpg in Resources */,
+				78FF144618F37CA200EBC87F /* backgroundStar.png in Resources */,
+				787DB4EE18F0DD6A00F96ECF /* Belt.jpg in Resources */,
+				78FF144818F37CA200EBC87F /* foregroundStar.png in Resources */,
+				787DB4FB18F11A1800F96ECF /* btn_close_normal.png in Resources */,
+				78FF144918F37CA200EBC87F /* foregroundStar@2x.png in Resources */,
+				787DB4EC18F0DD6A00F96ECF /* Select.jpg in Resources */,
+				787DB4C318F09C6000F96ECF /* 67-tshirt.png in Resources */,
+				787DB4FE18F11A1800F96ECF /* btn_close_selected@2x.png in Resources */,
+				787DB4F218F0DD6A00F96ECF /* Umbrella.jpg in Resources */,
+				78FF144718F37CA200EBC87F /* backgroundStar@2x.png in Resources */,
+				787DB4F118F0DD6A00F96ECF /* Shoes.jpg in Resources */,
+				787DB4F318F0DD6A00F96ECF /* Jacketing.jpg in Resources */,
+				78FF13D818F376D700EBC87F /* Main.storyboard in Resources */,
+				787DB4EF18F0DD6A00F96ECF /* Glove.jpg in Resources */,
 				784A726B18EF888100AA746D /* InfoPlist.strings in Resources */,
 				784A727618EF888200AA746D /* Images.xcassets in Resources */,
+				787DB4FD18F11A1800F96ECF /* btn_close_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +516,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787DB4A718F0928400F96ECF /* Pants.m in Sources */,
+				787DB4B918F0928400F96ECF /* Shoes.m in Sources */,
+				787DB51018F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m in Sources */,
+				7875CB8618F314840073BBA0 /* imageEditViewController.m in Sources */,
+				787DB4A118F0928400F96ECF /* Glove.m in Sources */,
+				78FF139518F34C8500EBC87F /* DescribeEditViewController.m in Sources */,
+				78FF144A18F37CA200EBC87F /* TQStarRatingView.m in Sources */,
+				78FF139218F348CC00EBC87F /* BrandSeriesViewController.m in Sources */,
+				787DB4B018F0928400F96ECF /* Glass.m in Sources */,
+				787DB50C18F1EB7300F96ECF /* ShowDetailViewController.m in Sources */,
+				78FF145018F393A200EBC87F /* Clothes.m in Sources */,
+				787DB4BD18F095A400F96ECF /* CameraViewController.m in Sources */,
 				784A727118EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m in Sources */,
+				787DB50918F1E4A000F96ECF /* ClothesTableViewController.m in Sources */,
+				787DB4C118F098D400F96ECF /* PickYourClothesViewController.m in Sources */,
+				787DB51618F258C500F96ECF /* EditDetailTableViewController.m in Sources */,
+				78FF144D18F385B100EBC87F /* viewStarViewController.m in Sources */,
+				787DB4FF18F11A1800F96ECF /* DXAlertView.m in Sources */,
+				787DB4AD18F0928400F96ECF /* People.m in Sources */,
+				787DB4B318F0928400F96ECF /* Belt.m in Sources */,
+				787DB49E18F0928400F96ECF /* Umbrella.m in Sources */,
+				787DB4CD18F0C4BC00F96ECF /* KindOfViewController.m in Sources */,
+				787DB4A418F0928400F96ECF /* Friends.m in Sources */,
 				784A727418EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld in Sources */,
 				784A726D18EF888100AA746D /* main.m in Sources */,
+				78FF138F18F33FC400EBC87F /* NameEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +658,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PickYourClothesCoreData/PickYourClothesCoreData-Prefix.pch";
 				INFOPLIST_FILE = "PickYourClothesCoreData/PickYourClothesCoreData-Info.plist";
@@ -381,6 +676,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PickYourClothesCoreData/PickYourClothesCoreData-Prefix.pch";
 				INFOPLIST_FILE = "PickYourClothesCoreData/PickYourClothesCoreData-Info.plist";
@@ -448,6 +748,7 @@
 				784A728F18EF888200AA746D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		784A729018EF888200AA746D /* Build configuration list for PBXNativeTarget "PickYourClothesCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +757,7 @@
 				784A729218EF888200AA746D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

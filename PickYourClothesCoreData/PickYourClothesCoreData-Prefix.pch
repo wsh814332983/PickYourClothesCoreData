@@ -14,4 +14,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
+    #import "PickYourClothesCoreDataAppDelegate.h"
+    #define kAppDelegate ((PickYourClothesCoreDataAppDelegate *)[[UIApplication sharedApplication] delegate])
 #endif
