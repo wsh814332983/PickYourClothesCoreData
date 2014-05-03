@@ -131,7 +131,7 @@
 
         if (self.fetchrearch!=nil) {
             cloth =[self.fetchrearch objectAtIndexPath:indexPath];
-
+            
         }else{
             cloth=nil;
         }
@@ -162,7 +162,9 @@
        NSData *image=cloth.image;
        cell.image.image=[UIImage imageWithData:image];
         
-      
+        NSArray *clothes=[self.fetchedResultsController fetchedObjects];
+        NSLog(@"%i",[clothes count]);
+
       return  cell;
     }
     
@@ -204,13 +206,17 @@
     NSFetchedResultsController *aFetched=[[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:moc sectionNameKeyPath:@"name" cacheName:nil];
     aFetched.delegate=self;
     self.fetchrearch=aFetched;
+    
     NSError *error=nil;
     if (![self.fetchrearch performFetch:&error]) {
         abort();
         
     }
 //    _fetchrearch=[NSMutableArray arrayWithCapacity:[[self.fetchrearch fetchedObjects] count]];
-    _filtarray=[self.fetchrearch fetchedObjects];
+//    _filtarray=[self.fetchrearch fetchedObjects];
+//   Clothes *a= (Clothes *)_filtarray[0];
+//    a.brand;
+    
    }
 
 -(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption
@@ -238,9 +244,8 @@
         Clothes *cloth=[[self fetchedResultsController]objectAtIndexPath:indexpath];
         ShowDetailViewController *moredetail=(ShowDetailViewController *)[segue destinationViewController];
         
-        [moredetail setClothDetailID:[cloth objectID]];
+       [moredetail setClothDetailID:[cloth objectID]];
         
-
     }
     if ([self.searchDisplayController isActive]) {
       NSIndexPath *indexpath=[self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
@@ -253,6 +258,7 @@
         ShowDetailViewController *moredetai=(ShowDetailViewController *)[segue destinationViewController];
         
         [moredetai setClothDetailID:[cloth objectID]];
+        
         
     }
 
@@ -349,7 +355,7 @@
     
 
 
-    
+
     NSFetchedResultsController *aFetched=[[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:moc sectionNameKeyPath:@"kindOf" cacheName:nil];
     aFetched.delegate=self;
     self.fetchedResultsController=aFetched;

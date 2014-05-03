@@ -52,7 +52,28 @@
     starRatingView.delegate = self;
     [self.ratestar addSubview:starRatingView];
     
+    NSArray *colorItem=[NSArray arrayWithObjects:@"Black",@"White",@"Red",@"Green",@"Yellow",@"Blue",@"Brown",@"Purple",@"Orange",@"Cyan",@"Pink", nil];
+    self.ColorSelection.items=colorItem;
+    if ([self.entitycloth isEqualToString:@"Jacketing"]) {
+        NSArray *items=[NSArray arrayWithObjects:@"T-shirt", @"Shirt",@"Sweater", @"Jacket",@"Sports Long",@"Sports Short",@"Suit",nil];
+        self.TypeSelection.items=items;}
+    if ([self.entitycloth isEqualToString:@"Pants"]) {
+        NSArray *items=[NSArray arrayWithObjects:@"Pants Long",@"Pants Middle",@"Pants Short",@"Suit", @"Sports Long",@"Sports Short",nil];
+        self.TypeSelection.items=items;}
+    if ([self.entitycloth isEqualToString:@"Shoes"]) {
+        NSArray *items=[NSArray arrayWithObjects:@"Exercise",@"Suit", @"Sandal",@"Plimsolls",@"Warm Shoes",nil];
+        self.TypeSelection.items=items;}
+    if([self.entitycloth isEqualToString:@"Umbrella"]||[self.entitycloth isEqualToString:@"Glove"]){
+        self.TypeSelection.hidden=YES;
+        self.typeLabel.hidden=YES;
+    }
+   
 }
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
 -(void)starRatingView:(TQStarRatingView *)view score:(float)score
 {
     _clothrate.text=[NSString stringWithFormat:@"Cloth rate:%0.2f",(score*5)];
@@ -63,6 +84,9 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+    
+        
+    
     
     // Dispose of any resources that can be recreated.
 }
@@ -78,6 +102,7 @@
                        otherButtonTitles:@"Photo Library",@"Take Photo", nil];
     [photoBtnActionSheet setActionSheetStyle:UIActionSheetStyleBlackOpaque];
     [photoBtnActionSheet showInView:[self.view window]];
+     NSLog(@"%@",self.TypeSelection.text);
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     // NSLog(@"Action Sheet Button Index: %d",buttonIndex);
@@ -161,18 +186,20 @@ finishedSavingWithError:(NSError *)error
         NSLog(@"save");
            NSString *choice=_entitycloth;
            NSManagedObjectContext *moc=[kAppDelegate managedObjectContext];
+        
            NSManagedObject *newCloth=[NSEntityDescription insertNewObjectForEntityForName:@"Clothes" inManagedObjectContext:moc];
            
            NSData *imageSave=UIImageJPEGRepresentation(_image.image, 1.0);
-
-    [newCloth setValue:imageSave forKey:@"image"];
-    [newCloth setValue:_name.text forKey:@"name"];
-    [newCloth setValue:choice forKey:@"kindOf"];
-    [newCloth setValue:_ratecons forKeyPath:@"rate"];
-    [newCloth setValue:_describe.text forKeyPath:@"describe"];
-     [newCloth setValue:_brand.text forKeyPath:@"brandseries"];
-    [newCloth setValue:0 forKeyPath:@"useTime"];
-      
+  
+           [newCloth setValue:imageSave forKey:@"image"];
+           [newCloth setValue:_name.text forKey:@"name"];
+           [newCloth setValue:choice forKey:@"kindOf"];
+           [newCloth setValue:_ratecons forKeyPath:@"rate"];
+           [newCloth setValue:_describe.text forKeyPath:@"describe"];
+           [newCloth setValue:_brand.text forKeyPath:@"brandseries"];
+           [newCloth setValue:0 forKeyPath:@"useTime"];
+           [newCloth setValue:self.ColorSelection.text forKey:@"color"];
+           [newCloth setValue:self.TypeSelection.text forKeyPath:@"type"];
     
     NSError *mocSaveError=nil;
     if ([moc save:&mocSaveError]) {
@@ -191,6 +218,10 @@ finishedSavingWithError:(NSError *)error
     UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Oops" message:@"lack of photo or name" delegate:self cancelButtonTitle:@"ok" otherButtonTitles: nil];
         [alert show];}
 
+}
+
+- (IBAction)cancel:(id)sender {
+    [self performSegueWithIdentifier:@"backToMain" sender:self];
 }
 #pragma keyboard;
 -(void) textViewDidBeginEditing:(UITextView *)textView
@@ -236,4 +267,5 @@ finishedSavingWithError:(NSError *)error
 {
     self.view.frame =CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
 }
+
 @end

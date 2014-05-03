@@ -1,18 +1,18 @@
 //
-//  PickYourClothesViewController.m
+//  PagesScrollViewController.m
 //  PickYourClothesCoreData
 //
-//  Created by tianxiang zhang on 4/5/14.
+//  Created by tianxiang zhang on 4/26/14.
 //  Copyright (c) 2014 tianxiang zhang. All rights reserved.
 //
 
-#import "PickYourClothesViewController.h"
+#import "PagesScrollViewController.h"
 
-@interface PickYourClothesViewController ()
-
+@interface PagesScrollViewController ()
+@property  UIScrollView *scroll;
 @end
 
-@implementation PickYourClothesViewController
+@implementation PagesScrollViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -45,5 +45,28 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+-(void) buildScrollview:(NSArray *) images
+{
+    _scroll=[[UIScrollView alloc] init];
+    _scroll.pagingEnabled=YES;
+    [self.scroll setCanCancelContentTouches:YES];
+    _scroll.scrollEnabled=YES;
+    _scroll.showsHorizontalScrollIndicator=NO;
+    _scroll.clipsToBounds=YES;
+    _scroll.indicatorStyle=UIScrollViewIndicatorStyleWhite;
+    
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGestureCaptured:)];
+    singleTap.cancelsTouchesInView = NO;
+    [_scroll addGestureRecognizer:singleTap];
+    
+    
+}
+- (void)singleTapGestureCaptured:(UITapGestureRecognizer *)gesture
+{
+    
+    
+    
+    
+    
+}
 @end

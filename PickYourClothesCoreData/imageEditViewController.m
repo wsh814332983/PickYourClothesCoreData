@@ -126,6 +126,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     switch (buttonIndex) {
         case 0:
             [self.navigationController popViewControllerAnimated:YES];
+        
             break;
             
         case 1:

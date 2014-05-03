@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Clothes.h"
+#import <QuartzCore/QuartzCore.h>
 #import "imageEditViewController.h"
 #import "NameEditViewController.h"
 #import "BrandSeriesViewController.h"

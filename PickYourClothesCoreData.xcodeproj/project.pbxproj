@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A195D63967941EEAAEFBD6F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C3EEF0350C4B82A6F3CCDB /* libPods.a */; };
+		781ECAD119156D2800B71C7A /* WaterF.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAB619156D2800B71C7A /* WaterF.m */; };
+		781ECAD219156D2800B71C7A /* WaterFallFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAB819156D2800B71C7A /* WaterFallFooter.m */; };
+		781ECAD319156D2800B71C7A /* WaterFallHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECABA19156D2800B71C7A /* WaterFallHeader.m */; };
+		781ECAD419156D2800B71C7A /* WaterFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECABC19156D2800B71C7A /* WaterFCell.m */; };
+		781ECAD519156D2800B71C7A /* WaterFLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECABE19156D2800B71C7A /* WaterFLayout.m */; };
+		781ECAD619156D2800B71C7A /* flowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAC019156D2800B71C7A /* flowTableViewController.m */; };
+		781ECAD719156D2800B71C7A /* FlowPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAC219156D2800B71C7A /* FlowPicViewController.m */; };
+		781ECAD819156D2800B71C7A /* flowcellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAC419156D2800B71C7A /* flowcellTableViewCell.m */; };
+		781ECAD919156D2800B71C7A /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 781ECAC519156D2800B71C7A /* checked@2x.png */; };
+		781ECADA19156D2800B71C7A /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 781ECAC619156D2800B71C7A /* unchecked@2x.png */; };
+		781ECADB19156D2800B71C7A /* showDetailview.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAC819156D2800B71C7A /* showDetailview.m */; };
+		781ECADC19156D2800B71C7A /* flowshowdetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECACA19156D2800B71C7A /* flowshowdetailViewController.m */; };
+		781ECADD19156D2800B71C7A /* PagesScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECACC19156D2800B71C7A /* PagesScrollViewController.m */; };
+		781ECADE19156D2800B71C7A /* flowScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECACE19156D2800B71C7A /* flowScrollView.m */; };
+		781ECADF19156D2800B71C7A /* FlowControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAD019156D2800B71C7A /* FlowControlViewController.m */; };
+		781ECAE319156DC500B71C7A /* Clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAE219156DC500B71C7A /* Clothes.m */; };
 		784A725F18EF888100AA746D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A725E18EF888100AA746D /* Foundation.framework */; };
 		784A726118EF888100AA746D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A726018EF888100AA746D /* CoreGraphics.framework */; };
 		784A726318EF888100AA746D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A726218EF888100AA746D /* UIKit.framework */; };
@@ -15,7 +32,6 @@
 		784A726D18EF888100AA746D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 784A726C18EF888100AA746D /* main.m */; };
 		784A727118EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784A727018EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m */; };
 		784A727418EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 784A727218EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld */; };
-		784A727618EF888200AA746D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784A727518EF888200AA746D /* Images.xcassets */; };
 		784A727D18EF888200AA746D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A727C18EF888200AA746D /* XCTest.framework */; };
 		784A727E18EF888200AA746D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A725E18EF888100AA746D /* Foundation.framework */; };
 		784A727F18EF888200AA746D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A726218EF888100AA746D /* UIKit.framework */; };
@@ -33,7 +49,6 @@
 		787DB4B918F0928400F96ECF /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4B818F0928400F96ECF /* Shoes.m */; };
 		787DB4BD18F095A400F96ECF /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4BC18F095A400F96ECF /* CameraViewController.m */; };
 		787DB4C118F098D400F96ECF /* PickYourClothesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */; };
-		787DB4C318F09C6000F96ECF /* 67-tshirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4C218F09C6000F96ECF /* 67-tshirt.png */; };
 		787DB4CD18F0C4BC00F96ECF /* KindOfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */; };
 		787DB4EC18F0DD6A00F96ECF /* Select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E418F0DD6A00F96ECF /* Select.jpg */; };
 		787DB4ED18F0DD6A00F96ECF /* Pants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E518F0DD6A00F96ECF /* Pants.jpg */; };
@@ -62,7 +77,15 @@
 		78FF144918F37CA200EBC87F /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144318F37CA200EBC87F /* foregroundStar@2x.png */; };
 		78FF144A18F37CA200EBC87F /* TQStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144518F37CA200EBC87F /* TQStarRatingView.m */; };
 		78FF144D18F385B100EBC87F /* viewStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144C18F385B100EBC87F /* viewStarViewController.m */; };
-		78FF145018F393A200EBC87F /* Clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144F18F393A200EBC87F /* Clothes.m */; };
+		CC7F97E1190C364F00BE850C /* SearchInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F97E0190C364F00BE850C /* SearchInternet.m */; };
+		CC7F97E4190C3CE100BE850C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7F97E3190C3CE100BE850C /* Images.xcassets */; };
+		CCCC8AD31901882F007E9E19 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8ACC1901882F007E9E19 /* WXClient.m */; };
+		CCCC8AD41901882F007E9E19 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8ACF1901882F007E9E19 /* WXController.m */; };
+		CCCC8ADD19018874007E9E19 /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8AD819018874007E9E19 /* WXCondition.m */; };
+		CCCC8ADE19018874007E9E19 /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8ADA19018874007E9E19 /* WXDailyForecast.m */; };
+		CCCC8ADF19018874007E9E19 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8ADC19018874007E9E19 /* WXManager.m */; };
+		CCCC8AE21901A694007E9E19 /* MainFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8AE11901A694007E9E19 /* MainFunctionViewController.m */; };
+		CCCC8AE61901CE30007E9E19 /* UICombox.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8AE51901CE30007E9E19 /* UICombox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +99,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C3EEF0350C4B82A6F3CCDB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		781ECAB519156D2800B71C7A /* WaterF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterF.h; sourceTree = "<group>"; };
+		781ECAB619156D2800B71C7A /* WaterF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterF.m; sourceTree = "<group>"; };
+		781ECAB719156D2800B71C7A /* WaterFallFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallFooter.h; sourceTree = "<group>"; };
+		781ECAB819156D2800B71C7A /* WaterFallFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallFooter.m; sourceTree = "<group>"; };
+		781ECAB919156D2800B71C7A /* WaterFallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFallHeader.h; sourceTree = "<group>"; };
+		781ECABA19156D2800B71C7A /* WaterFallHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFallHeader.m; sourceTree = "<group>"; };
+		781ECABB19156D2800B71C7A /* WaterFCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFCell.h; sourceTree = "<group>"; };
+		781ECABC19156D2800B71C7A /* WaterFCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFCell.m; sourceTree = "<group>"; };
+		781ECABD19156D2800B71C7A /* WaterFLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFLayout.h; sourceTree = "<group>"; };
+		781ECABE19156D2800B71C7A /* WaterFLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFLayout.m; sourceTree = "<group>"; };
+		781ECABF19156D2800B71C7A /* flowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flowTableViewController.h; sourceTree = "<group>"; };
+		781ECAC019156D2800B71C7A /* flowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flowTableViewController.m; sourceTree = "<group>"; };
+		781ECAC119156D2800B71C7A /* FlowPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowPicViewController.h; sourceTree = "<group>"; };
+		781ECAC219156D2800B71C7A /* FlowPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowPicViewController.m; sourceTree = "<group>"; };
+		781ECAC319156D2800B71C7A /* flowcellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flowcellTableViewCell.h; sourceTree = "<group>"; };
+		781ECAC419156D2800B71C7A /* flowcellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flowcellTableViewCell.m; sourceTree = "<group>"; };
+		781ECAC519156D2800B71C7A /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
+		781ECAC619156D2800B71C7A /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked@2x.png"; sourceTree = "<group>"; };
+		781ECAC719156D2800B71C7A /* showDetailview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showDetailview.h; sourceTree = "<group>"; };
+		781ECAC819156D2800B71C7A /* showDetailview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showDetailview.m; sourceTree = "<group>"; };
+		781ECAC919156D2800B71C7A /* flowshowdetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flowshowdetailViewController.h; sourceTree = "<group>"; };
+		781ECACA19156D2800B71C7A /* flowshowdetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flowshowdetailViewController.m; sourceTree = "<group>"; };
+		781ECACB19156D2800B71C7A /* PagesScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagesScrollViewController.h; sourceTree = "<group>"; };
+		781ECACC19156D2800B71C7A /* PagesScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagesScrollViewController.m; sourceTree = "<group>"; };
+		781ECACD19156D2800B71C7A /* flowScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flowScrollView.h; sourceTree = "<group>"; };
+		781ECACE19156D2800B71C7A /* flowScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flowScrollView.m; sourceTree = "<group>"; };
+		781ECACF19156D2800B71C7A /* FlowControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowControlViewController.h; sourceTree = "<group>"; };
+		781ECAD019156D2800B71C7A /* FlowControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowControlViewController.m; sourceTree = "<group>"; };
+		781ECAE119156DC500B71C7A /* Clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clothes.h; sourceTree = "<group>"; };
+		781ECAE219156DC500B71C7A /* Clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clothes.m; sourceTree = "<group>"; };
 		784A725B18EF888100AA746D /* PickYourClothesCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickYourClothesCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784A725E18EF888100AA746D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		784A726018EF888100AA746D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,7 +142,6 @@
 		784A726F18EF888100AA746D /* PickYourClothesCoreDataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickYourClothesCoreDataAppDelegate.h; sourceTree = "<group>"; };
 		784A727018EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesCoreDataAppDelegate.m; sourceTree = "<group>"; };
 		784A727318EF888200AA746D /* PickYourClothesCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PickYourClothesCoreData.xcdatamodel; sourceTree = "<group>"; };
-		784A727518EF888200AA746D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		784A727B18EF888200AA746D /* PickYourClothesCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickYourClothesCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		784A727C18EF888200AA746D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		784A728518EF888200AA746D /* PickYourClothesCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickYourClothesCoreDataTests-Info.plist"; sourceTree = "<group>"; };
@@ -116,7 +169,6 @@
 		787DB4BC18F095A400F96ECF /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		787DB4BF18F098D400F96ECF /* PickYourClothesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickYourClothesViewController.h; sourceTree = "<group>"; };
 		787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesViewController.m; sourceTree = "<group>"; };
-		787DB4C218F09C6000F96ECF /* 67-tshirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "67-tshirt.png"; path = "../../../Downloads/Glyphish Icons - Free/icons/67-tshirt.png"; sourceTree = "<group>"; };
 		787DB4CB18F0C4BC00F96ECF /* KindOfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindOfViewController.h; sourceTree = "<group>"; };
 		787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindOfViewController.m; sourceTree = "<group>"; };
 		787DB4E418F0DD6A00F96ECF /* Select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Select.jpg; sourceTree = "<group>"; };
@@ -156,8 +208,24 @@
 		78FF144518F37CA200EBC87F /* TQStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TQStarRatingView.m; path = ../TQStarRatingView.m; sourceTree = "<group>"; };
 		78FF144B18F385B100EBC87F /* viewStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewStarViewController.h; sourceTree = "<group>"; };
 		78FF144C18F385B100EBC87F /* viewStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewStarViewController.m; sourceTree = "<group>"; };
-		78FF144E18F393A200EBC87F /* Clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clothes.h; sourceTree = "<group>"; };
-		78FF144F18F393A200EBC87F /* Clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clothes.m; sourceTree = "<group>"; };
+		CC7F97DF190C364F00BE850C /* SearchInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchInternet.h; sourceTree = "<group>"; };
+		CC7F97E0190C364F00BE850C /* SearchInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchInternet.m; sourceTree = "<group>"; };
+		CC7F97E3190C3CE100BE850C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCCC8ACC1901882F007E9E19 /* WXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXClient.m; sourceTree = "<group>"; };
+		CCCC8ACD1901882F007E9E19 /* WXCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXCondition.h; sourceTree = "<group>"; };
+		CCCC8ACE1901882F007E9E19 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
+		CCCC8ACF1901882F007E9E19 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
+		CCCC8AD719018874007E9E19 /* WXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXClient.h; sourceTree = "<group>"; };
+		CCCC8AD819018874007E9E19 /* WXCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXCondition.m; sourceTree = "<group>"; };
+		CCCC8AD919018874007E9E19 /* WXDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDailyForecast.h; sourceTree = "<group>"; };
+		CCCC8ADA19018874007E9E19 /* WXDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDailyForecast.m; sourceTree = "<group>"; };
+		CCCC8ADB19018874007E9E19 /* WXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXManager.h; sourceTree = "<group>"; };
+		CCCC8ADC19018874007E9E19 /* WXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXManager.m; sourceTree = "<group>"; };
+		CCCC8AE01901A694007E9E19 /* MainFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainFunctionViewController.h; sourceTree = "<group>"; };
+		CCCC8AE11901A694007E9E19 /* MainFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainFunctionViewController.m; sourceTree = "<group>"; };
+		CCCC8AE41901CE30007E9E19 /* UICombox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICombox.h; sourceTree = "<group>"; };
+		CCCC8AE51901CE30007E9E19 /* UICombox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICombox.m; sourceTree = "<group>"; };
+		ECF5443994734E37B8C6A233 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +237,7 @@
 				784A726518EF888100AA746D /* CoreData.framework in Frameworks */,
 				784A726318EF888100AA746D /* UIKit.framework in Frameworks */,
 				784A725F18EF888100AA746D /* Foundation.framework in Frameworks */,
+				2A195D63967941EEAAEFBD6F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +255,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		781ECAE019156D2D00B71C7A /* flow */ = {
+			isa = PBXGroup;
+			children = (
+				781ECAB519156D2800B71C7A /* WaterF.h */,
+				781ECAB619156D2800B71C7A /* WaterF.m */,
+				781ECAB719156D2800B71C7A /* WaterFallFooter.h */,
+				781ECAB819156D2800B71C7A /* WaterFallFooter.m */,
+				781ECAB919156D2800B71C7A /* WaterFallHeader.h */,
+				781ECABA19156D2800B71C7A /* WaterFallHeader.m */,
+				781ECABB19156D2800B71C7A /* WaterFCell.h */,
+				781ECABC19156D2800B71C7A /* WaterFCell.m */,
+				781ECABD19156D2800B71C7A /* WaterFLayout.h */,
+				781ECABE19156D2800B71C7A /* WaterFLayout.m */,
+				781ECABF19156D2800B71C7A /* flowTableViewController.h */,
+				781ECAC019156D2800B71C7A /* flowTableViewController.m */,
+				781ECAC119156D2800B71C7A /* FlowPicViewController.h */,
+				781ECAC219156D2800B71C7A /* FlowPicViewController.m */,
+				781ECAC319156D2800B71C7A /* flowcellTableViewCell.h */,
+				781ECAC419156D2800B71C7A /* flowcellTableViewCell.m */,
+				781ECAC519156D2800B71C7A /* checked@2x.png */,
+				781ECAC619156D2800B71C7A /* unchecked@2x.png */,
+				781ECAC719156D2800B71C7A /* showDetailview.h */,
+				781ECAC819156D2800B71C7A /* showDetailview.m */,
+				781ECAC919156D2800B71C7A /* flowshowdetailViewController.h */,
+				781ECACA19156D2800B71C7A /* flowshowdetailViewController.m */,
+				781ECACB19156D2800B71C7A /* PagesScrollViewController.h */,
+				781ECACC19156D2800B71C7A /* PagesScrollViewController.m */,
+				781ECACD19156D2800B71C7A /* flowScrollView.h */,
+				781ECACE19156D2800B71C7A /* flowScrollView.m */,
+				781ECACF19156D2800B71C7A /* FlowControlViewController.h */,
+				781ECAD019156D2800B71C7A /* FlowControlViewController.m */,
+			);
+			name = flow;
+			sourceTree = "<group>";
+		};
 		784A725218EF888100AA746D = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +297,7 @@
 				784A728318EF888200AA746D /* PickYourClothesCoreDataTests */,
 				784A725D18EF888100AA746D /* Frameworks */,
 				784A725C18EF888100AA746D /* Products */,
+				ECF5443994734E37B8C6A233 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +318,7 @@
 				784A726218EF888100AA746D /* UIKit.framework */,
 				784A726418EF888100AA746D /* CoreData.framework */,
 				784A727C18EF888200AA746D /* XCTest.framework */,
+				10C3EEF0350C4B82A6F3CCDB /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,10 +326,17 @@
 		784A726618EF888100AA746D /* PickYourClothesCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				CC7F97E3190C3CE100BE850C /* Images.xcassets */,
+				78FF13D718F376D700EBC87F /* Main.storyboard */,
 				784A726F18EF888100AA746D /* PickYourClothesCoreDataAppDelegate.h */,
 				784A727018EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m */,
-				784A727518EF888200AA746D /* Images.xcassets */,
+				781ECAE019156D2D00B71C7A /* flow */,
 				784A727218EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld */,
+				781ECAE119156DC500B71C7A /* Clothes.h */,
+				781ECAE219156DC500B71C7A /* Clothes.m */,
+				CC7F97E2190C365800BE850C /* Internet */,
+				CCCC8AE31901A699007E9E19 /* MainFunction */,
+				CCCC8AD619018834007E9E19 /* Weather */,
 				787DB4BA18F0929000F96ECF /* model */,
 				787DB4BE18F095B400F96ECF /* add&edite */,
 				787DB50318F1DFBA00F96ECF /* tableview */,
@@ -237,7 +350,6 @@
 			isa = PBXGroup;
 			children = (
 				784A726818EF888100AA746D /* PickYourClothesCoreData-Info.plist */,
-				787DB4C218F09C6000F96ECF /* 67-tshirt.png */,
 				784A726918EF888100AA746D /* InfoPlist.strings */,
 				784A726C18EF888100AA746D /* main.m */,
 				784A726E18EF888100AA746D /* PickYourClothesCoreData-Prefix.pch */,
@@ -267,7 +379,6 @@
 			isa = PBXGroup;
 			children = (
 				78FF143E18F37CA200EBC87F /* TQStarRating */,
-				78FF13D718F376D700EBC87F /* Main.storyboard */,
 				787DB4BF18F098D400F96ECF /* PickYourClothesViewController.h */,
 				787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */,
 			);
@@ -296,8 +407,6 @@
 			children = (
 				787DB49C18F0928400F96ECF /* Umbrella.h */,
 				787DB49D18F0928400F96ECF /* Umbrella.m */,
-				78FF144E18F393A200EBC87F /* Clothes.h */,
-				78FF144F18F393A200EBC87F /* Clothes.m */,
 				787DB4B718F0928400F96ECF /* Shoes.h */,
 				787DB4B818F0928400F96ECF /* Shoes.m */,
 				787DB4B118F0928400F96ECF /* Belt.h */,
@@ -320,6 +429,8 @@
 		787DB4BE18F095B400F96ECF /* add&edite */ = {
 			isa = PBXGroup;
 			children = (
+				CCCC8AE41901CE30007E9E19 /* UICombox.h */,
+				CCCC8AE51901CE30007E9E19 /* UICombox.m */,
 				787DB4BB18F095A400F96ECF /* CameraViewController.h */,
 				787DB4BC18F095A400F96ECF /* CameraViewController.m */,
 			);
@@ -402,6 +513,41 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		CC7F97E2190C365800BE850C /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				CC7F97E0190C364F00BE850C /* SearchInternet.m */,
+				CC7F97DF190C364F00BE850C /* SearchInternet.h */,
+			);
+			name = Internet;
+			sourceTree = "<group>";
+		};
+		CCCC8AD619018834007E9E19 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC8AD719018874007E9E19 /* WXClient.h */,
+				CCCC8ACC1901882F007E9E19 /* WXClient.m */,
+				CCCC8AD919018874007E9E19 /* WXDailyForecast.h */,
+				CCCC8ADA19018874007E9E19 /* WXDailyForecast.m */,
+				CCCC8ADB19018874007E9E19 /* WXManager.h */,
+				CCCC8ADC19018874007E9E19 /* WXManager.m */,
+				CCCC8ACD1901882F007E9E19 /* WXCondition.h */,
+				CCCC8AD819018874007E9E19 /* WXCondition.m */,
+				CCCC8ACE1901882F007E9E19 /* WXController.h */,
+				CCCC8ACF1901882F007E9E19 /* WXController.m */,
+			);
+			name = Weather;
+			sourceTree = "<group>";
+		};
+		CCCC8AE31901A699007E9E19 /* MainFunction */ = {
+			isa = PBXGroup;
+			children = (
+				CCCC8AE01901A694007E9E19 /* MainFunctionViewController.h */,
+				CCCC8AE11901A694007E9E19 /* MainFunctionViewController.m */,
+			);
+			name = MainFunction;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -409,9 +555,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 784A728D18EF888200AA746D /* Build configuration list for PBXNativeTarget "PickYourClothesCoreData" */;
 			buildPhases = (
+				8C826D68A21B46F5B22F6290 /* Check Pods Manifest.lock */,
 				784A725718EF888100AA746D /* Sources */,
 				784A725818EF888100AA746D /* Frameworks */,
 				784A725918EF888100AA746D /* Resources */,
+				928C85E228E944DAA9383CD7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -481,22 +629,23 @@
 				787DB4ED18F0DD6A00F96ECF /* Pants.jpg in Resources */,
 				787DB4FC18F11A1800F96ECF /* btn_close_normal@2x.png in Resources */,
 				787DB4F018F0DD6A00F96ECF /* Eyeglass.jpg in Resources */,
+				781ECADA19156D2800B71C7A /* unchecked@2x.png in Resources */,
 				78FF144618F37CA200EBC87F /* backgroundStar.png in Resources */,
 				787DB4EE18F0DD6A00F96ECF /* Belt.jpg in Resources */,
 				78FF144818F37CA200EBC87F /* foregroundStar.png in Resources */,
+				781ECAD919156D2800B71C7A /* checked@2x.png in Resources */,
 				787DB4FB18F11A1800F96ECF /* btn_close_normal.png in Resources */,
 				78FF144918F37CA200EBC87F /* foregroundStar@2x.png in Resources */,
 				787DB4EC18F0DD6A00F96ECF /* Select.jpg in Resources */,
-				787DB4C318F09C6000F96ECF /* 67-tshirt.png in Resources */,
 				787DB4FE18F11A1800F96ECF /* btn_close_selected@2x.png in Resources */,
 				787DB4F218F0DD6A00F96ECF /* Umbrella.jpg in Resources */,
 				78FF144718F37CA200EBC87F /* backgroundStar@2x.png in Resources */,
 				787DB4F118F0DD6A00F96ECF /* Shoes.jpg in Resources */,
 				787DB4F318F0DD6A00F96ECF /* Jacketing.jpg in Resources */,
 				78FF13D818F376D700EBC87F /* Main.storyboard in Resources */,
+				CC7F97E4190C3CE100BE850C /* Images.xcassets in Resources */,
 				787DB4EF18F0DD6A00F96ECF /* Glove.jpg in Resources */,
 				784A726B18EF888100AA746D /* InfoPlist.strings in Resources */,
-				784A727618EF888200AA746D /* Images.xcassets in Resources */,
 				787DB4FD18F11A1800F96ECF /* btn_close_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,33 +660,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C826D68A21B46F5B22F6290 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		928C85E228E944DAA9383CD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		784A725718EF888100AA746D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				787DB4A718F0928400F96ECF /* Pants.m in Sources */,
+				781ECAD719156D2800B71C7A /* FlowPicViewController.m in Sources */,
+				781ECADB19156D2800B71C7A /* showDetailview.m in Sources */,
+				781ECADE19156D2800B71C7A /* flowScrollView.m in Sources */,
+				CCCC8AE21901A694007E9E19 /* MainFunctionViewController.m in Sources */,
+				781ECAD819156D2800B71C7A /* flowcellTableViewCell.m in Sources */,
 				787DB4B918F0928400F96ECF /* Shoes.m in Sources */,
+				781ECAD619156D2800B71C7A /* flowTableViewController.m in Sources */,
 				787DB51018F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m in Sources */,
 				7875CB8618F314840073BBA0 /* imageEditViewController.m in Sources */,
 				787DB4A118F0928400F96ECF /* Glove.m in Sources */,
+				CCCC8ADE19018874007E9E19 /* WXDailyForecast.m in Sources */,
+				781ECADD19156D2800B71C7A /* PagesScrollViewController.m in Sources */,
 				78FF139518F34C8500EBC87F /* DescribeEditViewController.m in Sources */,
 				78FF144A18F37CA200EBC87F /* TQStarRatingView.m in Sources */,
+				CCCC8AD31901882F007E9E19 /* WXClient.m in Sources */,
+				781ECADF19156D2800B71C7A /* FlowControlViewController.m in Sources */,
+				781ECAD119156D2800B71C7A /* WaterF.m in Sources */,
 				78FF139218F348CC00EBC87F /* BrandSeriesViewController.m in Sources */,
 				787DB4B018F0928400F96ECF /* Glass.m in Sources */,
+				781ECAE319156DC500B71C7A /* Clothes.m in Sources */,
+				781ECAD219156D2800B71C7A /* WaterFallFooter.m in Sources */,
 				787DB50C18F1EB7300F96ECF /* ShowDetailViewController.m in Sources */,
-				78FF145018F393A200EBC87F /* Clothes.m in Sources */,
 				787DB4BD18F095A400F96ECF /* CameraViewController.m in Sources */,
+				CC7F97E1190C364F00BE850C /* SearchInternet.m in Sources */,
 				784A727118EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m in Sources */,
+				781ECAD419156D2800B71C7A /* WaterFCell.m in Sources */,
 				787DB50918F1E4A000F96ECF /* ClothesTableViewController.m in Sources */,
 				787DB4C118F098D400F96ECF /* PickYourClothesViewController.m in Sources */,
+				CCCC8AD41901882F007E9E19 /* WXController.m in Sources */,
 				787DB51618F258C500F96ECF /* EditDetailTableViewController.m in Sources */,
 				78FF144D18F385B100EBC87F /* viewStarViewController.m in Sources */,
+				781ECADC19156D2800B71C7A /* flowshowdetailViewController.m in Sources */,
 				787DB4FF18F11A1800F96ECF /* DXAlertView.m in Sources */,
 				787DB4AD18F0928400F96ECF /* People.m in Sources */,
+				781ECAD519156D2800B71C7A /* WaterFLayout.m in Sources */,
+				CCCC8ADF19018874007E9E19 /* WXManager.m in Sources */,
 				787DB4B318F0928400F96ECF /* Belt.m in Sources */,
 				787DB49E18F0928400F96ECF /* Umbrella.m in Sources */,
+				CCCC8ADD19018874007E9E19 /* WXCondition.m in Sources */,
+				781ECAD319156D2800B71C7A /* WaterFallHeader.m in Sources */,
 				787DB4CD18F0C4BC00F96ECF /* KindOfViewController.m in Sources */,
+				CCCC8AE61901CE30007E9E19 /* UICombox.m in Sources */,
 				787DB4A418F0928400F96ECF /* Friends.m in Sources */,
 				784A727418EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld in Sources */,
 				784A726D18EF888100AA746D /* main.m in Sources */,
@@ -655,6 +858,7 @@
 		};
 		784A728E18EF888200AA746D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF5443994734E37B8C6A233 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,6 +877,7 @@
 		};
 		784A728F18EF888200AA746D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF5443994734E37B8C6A233 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

@@ -2,7 +2,7 @@
 //  Clothes.m
 //  PickYourClothesCoreData
 //
-//  Created by tianxiang zhang on 4/7/14.
+//  Created by tianxiang zhang on 5/3/14.
 //  Copyright (c) 2014 tianxiang zhang. All rights reserved.
 //
 
@@ -12,7 +12,6 @@
 
 @implementation Clothes
 
-@dynamic addTime;
 @dynamic brand;
 @dynamic brandseries;
 @dynamic color;
@@ -22,7 +21,10 @@
 @dynamic landry;
 @dynamic name;
 @dynamic rate;
+@dynamic selectTime;
+@dynamic type;
 @dynamic useTime;
+@dynamic onUse;
 @dynamic belong;
 
 @end

@@ -26,6 +26,7 @@
     if (self.editclothID) {
         Clothes *cloth = (Clothes *)[kAppDelegate.managedObjectContext
                                      objectWithID:self.editclothID];
+
         
         _clothedit=cloth;
         _name.text=_clothedit.name;
@@ -44,6 +45,9 @@
 {
     [super viewDidLoad];
     [self configure];
+    
+    self.textfield.layer.borderColor=(__bridge CGColorRef)([UIColor grayColor]);
+    self.textfield.layer.borderWidth=10.0;
     
     
     

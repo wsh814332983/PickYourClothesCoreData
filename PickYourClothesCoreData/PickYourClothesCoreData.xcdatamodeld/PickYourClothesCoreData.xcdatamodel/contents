@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Belt" representedClassName="Belt" parentEntity="Clothes" syncable="YES">
         <attribute name="style" optional="YES" attributeType="String" maxValueString="20" syncable="YES"/>
         <attribute name="uniform" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
     </entity>
     <entity name="Clothes" representedClassName="Clothes" syncable="YES">
-        <attribute name="addTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="brand" optional="YES" attributeType="String" maxValueString="15" spotlightIndexingEnabled="YES" syncable="YES"/>
         <attribute name="brandseries" optional="YES" attributeType="String" maxValueString="100" syncable="YES"/>
         <attribute name="color" optional="YES" attributeType="String" maxValueString="20" defaultValueString="not select" syncable="YES"/>
@@ -14,7 +13,10 @@
         <attribute name="kindOf" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="landry" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" maxValueString="20" spotlightIndexingEnabled="YES" syncable="YES"/>
+        <attribute name="onUse" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="rate" optional="YES" attributeType="Float" maxValueString="5" defaultValueString="0" syncable="YES"/>
+        <attribute name="selectTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="useTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <relationship name="belong" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="People" inverseName="owner" inverseEntity="People" syncable="YES"/>
     </entity>
@@ -53,7 +55,7 @@
     </entity>
     <elements>
         <element name="Belt" positionX="-171" positionY="-27" width="128" height="73"/>
-        <element name="Clothes" positionX="-20" positionY="-225" width="128" height="225"/>
+        <element name="Clothes" positionX="-20" positionY="-288" width="128" height="255"/>
         <element name="Friends" positionX="36" positionY="-63" width="128" height="73"/>
         <element name="Glass" positionX="178" positionY="-280" width="128" height="73"/>
         <element name="Glove" positionX="223" positionY="-153" width="128" height="45"/>

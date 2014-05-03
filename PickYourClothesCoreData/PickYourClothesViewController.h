@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface PickYourClothesViewController : UIViewController
-
+#import "MainFunctionViewController.h"
+#import "UICombox.h"
+#import "Clothes.h"
+@interface PickYourClothesViewController : UIViewController<NSFetchedResultsControllerDelegate>
+@property (strong, nonatomic) IBOutlet UIButton *showRecent1;
+@property (strong, nonatomic) IBOutlet UIButton *showRecent2;
+@property (strong, nonatomic) IBOutlet UICombox *gooutPurpose;
+@property (strong, nonatomic) IBOutlet UIButton *start;
+@property (nonatomic) MainFunctionViewController *mainfunctioncontroller;
+- (IBAction)startPick:(id)sender;
+- (IBAction)chooseRecent:(id)sender;
+- (IBAction)chooseRecent2:(id)sender;
 @end
