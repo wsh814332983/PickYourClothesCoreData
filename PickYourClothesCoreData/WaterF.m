@@ -27,17 +27,13 @@
         [self.collectionView registerClass:[WaterFCell class] forCellWithReuseIdentifier:@"cell"];
       [self.collectionView registerClass:[WaterFallFooter class]  forSupplementaryViewOfKind:WaterFallSectionFooter withReuseIdentifier:@"WaterFallSectionfooter"];
      [self.collectionView registerClass:[WaterFallHeader class]  forSupplementaryViewOfKind:WaterFallSectionHeader withReuseIdentifier:@"WaterFallSectionHeader"];
-<<<<<<< HEAD
         
-=======
->>>>>>> FETCH_HEAD
     }
     return self;
 }
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-<<<<<<< HEAD
     self.collectionView.backgroundColor=[UIColor whiteColor];
     
     UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background7.jpeg"]];
@@ -48,15 +44,6 @@
 
     [self.collectionView setAllowsSelection:YES];
     
-=======
-    self.collectionView.backgroundColor=[UIColor clearColor];
-    
-
-    [self.collectionView setAllowsSelection:YES];
-    
-    
-
->>>>>>> FETCH_HEAD
 }
 
 #pragma mark UICollectionViewDataSource
@@ -98,11 +85,7 @@
         [cell.imageView addSubview:selectdetail];
         
     }
-<<<<<<< HEAD
         [cell setDelegate: self];
-=======
-    [cell setDelegate: self];
->>>>>>> FETCH_HEAD
     return cell;
 }
 - (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath

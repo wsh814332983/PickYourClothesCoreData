@@ -15,10 +15,6 @@
 @property (strong,nonatomic) NSString *brandname;
 @property (strong,nonatomic) NSString *mailId;
 @property (strong,nonatomic) People *peo;
-<<<<<<< HEAD
-=======
-@property (strong,nonatomic) NSDate *date;
->>>>>>> FETCH_HEAD
 @end
 
 @implementation CameraViewController
@@ -45,60 +41,28 @@
     }
     [super touchesBegan:touches withEvent:event];
 }
-<<<<<<< HEAD
 -(void) viewWillAppear:(BOOL)animated
 {
 }
-=======
-
->>>>>>> FETCH_HEAD
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     //set imageview;
     [self fetchpeople];
-<<<<<<< HEAD
-=======
-    
-    _date=[NSDate date];
-    NSLog(@"nldate%@",_date);
-    
-    _brandbutton.layer.cornerRadius=8;
-    _brandbutton.layer.borderColor=(__bridge CGColorRef)([UIColor grayColor]);
-    _brandbutton.layer.borderWidth=2;
-    _brandbutton.backgroundColor=[UIColor whiteColor];
-    _clothrate.font=[UIFont boldSystemFontOfSize:17];
-    _color.font=[UIFont boldSystemFontOfSize:17];
-    _type.font=[UIFont boldSystemFontOfSize:17];
-    _description.font=[UIFont boldSystemFontOfSize:17];
-
-    _describe.layer.cornerRadius=8;
->>>>>>> FETCH_HEAD
     _imageView.layer.cornerRadius=8;
     _imageView.layer.masksToBounds=YES;
     _imageView.layer.borderWidth=2;
     _imageView.layer.borderColor=[[UIColor grayColor] CGColor];
     _image.layer.cornerRadius=8;
-<<<<<<< HEAD
     _image.frame=_imageView.frame;
     TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(0, 0, 100, 20)
                                                                   numberOfStar:5];
     starRatingView.delegate = self;
-=======
-    _image.contentMode=UIViewContentModeScaleAspectFit;
-    _image.frame=_imageView.frame;
-    
-    TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(0, 0, 100, 20)
-                                                                  numberOfStar:5];
-    starRatingView.delegate = self;
-    self.ratestar.backgroundColor=[UIColor clearColor];
->>>>>>> FETCH_HEAD
     [self.ratestar addSubview:starRatingView];
     
     NSArray *colorItem=[NSArray arrayWithObjects:@"Black",@"White",@"Red",@"Green",@"Yellow",@"Blue",@"Brown",@"Purple",@"Orange",@"Cyan",@"Pink", nil];
     self.ColorSelection.items=colorItem;
     if ([self.entitycloth isEqualToString:@"Jacketing"]) {
-<<<<<<< HEAD
         NSArray *items=[NSArray arrayWithObjects:@"T-shirt", @"Shirt",@"Sweater", @"Jacket",@"Sports Long",@"Sports Short",@"Suit",nil];
         self.TypeSelection.items=items;}
     if ([self.entitycloth isEqualToString:@"Pants"]) {
@@ -106,15 +70,6 @@
         self.TypeSelection.items=items;}
     if ([self.entitycloth isEqualToString:@"Shoes"]) {
         NSArray *items=[NSArray arrayWithObjects:@"Exercise",@"Suit", @"Sandal",@"Plimsolls",@"Warm Shoes",nil];
-=======
-        NSArray *items=[NSArray arrayWithObjects:@"T-shirt", @"Shirt",@"Sweater", @"Jacket",@"Sports Long",@"Sports Short",@"Suit",@"Dress",nil];
-        self.TypeSelection.items=items;}
-    if ([self.entitycloth isEqualToString:@"Pants"]) {
-        NSArray *items=[NSArray arrayWithObjects:@"Pants Long",@"Pants Middle",@"Pants Short",@"Suit", @"Sports Long",@"Sports Short",@"Skirt",nil];
-        self.TypeSelection.items=items;}
-    if ([self.entitycloth isEqualToString:@"Shoes"]) {
-        NSArray *items=[NSArray arrayWithObjects:@"Exercise",@"Suit", @"Sandal",@"Plimsolls",@"Warm Shoes",@"High Heel",nil];
->>>>>>> FETCH_HEAD
         self.TypeSelection.items=items;}
     if([self.entitycloth isEqualToString:@"Umbrella"]||[self.entitycloth isEqualToString:@"Glove"]){
         self.TypeSelection.hidden=YES;
@@ -265,10 +220,6 @@ finishedSavingWithError:(NSError *)error
            [newCloth setValue:self.ColorSelection.text forKey:@"color"];
            [newCloth setValue:self.TypeSelection.text forKeyPath:@"type"];
            [newCloth setValue:_peo forKey:@"belong"];
-<<<<<<< HEAD
-=======
-           [newCloth setValue:_date forKey:@"addTime"];
->>>>>>> FETCH_HEAD
     NSError *mocSaveError=nil;
     if ([moc save:&mocSaveError]) {
         NSLog(@"Save completed successfully");

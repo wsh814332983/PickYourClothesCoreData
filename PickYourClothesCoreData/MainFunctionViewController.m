@@ -9,10 +9,6 @@
 #import "MainFunctionViewController.h"
 #import "WXManager.h"
 #import "UIButton+Bootstrap.h"
-<<<<<<< HEAD
-=======
-#import "People.h"
->>>>>>> FETCH_HEAD
 @interface MainFunctionViewController ()
 @property (strong,nonatomic) NSArray *clothesArray;
 @property (strong,nonatomic) NSArray *pantsArray;
@@ -37,11 +33,6 @@
 @property (nonatomic) Clothes *cloth;
 @property (nonatomic) Clothes *pant;
 @property (nonatomic) Clothes *shoes;
-<<<<<<< HEAD
-=======
-@property (strong,nonatomic) NSString *mailId;
-@property (strong,nonatomic) People *peo;
->>>>>>> FETCH_HEAD
 //@property (nonatomic, strong) NSManagedObjectID *clothID;
 //@property (nonatomic, strong) NSManagedObjectID *pantID;
 //@property (nonatomic, strong) NSManagedObjectID *shoeID;
@@ -181,19 +172,11 @@
     unsigned indexOfClothes;
     NSMutableArray *clothesFilterArray2=[self generateFilterArray:_clothesFilterArray];
     if ([clothesFilterArray2 count]!=0) {
-<<<<<<< HEAD
-=======
-        self.PickedClothes.enabled=YES;
->>>>>>> FETCH_HEAD
         self.lackOfClothes=NO;
         indexOfClothes =arc4random() % [clothesFilterArray2 count];
         _cloth=clothesFilterArray2[indexOfClothes];
         NSData *clothesImageData= _cloth.image;
-<<<<<<< HEAD
         [self.PickedClothes setBackgroundImage:[UIImage imageWithData:clothesImageData] forState:UIControlStateNormal] ;
-=======
-        [self.PickedClothes setImage:[UIImage imageWithData:clothesImageData] forState:UIControlStateNormal] ;
->>>>>>> FETCH_HEAD
     }else{
         self.lackOfClothes=YES;
         self.PickedClothes.enabled=NO;
@@ -204,10 +187,6 @@
     unsigned indexOfPants;
     NSMutableArray *pantsFilterArray2=[self generateFilterArray:_pantsFilterArray];
     if ([pantsFilterArray2 count]!=0) {
-<<<<<<< HEAD
-=======
-        self.PickedPants.enabled=YES;
->>>>>>> FETCH_HEAD
         self.lackOfPants=NO;
         if([self.purpose isEqualToString:@"Formal Occasion"]){
             NSMutableArray *sameColorPants=[[NSMutableArray alloc]init];
@@ -223,11 +202,7 @@
             _pant=pantsFilterArray2[indexOfPants];
         }
         NSData *pantsImageData=_pant.image;
-<<<<<<< HEAD
         [self.PickedPants setBackgroundImage:[UIImage imageWithData:pantsImageData] forState:UIControlStateNormal];
-=======
-        [self.PickedPants setImage:[UIImage imageWithData:pantsImageData] forState:UIControlStateNormal];
->>>>>>> FETCH_HEAD
     }else{
         self.lackOfPants=YES;
         self.PickedPants.enabled=NO;
@@ -238,19 +213,11 @@
     unsigned indexOfShoes;
     NSMutableArray *shoesFilterArray2=[self generateFilterArray:_shoesFilterArray];
     if ([shoesFilterArray2 count]!=0) {
-<<<<<<< HEAD
-=======
-        self.PickedShoes.enabled=YES;
->>>>>>> FETCH_HEAD
         self.lackOfShoes=NO;
         indexOfShoes =arc4random() % [shoesFilterArray2 count];
         _shoes=shoesFilterArray2[indexOfShoes];
         NSData *shoesImageData=_shoes.image;
-<<<<<<< HEAD
         [self.PickedShoes setBackgroundImage:[UIImage imageWithData:shoesImageData] forState:UIControlStateNormal];
-=======
-        [self.PickedShoes setImage:[UIImage imageWithData:shoesImageData] forState:UIControlStateNormal];
->>>>>>> FETCH_HEAD
     }else{
         self.lackOfShoes=YES;
         self.PickedShoes.enabled=NO;
@@ -260,19 +227,11 @@
     Clothes *umbrella=[Clothes alloc];
     NSMutableArray *umbrellaFilterArray2=[self generateFilterArray:_umbrellaFilterArray];
     if([umbrellaFilterArray2 count]!=0){
-<<<<<<< HEAD
-=======
-        self.PickedUmbrella.enabled=YES;
->>>>>>> FETCH_HEAD
         self.lackOfUmbrellas=NO;
         unsigned indexOfUmbrella =arc4random() % [umbrellaFilterArray2 count];
         umbrella=umbrellaFilterArray2[indexOfUmbrella];
         NSData *umbrellaImageData=umbrella.image;
-<<<<<<< HEAD
         [self.PickedUmbrella setBackgroundImage:[UIImage imageWithData:umbrellaImageData] forState:UIControlStateNormal];
-=======
-        [self.PickedUmbrella setImage:[UIImage imageWithData:umbrellaImageData] forState:UIControlStateNormal];
->>>>>>> FETCH_HEAD
     }else{
         self.lackOfUmbrellas=YES;
         self.PickedUmbrella.enabled=NO;
@@ -282,46 +241,26 @@
     Clothes *glove=[Clothes alloc];
     NSMutableArray *gloveFilterArray2=[self generateFilterArray:_gloveFilterArray];
     if([gloveFilterArray2 count]!=0){
-<<<<<<< HEAD
-=======
-        self.PickedGlove.enabled=YES;
->>>>>>> FETCH_HEAD
         self.lackOfGloves=NO;
         unsigned indexOfGlove =arc4random() % [gloveFilterArray2 count];
         glove=gloveFilterArray2[indexOfGlove];
         NSData *gloveImageData=glove.image;
-<<<<<<< HEAD
         [self.PickedGlove setBackgroundImage:[UIImage imageWithData:gloveImageData] forState:UIControlStateNormal];
-=======
-        [self.PickedGlove setImage:[UIImage imageWithData:gloveImageData] forState:UIControlStateNormal];
->>>>>>> FETCH_HEAD
     }else{
         self.lackOfGloves=YES;
         self.PickedGlove.enabled=NO;
     }
 }
 -(void)showOriginal{
-<<<<<<< HEAD
     [self.PickedClothes setBackgroundImage:[UIImage imageNamed:@"originalShow_jacket"] forState:UIControlStateNormal];
     [self.PickedPants setBackgroundImage:[UIImage imageNamed:@"originalShow_pant"] forState:UIControlStateNormal];
     [self.PickedShoes setBackgroundImage:[UIImage imageNamed:@"originalShow_shoes"] forState:UIControlStateNormal];
     [self.PickedUmbrella setBackgroundImage:[UIImage imageNamed:@"originalShow_umbrella"] forState:UIControlStateNormal];
     [self.PickedGlove setBackgroundImage:[UIImage imageNamed:@"originalShow_glove"] forState:UIControlStateNormal];
-=======
-    [self.PickedClothes setImage:[UIImage imageNamed:@"originalShow_jacket"] forState:UIControlStateNormal];
-    [self.PickedPants setImage:[UIImage imageNamed:@"originalShow_pant"] forState:UIControlStateNormal];
-    [self.PickedShoes setImage:[UIImage imageNamed:@"originalShow_shoes"] forState:UIControlStateNormal];
-    [self.PickedUmbrella setImage:[UIImage imageNamed:@"originalShow_umbrella"] forState:UIControlStateNormal];
-    [self.PickedGlove setImage:[UIImage imageNamed:@"originalShow_glove"] forState:UIControlStateNormal];
->>>>>>> FETCH_HEAD
 }
 -(void)showAllSelection{
     [self findClothes];
     if(_cnt!=0){
-<<<<<<< HEAD
-=======
-        [self.PickClothes setTitle:@"Change" forState:UIControlStateNormal];
->>>>>>> FETCH_HEAD
         [self showSelectionOfClothes];
         [self showSelectionOfPants];
         [self showSelectionOfShoes];
@@ -336,18 +275,7 @@
             self.PickedGlove.enabled=NO;
         }
     }else{
-<<<<<<< HEAD
         [self showOriginal];
-=======
-        self.PickedClothes.enabled=NO;
-        self.PickedPants.enabled=NO;
-        self.PickedShoes.enabled=NO;
-        self.PickedUmbrella.enabled=NO;
-        self.PickedGlove.enabled=NO;
-        [self showOriginal];
-        [self.PickClothes setTitle:@"Pick One" forState:UIControlStateNormal];
-
->>>>>>> FETCH_HEAD
     }
     _cnt++;
 }
@@ -355,33 +283,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-<<<<<<< HEAD
 
-=======
-    
-    
-    _imageback.layer.cornerRadius=20;
-    _imageback.layer.borderWidth=2;
-    _imageback.layer.borderColor=(__bridge CGColorRef)([UIColor grayColor]);
-    _imageback.layer.masksToBounds=YES;
-    _imagehead.frame=_imageback.frame;
-    
-    self.PickedClothes.layer.cornerRadius=20;
-    self.PickedClothes.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
-    self.PickedPants.layer.cornerRadius=20;
-    self.PickedPants.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
-    self.PickedShoes.layer.cornerRadius=20;
-    self.PickedShoes.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
-    self.PickedGlove.layer.cornerRadius=20;
-    self.PickedGlove.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
-    self.PickedUmbrella.layer.cornerRadius=20;
-    self.PickedUmbrella.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
-
-    [self fetchpeople];
-    _imagehead.image=[UIImage imageWithData:_peo.image];
-    _imagehead.layer.cornerRadius=8;
-    
->>>>>>> FETCH_HEAD
     NSLog(@"%@",self.purpose);
    // self.tabBarController.tabBar.hidden=NO;
   //  self.navigationController.navigationBar.alpha=1;
@@ -391,18 +293,7 @@
     [self.button addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
     // Do any additional setup after loading the view.
 }
-<<<<<<< HEAD
 
-=======
--(void) viewWillAppear:(BOOL)animated{
-    self.lackOfClothes=YES;
-    self.lackOfPants=YES;
-    self.lackOfShoes=YES;
-    [self fetchpeople];
-    _imagehead.image=[UIImage imageWithData:_peo.image];
-    _imagehead.layer.cornerRadius=8;
-}
->>>>>>> FETCH_HEAD
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -441,15 +332,8 @@
 }
 
 - (IBAction)confirmChoice:(id)sender {
-<<<<<<< HEAD
     UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Want Choose?" message:@"make a decision" delegate:self cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
     [alert show];
-=======
-    if(!(self.lackOfShoes&&self.lackOfClothes&&self.lackOfPants)){
-    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Want Choose?" message:@"make a decision" delegate:self cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
-    [alert show];
-    }
->>>>>>> FETCH_HEAD
 //    NSDate *now=[NSDate date];
 //    if(!self.lackOfClothes){
 //    _cloth.selectTime=now;
@@ -517,44 +401,4 @@
     NSError *error;
     [moc save:&error];
 }
-<<<<<<< HEAD
-=======
-
--(void) takePeople{
-    
-    NSFileManager *manage=[NSFileManager defaultManager];
-    NSString *docsDir;
-    NSArray *dirPath;
-    dirPath=NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    docsDir=dirPath[0];
-    NSString *p=[[NSString alloc] initWithString:[docsDir stringByAppendingString:@"/Username.archve"]];
-    if ([manage fileExistsAtPath:p]) {
-        NSMutableArray *dataArray=[[NSMutableArray alloc] init];
-        dataArray =[NSKeyedUnarchiver unarchiveObjectWithFile:p];
-        if (dataArray!=nil) {
-            NSLog(@"%@",[dataArray objectAtIndex:0]);
-            _mailId=[dataArray objectAtIndex:0];
-        }
-    }
-}
--(void) fetchpeople
-{   [self takePeople];
-    NSFetchRequest *request=[[NSFetchRequest alloc]init];
-    NSManagedObjectContext *context=kAppDelegate.managedObjectContext;
-    NSEntityDescription *entity=[NSEntityDescription entityForName:@"People" inManagedObjectContext:context];
-    [request setEntity:entity];
-    NSPredicate *pre=[NSPredicate predicateWithFormat:@"mail =%@",_mailId];
-    [request setPredicate:pre];
-    NSError *error=nil;
-    NSArray *ps= [context executeFetchRequest:request error:&error];
-    People *tem=[ps objectAtIndex:0];
-    _peo=tem;
-    
-    
-    
-}
-- (IBAction)unwindToThisViewController:(UIStoryboardSegue *)unwindSegue {}
-- (IBAction)edithead:(id)sender {
-}
->>>>>>> FETCH_HEAD
 @end

@@ -26,11 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-<<<<<<< HEAD
-=======
-    NSArray *items = [NSArray arrayWithObjects:@"Male", @"Female", nil];
-    self.gender.items = items;
->>>>>>> FETCH_HEAD
     _viewback.layer.cornerRadius=50;
     _viewback.layer.masksToBounds=YES;
     _viewback.layer.borderWidth=2;
@@ -121,7 +116,6 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     {
         
     }
-<<<<<<< HEAD
     CATransition *tran=[CATransition animation];
     NSTimeInterval inter=1;
     tran.duration=inter;
@@ -130,8 +124,6 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     tran.subtype=kCAMediaTimingFunctionEaseIn;
     tran.delegate=self;
     [self.imageview.layer addAnimation:tran forKey:nil];
-=======
->>>>>>> FETCH_HEAD
 }
 -(void)image:(UIImage *)image
 finishedSavingWithError:(NSError *)error
@@ -171,20 +163,6 @@ finishedSavingWithError:(NSError *)error
     [object setValue:_name.text forKey:@"name"];
     [object setValue:_mail.text forKey:@"mail"];
     [object setValue:_password.text forKey:@"password"];
-<<<<<<< HEAD
-=======
-    id ageNumber;
-    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
-    ageNumber=[f numberFromString:_age.text];
-    [object setValue:ageNumber forKeyPath:@"age"];
-    NSNumber *genderBool;
-    if ([_gender.text isEqualToString:@"Male"]) {
-        genderBool=[NSNumber numberWithInt:0];
-    } else{
-        genderBool=[NSNumber numberWithInt:1];
-    }
-    [object setValue:genderBool forKeyPath:@"gender"];
->>>>>>> FETCH_HEAD
     NSData *image=UIImageJPEGRepresentation(_imageview.image, 1);
     [object setValue:image forKey:@"image"];
     NSError *error=nil;

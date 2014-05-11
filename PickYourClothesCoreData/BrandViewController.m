@@ -31,7 +31,7 @@
     _labelbrand.font=[UIFont fontWithName:@"Helvetica" size:20];
     [self takeBrand];
     
-    _tableselect.layer.cornerRadius=10;
+    
 }
 
 - (void)didReceiveMemoryWarning

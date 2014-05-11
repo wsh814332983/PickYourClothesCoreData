@@ -16,11 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="O58-K5-JYl">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="O58-K5-JYl">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -77,11 +73,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Doa-xz-d1u">
-<<<<<<< HEAD
                                 <rect key="frame" x="7" y="385" width="293" height="52"/>
-=======
-                                <rect key="frame" x="7" y="398" width="293" height="39"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -94,18 +86,10 @@
                                 <rect key="frame" x="13" y="293" width="192" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-<<<<<<< HEAD
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iw9-Gi-dDz">
                                 <rect key="frame" x="13" y="322" width="280" height="55"/>
-=======
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iw9-Gi-dDz">
-                                <rect key="frame" x="7" y="322" width="293" height="30"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -113,11 +97,7 @@
                                 <rect key="frame" x="13" y="486" width="77" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-<<<<<<< HEAD
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-=======
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
->>>>>>> FETCH_HEAD
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y5f-qW-j8l" customClass="UICombox">
@@ -130,19 +110,11 @@
                                 <rect key="frame" x="13" y="451" width="46" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-<<<<<<< HEAD
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DpV-DR-Ibh" customClass="UICombox">
                                 <rect key="frame" x="159" y="442" width="141" height="30"/>
-=======
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DpV-DR-Ibh" customClass="UICombox">
-                                <rect key="frame" x="159" y="447" width="141" height="30"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -167,56 +139,28 @@
                                     <action selector="cancel:" destination="aiZ-oe-dGz" eventType="touchUpInside" id="A36-EY-VnW"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="fsd-LH-dfb"/>
-=======
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B2-3V-1AN">
-                                <rect key="frame" x="13" y="369" width="117" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Details" id="fsd-LH-dfb"/>
->>>>>>> FETCH_HEAD
                     <connections>
                         <outlet property="ColorSelection" destination="DpV-DR-Ibh" id="yPX-cS-Mn5"/>
                         <outlet property="TypeSelection" destination="y5f-qW-j8l" id="dh2-Sh-SVi"/>
                         <outlet property="brand" destination="NdS-PZ-zF5" id="Zor-le-F94"/>
                         <outlet property="brandbutton" destination="kYm-pW-q8P" id="Woe-V9-ihw"/>
                         <outlet property="clothrate" destination="hJH-NI-ZFh" id="Y7f-OS-Zml"/>
-<<<<<<< HEAD
                         <outlet property="describe" destination="Doa-xz-d1u" id="pme-zF-SSS"/>
-=======
-                        <outlet property="color" destination="rpp-oO-zcA" id="X6z-ej-uXh"/>
-                        <outlet property="describe" destination="Doa-xz-d1u" id="pme-zF-SSS"/>
-                        <outlet property="description" destination="5B2-3V-1AN" id="Eai-8j-e14"/>
->>>>>>> FETCH_HEAD
                         <outlet property="image" destination="LsK-34-J30" id="Les-T4-aZ7"/>
                         <outlet property="imageView" destination="Ywd-ey-3CE" id="pmX-3z-z4w"/>
                         <outlet property="name" destination="0IB-Rq-4Ok" id="fyS-Ot-vMa"/>
                         <outlet property="ratestar" destination="iw9-Gi-dDz" id="2W0-YT-DnV"/>
-<<<<<<< HEAD
-=======
-                        <outlet property="type" destination="aiv-bW-iZh" id="kqJ-FS-Xae"/>
->>>>>>> FETCH_HEAD
                         <outlet property="typeLabel" destination="aiv-bW-iZh" id="zLn-QF-7px"/>
                         <segue destination="ILI-85-dd3" kind="modal" identifier="backToMain" id="QLi-4g-mb4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dFa-XD-KDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="1760" y="-856"/>
-=======
-            <point key="canvasLocation" x="1730" y="-798"/>
->>>>>>> FETCH_HEAD
         </scene>
         <!--Brand View Controller-->
         <scene sceneID="KLl-qA-LvU">
@@ -303,11 +247,7 @@
             </objects>
             <point key="canvasLocation" x="2427" y="-856"/>
         </scene>
-<<<<<<< HEAD
         <!--Edit Detail Table View Controller-->
-=======
-        <!--Edit Detail Table View Controller - Edit-->
->>>>>>> FETCH_HEAD
         <scene sceneID="znh-c5-SDY">
             <objects>
                 <tableViewController hidesBottomBarWhenPushed="YES" id="Jyp-ab-d0a" customClass="EditDetailTableViewController" sceneMemberID="viewController">
@@ -316,11 +256,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="e5V-uV-34G">
-<<<<<<< HEAD
                             <rect key="frame" x="0.0" y="551" width="320" height="126"/>
-=======
-                            <rect key="frame" x="0.0" y="487" width="320" height="126"/>
->>>>>>> FETCH_HEAD
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Up0-F2-dN4">
@@ -342,11 +278,7 @@
                             <tableViewSection headerTitle="" id="KIF-VZ-U5f">
                                 <cells>
                                     <tableViewCell alpha="0.49999999999999961" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="155" id="4Vl-Lr-qyh">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="64" width="320" height="155"/>
-=======
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
->>>>>>> FETCH_HEAD
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Vl-Lr-qyh" id="H3d-Br-SCn">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="154"/>
@@ -381,11 +313,7 @@
                             <tableViewSection headerTitle="" id="CpE-Ta-wWh">
                                 <cells>
                                     <tableViewCell alpha="0.49999999999999961" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="JxR-yQ-W1I">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="219" width="320" height="44"/>
-=======
-                                        <rect key="frame" x="0.0" y="155" width="320" height="44"/>
->>>>>>> FETCH_HEAD
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JxR-yQ-W1I" id="wkn-w0-75h">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -411,11 +339,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" editingAccessoryType="disclosureIndicator" id="QTt-PR-Pzt">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="263" width="320" height="44"/>
-=======
-                                        <rect key="frame" x="0.0" y="199" width="320" height="44"/>
->>>>>>> FETCH_HEAD
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QTt-PR-Pzt" id="5Gk-HV-d6h">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -437,11 +361,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell alpha="0.49999999999999961" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Jqe-qT-hgQ">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="307" width="320" height="44"/>
-=======
-                                        <rect key="frame" x="0.0" y="243" width="320" height="44"/>
->>>>>>> FETCH_HEAD
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jqe-qT-hgQ" id="8gJ-7h-f46">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -467,11 +387,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="48" id="Hf3-qj-G73">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="351" width="320" height="48"/>
-=======
-                                        <rect key="frame" x="0.0" y="287" width="320" height="48"/>
->>>>>>> FETCH_HEAD
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hf3-qj-G73" id="PBs-ig-rJO">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="47"/>
@@ -500,30 +416,18 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell opaque="NO" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="cellStar" rowHeight="77" id="cJd-0e-3VR">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="399" width="320" height="77"/>
-=======
-                                        <rect key="frame" x="0.0" y="335" width="320" height="77"/>
->>>>>>> FETCH_HEAD
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cJd-0e-3VR" id="UXt-2c-MMZ">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="76"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ry-ns-zzH">
-<<<<<<< HEAD
                                                     <rect key="frame" x="5" y="-24" width="300" height="126"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
                                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cloth Rate:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nI5-Jk-8tT">
                                                             <rect key="frame" x="14" y="52" width="241" height="21"/>
-=======
-                                                    <rect key="frame" x="0.0" y="2" width="298" height="74"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <subviews>
-                                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cloth Rate:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nI5-Jk-8tT">
-                                                            <rect key="frame" x="13" y="26" width="241" height="21"/>
->>>>>>> FETCH_HEAD
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="highlightedColor"/>
@@ -538,11 +442,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="75" id="rWF-b8-pqy">
-<<<<<<< HEAD
                                         <rect key="frame" x="0.0" y="476" width="320" height="75"/>
-=======
-                                        <rect key="frame" x="0.0" y="412" width="320" height="75"/>
->>>>>>> FETCH_HEAD
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rWF-b8-pqy" id="Uy6-9v-4VN">
                                             <rect key="frame" x="0.0" y="0.0" width="287" height="74"/>
@@ -569,11 +469,7 @@
                             <outlet property="delegate" destination="Jyp-ab-d0a" id="u9m-F8-zws"/>
                         </connections>
                     </tableView>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="zDa-uF-sOm">
-=======
-                    <navigationItem key="navigationItem" title="Edit" id="zDa-uF-sOm">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="leftBarButtonItem" title="Done" id="UiS-gX-W0U">
                             <connections>
                                 <action selector="Save:" destination="Jyp-ab-d0a" id="4T8-cE-qep"/>
@@ -592,10 +488,6 @@
                         <outlet property="clothesrate" destination="nI5-Jk-8tT" id="p8W-JI-JaM"/>
                         <outlet property="entity" destination="J5h-fd-JaL" id="THP-7A-wDf"/>
                         <outlet property="image" destination="48u-GM-c7e" id="6mh-qC-g9w"/>
-<<<<<<< HEAD
-=======
-                        <outlet property="landry" destination="zZe-Hz-gk6" id="kif-7j-jbH"/>
->>>>>>> FETCH_HEAD
                         <outlet property="name" destination="2Cb-X3-mCt" id="K1k-gK-Hkn"/>
                         <outlet property="textfield" destination="Bpb-7G-gfo" id="iIT-n5-Qps"/>
                         <outlet property="viewStar" destination="1ry-ns-zzH" id="ITS-aE-z8v"/>
@@ -605,11 +497,7 @@
             </objects>
             <point key="canvasLocation" x="1203" y="362"/>
         </scene>
-<<<<<<< HEAD
         <!--View Star View Controller-->
-=======
-        <!--View Star View Controller - Clothes Rate-->
->>>>>>> FETCH_HEAD
         <scene sceneID="Ut4-2W-00A">
             <objects>
                 <viewController id="2hq-lv-eYA" customClass="viewStarViewController" sceneMemberID="viewController">
@@ -621,19 +509,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mIH-vl-fU3">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cloth rate:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anM-kf-pqy">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mIH-vl-fU3">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clothes rate:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anM-kf-pqy">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="20" y="427" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -643,11 +523,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="Nf0-IG-0mT"/>
-=======
-                    <navigationItem key="navigationItem" title="Clothes Rate" id="Nf0-IG-0mT"/>
->>>>>>> FETCH_HEAD
                     <connections>
                         <outlet property="ratelabel" destination="anM-kf-pqy" id="zIF-zM-u3D"/>
                     </connections>
@@ -656,11 +532,7 @@
             </objects>
             <point key="canvasLocation" x="1189" y="1334"/>
         </scene>
-<<<<<<< HEAD
         <!--Image Edit View Controller-->
-=======
-        <!--Image Edit View Controller - Image-->
->>>>>>> FETCH_HEAD
         <scene sceneID="XUN-59-D49">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="hid-1Z-I4D" customClass="imageEditViewController" sceneMemberID="viewController">
@@ -672,11 +544,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kZN-Gh-xpF">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kZN-Gh-xpF">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -698,11 +566,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="T45-gm-RUN">
-=======
-                    <navigationItem key="navigationItem" title="Image" id="T45-gm-RUN">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="leftBarButtonItem" title="Done" id="sGc-SM-Kvt">
                             <connections>
                                 <action selector="done:" destination="hid-1Z-I4D" id="qWP-8v-vYq"/>
@@ -718,11 +582,7 @@
             </objects>
             <point key="canvasLocation" x="3613" y="1299"/>
         </scene>
-<<<<<<< HEAD
         <!--Describe Edit View Controller-->
-=======
-        <!--Describe Edit View Controller - Description-->
->>>>>>> FETCH_HEAD
         <scene sceneID="mg2-oA-1PV">
             <objects>
                 <viewController id="FaT-jH-9jC" customClass="DescribeEditViewController" sceneMemberID="viewController">
@@ -734,22 +594,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P1R-5X-mkF">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="P1R-5X-mkF">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cRk-wh-lU4">
                                 <rect key="frame" x="12" y="84" width="296" height="304"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<<<<<<< HEAD
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-=======
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
->>>>>>> FETCH_HEAD
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -757,11 +609,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="1l4-r8-nNn">
-=======
-                    <navigationItem key="navigationItem" title="Description" id="1l4-r8-nNn">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="leftBarButtonItem" title="Done" id="noQ-d9-tDf">
                             <connections>
                                 <action selector="Done:" destination="FaT-jH-9jC" id="tPZ-D0-NR9"/>
@@ -776,11 +624,7 @@
             </objects>
             <point key="canvasLocation" x="1808" y="1334"/>
         </scene>
-<<<<<<< HEAD
         <!--Brand Series View Controller-->
-=======
-        <!--Brand Series View Controller - Brand-->
->>>>>>> FETCH_HEAD
         <scene sceneID="YHj-eM-ZS7">
             <objects>
                 <viewController id="WO4-PT-VDj" customClass="BrandSeriesViewController" sceneMemberID="viewController">
@@ -792,33 +636,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qKi-N2-Gs1">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qKi-N2-Gs1">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5N-He-S3c">
                                 <rect key="frame" x="13" y="85" width="294" height="288"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<<<<<<< HEAD
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-=======
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
->>>>>>> FETCH_HEAD
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="7wa-4g-rn5">
-=======
-                    <navigationItem key="navigationItem" title="Brand" id="7wa-4g-rn5">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="leftBarButtonItem" title="Done" id="cTd-EF-QwF">
                             <connections>
                                 <action selector="Done:" destination="WO4-PT-VDj" id="0Mf-PT-ozS"/>
@@ -833,11 +665,7 @@
             </objects>
             <point key="canvasLocation" x="2433" y="1334"/>
         </scene>
-<<<<<<< HEAD
         <!--Name Edit View Controller-->
-=======
-        <!--Name Edit View Controller - Name-->
->>>>>>> FETCH_HEAD
         <scene sceneID="fnd-8d-Sje">
             <objects>
                 <viewController id="A0R-gr-8G7" customClass="NameEditViewController" sceneMemberID="viewController">
@@ -849,33 +677,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1QX-FI-ZcJ">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1QX-FI-ZcJ">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="-6" y="0.0" width="332" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tn3-9A-P9c">
                                 <rect key="frame" x="13" y="92" width="294" height="246"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-<<<<<<< HEAD
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-=======
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
->>>>>>> FETCH_HEAD
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="DcS-Mb-dcr">
-=======
-                    <navigationItem key="navigationItem" title="Name" id="DcS-Mb-dcr">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="leftBarButtonItem" title="Done" id="Pda-ve-NZ4">
                             <connections>
                                 <action selector="editDone:" destination="A0R-gr-8G7" id="waS-LX-Qbr"/>
@@ -902,20 +718,13 @@
                     </tabBar>
                     <connections>
                         <segue destination="UyY-U7-xaj" kind="relationship" relationship="viewControllers" id="3Dv-5x-cIp"/>
-<<<<<<< HEAD
                         <segue destination="Yvb-B2-L66" kind="relationship" relationship="viewControllers" id="NoH-Ua-Qzt"/>
                         <segue destination="2lA-Ux-rCW" kind="relationship" relationship="viewControllers" id="kVq-ul-9nQ"/>
                         <segue destination="RNa-ff-6Ji" kind="relationship" relationship="viewControllers" id="Clc-dY-H9u"/>
-=======
-                        <segue destination="RNa-ff-6Ji" kind="relationship" relationship="viewControllers" id="Clc-dY-H9u"/>
-                        <segue destination="Yvb-B2-L66" kind="relationship" relationship="viewControllers" id="NoH-Ua-Qzt"/>
-                        <segue destination="2lA-Ux-rCW" kind="relationship" relationship="viewControllers" id="kVq-ul-9nQ"/>
->>>>>>> FETCH_HEAD
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dk-xJ-2dZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="-1513" y="-1"/>
         </scene>
         <!--Navigation Controller - Item-->
@@ -923,15 +732,6 @@
             <objects>
                 <navigationController definesPresentationContext="YES" id="Yvb-B2-L66" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="vVx-9n-kKY"/>
-=======
-            <point key="canvasLocation" x="-1687" y="-23"/>
-        </scene>
-        <!--Navigation Controller - Wardrobe-->
-        <scene sceneID="dx0-c4-Z1b">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="Yvb-B2-L66" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Wardrobe" image="wardrobe-32" id="vVx-9n-kKY"/>
->>>>>>> FETCH_HEAD
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gt5-i1-LeA">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -943,28 +743,16 @@
             </objects>
             <point key="canvasLocation" x="-501" y="-79"/>
         </scene>
-<<<<<<< HEAD
         <!--Clothes Table View Controller-->
         <scene sceneID="6Pw-RH-l4x">
             <objects>
                 <tableViewController id="cbd-gw-MWF" customClass="ClothesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="175" sectionHeaderHeight="22" sectionFooterHeight="22" id="dh1-mo-eZz">
-=======
-        <!--Clothes Table View Controller - Wardrobe-->
-        <scene sceneID="6Pw-RH-l4x">
-            <objects>
-                <tableViewController id="cbd-gw-MWF" customClass="ClothesTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="301" sectionHeaderHeight="22" sectionFooterHeight="22" id="dh1-mo-eZz">
->>>>>>> FETCH_HEAD
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <searchBar key="tableHeaderView" contentMode="redraw" searchBarStyle="minimal" placeholder="Search by name" showsScopeBar="YES" id="ZtK-ch-rtR">
-<<<<<<< HEAD
                             <rect key="frame" x="0.0" y="64" width="320" height="88"/>
-=======
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
->>>>>>> FETCH_HEAD
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <textInputTraits key="textInputTraits"/>
                             <scopeButtonTitles>
@@ -978,7 +766,6 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-<<<<<<< HEAD
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Celler" rowHeight="175" id="XmS-yQ-nSq" customClass="PickYourClothesCoreDataTableViewCell">
                                 <rect key="frame" x="0.0" y="174" width="320" height="175"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -1008,87 +795,6 @@
                                     <outlet property="describe" destination="lvk-ng-gL2" id="TCQ-kP-Q4c"/>
                                     <outlet property="image" destination="mSk-D6-U10" id="YMd-gg-OjZ"/>
                                     <outlet property="name" destination="MhM-8n-CW4" id="sQY-1W-Wxg"/>
-=======
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="search" textLabel="DL3-YR-oef" rowHeight="41" style="IBUITableViewCellStyleDefault" id="4Fu-vn-uNN" customClass="searchTableViewCell">
-                                <rect key="frame" x="0.0" y="110" width="320" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Fu-vn-uNN" id="iJ4-SH-NyU">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="40"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DL3-YR-oef">
-                                            <rect key="frame" x="15" y="0.0" width="270" height="40"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="name" destination="DL3-YR-oef" id="2Di-Ph-dKA"/>
-                                    <segue destination="yIa-cZ-CSC" kind="push" identifier="showdetail" id="zDO-0n-PgW"/>
-                                </connections>
-                            </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Celler" rowHeight="296" id="XmS-yQ-nSq" customClass="PickYourClothesCoreDataTableViewCell">
-                                <rect key="frame" x="0.0" y="151" width="320" height="296"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XmS-yQ-nSq" id="D1X-nu-QTf">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="295"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="stR-mJ-Qus">
-                                            <rect key="frame" x="32" y="34" width="255" height="224"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mSk-D6-U10">
-                                                    <rect key="frame" x="-14" y="2" width="284" height="229"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        </view>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhM-8n-CW4">
-                                            <rect key="frame" x="32" y="5" width="124" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="24"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SfP-dM-mWb">
-                                            <rect key="frame" x="32" y="266" width="255" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="14"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WsN-OY-ZRB">
-                                            <rect key="frame" x="141" y="10" width="69" height="16"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        </view>
-                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YaI-rd-cOo">
-                                            <rect key="frame" x="290" y="271" width="20" height="22"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7LY-VT-0Z5">
-                                                    <rect key="frame" x="0.0" y="-2" width="20" height="24"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                </imageView>
-                                            </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                        </view>
-                                    </subviews>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="addTime" destination="SfP-dM-mWb" id="YmT-Dj-LYU"/>
-                                    <outlet property="image" destination="mSk-D6-U10" id="YMd-gg-OjZ"/>
-                                    <outlet property="imageback" destination="stR-mJ-Qus" id="3Zk-Ao-fba"/>
-                                    <outlet property="landryimage" destination="7LY-VT-0Z5" id="PqT-ec-zMu"/>
-                                    <outlet property="name" destination="MhM-8n-CW4" id="sQY-1W-Wxg"/>
-                                    <outlet property="rate" destination="WsN-OY-ZRB" id="74g-ul-tRa"/>
-                                    <outlet property="useMark" destination="YaI-rd-cOo" id="h3b-tP-Hnj"/>
->>>>>>> FETCH_HEAD
                                     <segue destination="yIa-cZ-CSC" kind="push" identifier="showdetail" id="k8z-eI-YGF"/>
                                 </connections>
                             </tableViewCell>
@@ -1098,11 +804,7 @@
                             <outlet property="delegate" destination="cbd-gw-MWF" id="Ta7-3c-uYd"/>
                         </connections>
                     </tableView>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="yWC-76-AQO">
-=======
-                    <navigationItem key="navigationItem" title="Wardrobe" id="yWC-76-AQO">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="leftBarButtonItem" title="sign out" id="YaA-e6-C01">
                             <connections>
                                 <action selector="signout:" destination="cbd-gw-MWF" id="evL-MI-nAg"/>
@@ -1133,11 +835,7 @@
             </objects>
             <point key="canvasLocation" x="-20" y="362"/>
         </scene>
-<<<<<<< HEAD
         <!--Show Detail View Controller-->
-=======
-        <!--Show Detail View Controller - Details-->
->>>>>>> FETCH_HEAD
         <scene sceneID="rmq-I2-rea">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="yIa-cZ-CSC" customClass="ShowDetailViewController" sceneMemberID="viewController">
@@ -1153,7 +851,6 @@
                                 <rect key="frame" x="0.0" y="63" width="320" height="505"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-<<<<<<< HEAD
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hUN-GC-NX4">
                                         <rect key="frame" x="0.0" y="-63" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1162,12 +859,6 @@
                                         <rect key="frame" x="61" y="10" width="198" height="216"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
-=======
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1394443233142.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hUN-GC-NX4">
-                                        <rect key="frame" x="0.0" y="-63" width="320" height="568"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
->>>>>>> FETCH_HEAD
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsH-f9-MQm">
                                         <rect key="frame" x="34" y="275" width="51" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1207,11 +898,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaz-CB-miX">
                                         <rect key="frame" x="0.0" y="383" width="320" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< HEAD
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-=======
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
->>>>>>> FETCH_HEAD
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -1228,21 +915,9 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vlZ-U6-74g">
-<<<<<<< HEAD
                                         <rect key="frame" x="40" y="234" width="240" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-=======
-                                        <rect key="frame" x="61" y="20" width="198" height="211"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMq-X2-A0j">
-                                                <rect key="frame" x="0.0" y="-5" width="198" height="216"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
->>>>>>> FETCH_HEAD
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -1250,11 +925,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="bSc-qT-0sv">
-=======
-                    <navigationItem key="navigationItem" title="Details" id="bSc-qT-0sv">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="rightBarButtonItem" title="Edit" id="7yv-J5-rLj">
                             <connections>
                                 <segue destination="Jyp-ab-d0a" kind="push" identifier="editdetail" id="Gyb-Hc-CTZ"/>
@@ -1275,11 +946,7 @@
             </objects>
             <point key="canvasLocation" x="576" y="362"/>
         </scene>
-<<<<<<< HEAD
         <!--Main Function View Controller-->
-=======
-        <!--Main Function View Controller - Pick-->
->>>>>>> FETCH_HEAD
         <scene sceneID="eUe-ne-k2c">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="sN7-pz-roK" customClass="MainFunctionViewController" sceneMemberID="viewController">
@@ -1291,39 +958,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" alpha="0.84999999999999987" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4kd-2P-Bjm">
-=======
-                            <imageView userInteractionEnabled="NO" alpha="0.84999999999999987" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4kd-2P-Bjm">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="-19" y="0.0" width="380" height="586"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UW-X9-UBI">
-<<<<<<< HEAD
                                 <rect key="frame" x="54" y="486" width="212" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Change">
-=======
-                                <rect key="frame" x="54" y="499" width="212" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal">
->>>>>>> FETCH_HEAD
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="PickClothes:" destination="sN7-pz-roK" eventType="touchUpInside" id="23V-6f-Chd"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pD-UV-uPi">
                                 <rect key="frame" x="114" y="125" width="92" height="117"/>
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1pD-UV-uPi">
-                                <rect key="frame" x="114" y="170" width="92" height="117"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -1333,13 +984,8 @@
                                     <action selector="changeClothes:" destination="sN7-pz-roK" eventType="touchUpInside" id="6Wg-gw-VbU"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFF-Zx-Lm2">
                                 <rect key="frame" x="114" y="250" width="92" height="117"/>
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFF-Zx-Lm2">
-                                <rect key="frame" x="114" y="295" width="92" height="117"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -1349,11 +995,7 @@
                                     <action selector="changePants:" destination="sN7-pz-roK" eventType="touchUpInside" id="ECa-ql-FNn"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHf-rP-SeV">
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHf-rP-SeV">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="14" y="214" width="92" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1364,13 +1006,8 @@
                                     <action selector="changeGloves:" destination="sN7-pz-roK" eventType="touchUpInside" id="vP6-Va-Xcc"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVJ-F8-wc7">
                                 <rect key="frame" x="214" y="214" width="92" height="117"/>
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SVJ-F8-wc7">
-                                <rect key="frame" x="208" y="214" width="92" height="117"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -1380,13 +1017,8 @@
                                     <action selector="changeUmbrellas:" destination="sN7-pz-roK" eventType="touchUpInside" id="rkk-ru-KGb"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6b-Ej-w0Y">
                                 <rect key="frame" x="114" y="375" width="92" height="71"/>
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D6b-Ej-w0Y">
-                                <rect key="frame" x="114" y="420" width="92" height="71"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
@@ -1396,40 +1028,10 @@
                                     <action selector="changeShoes:" destination="sN7-pz-roK" eventType="touchUpInside" id="stz-0Z-7Bw"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="chH-gH-rUi">
-=======
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NiB-kj-Jje">
-                                <rect key="frame" x="94" y="68" width="129" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NO3-ZN-Tyg">
-                                        <rect key="frame" x="0.0" y="0.0" width="129" height="101"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqH-oq-dfx">
-                                        <rect key="frame" x="-12" y="-3" width="141" height="104"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="edithead:" destination="sN7-pz-roK" eventType="touchUpInside" id="a0A-6L-mnM"/>
-                                            <segue destination="taM-It-YFY" kind="custom" customClass="BlurryModalSegue" id="IQg-8x-VkX"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Pick" id="chH-gH-rUi">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="rightBarButtonItem" title="Done" id="DsR-OB-lIH">
                             <connections>
                                 <action selector="confirmChoice:" destination="sN7-pz-roK" id="3VN-ax-cgU"/>
@@ -1437,105 +1039,19 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-<<<<<<< HEAD
-=======
-                        <outlet property="PickClothes" destination="4UW-X9-UBI" id="1Z1-qh-C0Y"/>
->>>>>>> FETCH_HEAD
                         <outlet property="PickedClothes" destination="1pD-UV-uPi" id="e99-Hv-xHN"/>
                         <outlet property="PickedGlove" destination="hHf-rP-SeV" id="1BH-3H-uhz"/>
                         <outlet property="PickedPants" destination="YFF-Zx-Lm2" id="KzS-z3-xyk"/>
                         <outlet property="PickedShoes" destination="D6b-Ej-w0Y" id="CGQ-eD-qPk"/>
                         <outlet property="PickedUmbrella" destination="SVJ-F8-wc7" id="7vA-Nr-YOf"/>
                         <outlet property="button" destination="4UW-X9-UBI" id="CCn-Nj-ZIH"/>
-<<<<<<< HEAD
-=======
-                        <outlet property="imageback" destination="NiB-kj-Jje" id="jHc-wW-gNe"/>
-                        <outlet property="imagehead" destination="NO3-ZN-Tyg" id="9s8-K0-fKD"/>
->>>>>>> FETCH_HEAD
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TLu-iI-CpU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="770" y="-2694"/>
         </scene>
-<<<<<<< HEAD
         <!--Controller-->
-=======
-        <!--Change Head View Controller-->
-        <scene sceneID="fvA-qA-we0">
-            <objects>
-                <viewController id="taM-It-YFY" customClass="changeHeadViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oA4-6A-pdX"/>
-                        <viewControllerLayoutGuide type="bottom" id="Td8-T1-Loa"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Q2A-el-HOn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3OR-Sr-UEn">
-                                <rect key="frame" x="6" y="76" width="308" height="307"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ePJ-CS-g0g">
-                                        <rect key="frame" x="0.0" y="0.0" width="308" height="307"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDs-Sh-vHb">
-                                <rect key="frame" x="6" y="417" width="302" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="edit">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="button:" destination="taM-It-YFY" eventType="touchUpInside" id="sJd-0f-sQQ"/>
-                                    <action selector="change:" destination="taM-It-YFY" eventType="touchUpInside" id="mEg-qI-c7W"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRi-sF-7B2">
-                                <rect key="frame" x="6" y="482" width="302" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="cancel">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="cancel:" destination="taM-It-YFY" eventType="touchUpInside" id="SmI-xF-U6T"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQO-tI-Bkg">
-                                <rect key="frame" x="6" y="450" width="302" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="save">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="save:" destination="taM-It-YFY" eventType="touchUpInside" id="yNW-ws-Syb"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <connections>
-                        <outlet property="cancel" destination="qRi-sF-7B2" id="03E-h6-EYu"/>
-                        <outlet property="changebutton" destination="LDs-Sh-vHb" id="Aqe-Cc-azF"/>
-                        <outlet property="headImage" destination="ePJ-CS-g0g" id="r9r-b7-zG1"/>
-                        <outlet property="imageback" destination="3OR-Sr-UEn" id="HoW-xE-dvR"/>
-                        <outlet property="savebutton" destination="YQO-tI-Bkg" id="5Nz-Fo-AZy"/>
-                        <segue destination="cSG-T8-JkY" kind="unwind" identifier="backtomain" unwindAction="unwindToThisViewController:" id="Xft-U8-Xov"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7mg-Ju-nRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="cSG-T8-JkY" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="1304" y="-2697"/>
-        </scene>
-        <!--Controller - Weather-->
->>>>>>> FETCH_HEAD
         <scene sceneID="Ll4-ej-fZ2">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="qKU-Ef-GB8" customClass="WXController" sceneMemberID="viewController">
@@ -1547,32 +1063,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-oK-yBl">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-oK-yBl">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="9W5-7c-Efs"/>
-=======
-                    <navigationItem key="navigationItem" title="Weather" id="9W5-7c-Efs"/>
->>>>>>> FETCH_HEAD
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eTp-6H-5uS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="770" y="-1821"/>
         </scene>
-<<<<<<< HEAD
         <!--Kind Of View Controller - Title-->
-=======
-        <!--Kind Of View Controller - Add Clothes-->
->>>>>>> FETCH_HEAD
         <scene sceneID="eqp-Ks-aA4">
             <objects>
                 <viewController hidesBottomBarWhenPushed="YES" id="jxJ-E6-dyp" customClass="KindOfViewController" sceneMemberID="viewController">
@@ -1584,11 +1088,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="KvC-Ha-yy2">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KvC-Ha-yy2">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1617,10 +1117,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Select.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ucp-CA-kM9">
                                 <rect key="frame" x="40" y="68" width="240" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-<<<<<<< HEAD
-=======
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
->>>>>>> FETCH_HEAD
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -1629,11 +1125,7 @@
                             <outletCollection property="gestureRecognizers" destination="gSG-dv-tOr" appends="YES" id="C7H-IG-4RZ"/>
                         </connections>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" title="Title" id="6mW-Fj-OI8"/>
-=======
-                    <navigationItem key="navigationItem" title="Add Clothes" id="6mW-Fj-OI8"/>
->>>>>>> FETCH_HEAD
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="buttomLook" destination="ncH-7C-HDF" id="zzN-1X-Cba"/>
@@ -1647,19 +1139,11 @@
             </objects>
             <point key="canvasLocation" x="781" y="-939"/>
         </scene>
-<<<<<<< HEAD
         <!--Navigation Controller - Item-->
         <scene sceneID="3fh-qf-vj4">
             <objects>
                 <navigationController definesPresentationContext="YES" id="UyY-U7-xaj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="BQp-AG-0fC"/>
-=======
-        <!--Navigation Controller - Main-->
-        <scene sceneID="3fh-qf-vj4">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="UyY-U7-xaj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Main" image="starfish-32" id="BQp-AG-0fC"/>
->>>>>>> FETCH_HEAD
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iQ6-CE-VJK">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1671,11 +1155,7 @@
             </objects>
             <point key="canvasLocation" x="-698" y="-866"/>
         </scene>
-<<<<<<< HEAD
         <!--Pick Your Clothes View Controller-->
-=======
-        <!--Pick Your Clothes View Controller - PYC-->
->>>>>>> FETCH_HEAD
         <scene sceneID="f89-59-4RY">
             <objects>
                 <viewController id="Sg0-vU-C9e" customClass="PickYourClothesViewController" sceneMemberID="viewController">
@@ -1687,11 +1167,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" alpha="0.5499999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DYS-PR-gwn">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DYS-PR-gwn">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="-28" y="-5" width="398" height="588"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1722,7 +1198,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cF8-oT-pSJ">
                                 <rect key="frame" x="40" y="137" width="120" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1730,21 +1205,11 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cF8-oT-pSJ">
-                                <rect key="frame" x="40" y="137" width="120" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
->>>>>>> FETCH_HEAD
                                 <connections>
                                     <action selector="chooseRecent:" destination="Sg0-vU-C9e" eventType="touchUpInside" id="ylW-RK-OFs"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoI-KC-Ril">
-=======
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoI-KC-Ril">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="168" y="137" width="120" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1765,11 +1230,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="6Gj-NX-ivU">
-=======
-                    <navigationItem key="navigationItem" title="PYC" id="6Gj-NX-ivU">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="leftBarButtonItem" image="partly_cloudy_day-32" id="5ku-ky-oJh">
                             <connections>
                                 <segue destination="qKU-Ef-GB8" kind="push" id="1nE-3c-Zdw"/>
@@ -1790,11 +1251,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yvi-qP-DvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="41" y="-877"/>
-=======
-            <point key="canvasLocation" x="41" y="-878"/>
->>>>>>> FETCH_HEAD
         </scene>
         <!--Search Internet - search-->
         <scene sceneID="pqL-Pk-g0b">
@@ -1809,11 +1266,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAP-Lv-Jwt">
-<<<<<<< HEAD
                                 <rect key="frame" x="270" y="32" width="30" height="30"/>
-=======
-                                <rect key="frame" x="270" y="20" width="25" height="25"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="06-magnify">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1823,30 +1276,18 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z7F-DH-t1O">
-<<<<<<< HEAD
                                 <rect key="frame" x="20" y="32" width="240" height="30"/>
-=======
-                                <rect key="frame" x="20" y="20" width="240" height="30"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gcb-CQ-kxh">
-<<<<<<< HEAD
                                 <rect key="frame" x="20" y="114" width="280" height="399"/>
-=======
-                                <rect key="frame" x="0.0" y="91" width="320" height="422"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJz-UH-oQU">
-<<<<<<< HEAD
                                 <rect key="frame" x="20" y="70" width="30" height="30"/>
-=======
-                                <rect key="frame" x="20" y="58" width="25" height="25"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrow-big-01">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1856,11 +1297,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceR-Cg-ip2">
-<<<<<<< HEAD
                                 <rect key="frame" x="103" y="70" width="30" height="30"/>
-=======
-                                <rect key="frame" x="75" y="58" width="25" height="25"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="arrow-big-02">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1870,11 +1307,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5a8-b9-xUl">
-<<<<<<< HEAD
                                 <rect key="frame" x="187" y="70" width="30" height="30"/>
-=======
-                                <rect key="frame" x="128" y="58" width="25" height="25"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="02-redo">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1884,11 +1317,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGA-7d-HOF">
-<<<<<<< HEAD
                                 <rect key="frame" x="270" y="70" width="30" height="30"/>
-=======
-                                <rect key="frame" x="184" y="58" width="25" height="25"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="cancel-512">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1900,11 +1329,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <tabBarItem key="tabBarItem" title="search" image="search-50" id="uJE-z7-btf"/>
-=======
-                    <tabBarItem key="tabBarItem" title="search" image="search-32" id="uJE-z7-btf"/>
->>>>>>> FETCH_HEAD
                     <connections>
                         <outlet property="textField" destination="Z7F-DH-t1O" id="uIn-h8-WMl"/>
                         <outlet property="webView" destination="Gcb-CQ-kxh" id="PSx-La-kmJ"/>
@@ -1914,11 +1339,7 @@
             </objects>
             <point key="canvasLocation" x="-1082" y="-1259"/>
         </scene>
-<<<<<<< HEAD
         <!--Flow Pic View Controller-->
-=======
-        <!--Flow Pic View Controller - Laundry-->
->>>>>>> FETCH_HEAD
         <scene sceneID="ami-z2-IHo">
             <objects>
                 <viewController id="5h8-Zf-sYI" customClass="FlowPicViewController" sceneMemberID="viewController">
@@ -1930,22 +1351,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background7.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="8gl-MN-36t">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8gl-MN-36t">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="p4k-GG-FG3">
-=======
-                    <navigationItem key="navigationItem" title="Laundry" id="p4k-GG-FG3">
->>>>>>> FETCH_HEAD
                         <barButtonItem key="rightBarButtonItem" title="Pick" id="G2k-Xx-x7p">
                             <connections>
                                 <action selector="pick:" destination="5h8-Zf-sYI" id="ISa-3O-5dL"/>
@@ -1988,19 +1401,11 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZN4-po-Uab">
-<<<<<<< HEAD
                                 <rect key="frame" x="99" y="48" width="123" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="All"/>
                                     <segment title="Picked"/>
-=======
-                                <rect key="frame" x="81" y="48" width="159" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Pick"/>
-                                    <segment title="Laundry"/>
->>>>>>> FETCH_HEAD
                                 </segments>
                             </segmentedControl>
                         </subviews>
@@ -2036,11 +1441,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-<<<<<<< HEAD
                                 <state key="normal" title="wear">
-=======
-                                <state key="normal" title="Back">
->>>>>>> FETCH_HEAD
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -2061,11 +1462,7 @@
             </objects>
             <point key="canvasLocation" x="459" y="2173"/>
         </scene>
-<<<<<<< HEAD
         <!--Flow Table View Controller-->
-=======
-        <!--Flow Table View Controller - Clothes-->
->>>>>>> FETCH_HEAD
         <scene sceneID="qnU-Xt-nRG">
             <objects>
                 <tableViewController id="13A-NQ-sow" customClass="flowTableViewController" sceneMemberID="viewController">
@@ -2075,11 +1472,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="flowcell" id="QEO-rm-4UB" customClass="flowcellTableViewCell">
-<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-=======
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QEO-rm-4UB" id="X2s-L6-lmS">
                                     <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
@@ -2105,29 +1498,17 @@
                             <outlet property="delegate" destination="13A-NQ-sow" id="Cdl-2W-XpQ"/>
                         </connections>
                     </tableView>
-<<<<<<< HEAD
                     <navigationItem key="navigationItem" id="AU6-W1-9c4"/>
-=======
-                    <navigationItem key="navigationItem" title="Clothes" id="AU6-W1-9c4"/>
->>>>>>> FETCH_HEAD
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DXk-Q9-Dsc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-541" y="1115"/>
         </scene>
-<<<<<<< HEAD
         <!--Navigation Controller - Item-->
         <scene sceneID="oKv-70-Wau">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RNa-ff-6Ji" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="xtg-Ym-9jg"/>
-=======
-        <!--Navigation Controller - Laundry-->
-        <scene sceneID="oKv-70-Wau">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RNa-ff-6Ji" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Laundry" image="washing_machine-32" id="xtg-Ym-9jg"/>
->>>>>>> FETCH_HEAD
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BnF-Qq-f1a">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2142,7 +1523,6 @@
             </objects>
             <point key="canvasLocation" x="-1074" y="1275"/>
         </scene>
-<<<<<<< HEAD
         <!--View Controller-->
         <scene sceneID="R2l-9M-vRl">
             <objects>
@@ -2161,8 +1541,6 @@
             </objects>
             <point key="canvasLocation" x="-777" y="2389"/>
         </scene>
-=======
->>>>>>> FETCH_HEAD
         <!--Login View Controller-->
         <scene sceneID="Dbl-lr-ZYE">
             <objects>
@@ -2175,7 +1553,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="bj1-l7-I5c">
                                 <rect key="frame" x="0.0" y="-7" width="327" height="583"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2198,15 +1575,6 @@
                                 <rect key="frame" x="124" y="283" width="179" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bj1-l7-I5c">
-                                <rect key="frame" x="0.0" y="-7" width="327" height="583"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="879-aZ-42T">
-                                <rect key="frame" x="124" y="253" width="179" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
->>>>>>> FETCH_HEAD
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                 <connections>
@@ -2214,11 +1582,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Zwr-e8-C1p">
-<<<<<<< HEAD
                                 <rect key="frame" x="123" y="321" width="179" height="30"/>
-=======
-                                <rect key="frame" x="124" y="309" width="179" height="30"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -2226,7 +1590,6 @@
                                     <action selector="passTextField_DidEndOnExit:" destination="iXt-aN-5hK" eventType="editingDidEndOnExit" id="Qia-rZ-8dz"/>
                                 </connections>
                             </textField>
-<<<<<<< HEAD
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keep user information:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OS-N4-h0u">
                                 <rect key="frame" x="42" y="382" width="174" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2242,22 +1605,6 @@
                                     <segment title="NO"/>
                                 </segments>
                             </segmentedControl>
-=======
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TmI-Y1-Nh9">
-                                <rect key="frame" x="32" y="255" width="52" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqF-Jg-wT2">
-                                <rect key="frame" x="17" y="309" width="83" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="31"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
->>>>>>> FETCH_HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkD-bY-8hv">
                                 <rect key="frame" x="32" y="467" width="271" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2278,24 +1625,6 @@
                                     <segue destination="OE9-aL-Be8" kind="modal" identifier="toRegister" id="VsN-aK-yjs"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
-=======
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keep user information:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OS-N4-h0u">
-                                <rect key="frame" x="20" y="364" width="174" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="29"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ePA-Rg-26N">
-                                <rect key="frame" x="202" y="357" width="101" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Y"/>
-                                    <segment title="N"/>
-                                </segments>
-                            </segmentedControl>
->>>>>>> FETCH_HEAD
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDF-bw-Wyg">
                                 <rect key="frame" x="130" y="162" width="74" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2321,22 +1650,13 @@
                         <outlet property="email" destination="879-aZ-42T" id="plp-qa-wHk"/>
                         <outlet property="imageback" destination="FDF-bw-Wyg" id="r1E-ip-9qC"/>
                         <outlet property="imageview" destination="OyI-Sm-53B" id="EHT-u9-PrH"/>
-<<<<<<< HEAD
                         <outlet property="keepInfod" destination="5OS-N4-h0u" id="MUW-rX-HiQ"/>
-=======
-                        <outlet property="keepInfod" destination="5OS-N4-h0u" id="aP3-aM-4Rz"/>
->>>>>>> FETCH_HEAD
                         <outlet property="keepInfor" destination="ePA-Rg-26N" id="pr0-y5-y8f"/>
                         <outlet property="login" destination="gkD-bY-8hv" id="ETr-9v-ynn"/>
                         <outlet property="newuser" destination="wZ7-9l-zZW" id="Icv-iH-OY1"/>
                         <outlet property="password" destination="Zwr-e8-C1p" id="vWM-ou-jCa"/>
-<<<<<<< HEAD
                         <outlet property="passwordId" destination="eqF-Jg-wT2" id="lSj-33-Le6"/>
                         <outlet property="userId" destination="TmI-Y1-Nh9" id="y9W-ra-Pfd"/>
-=======
-                        <outlet property="passwordId" destination="eqF-Jg-wT2" id="SSw-Yv-VWq"/>
-                        <outlet property="userId" destination="TmI-Y1-Nh9" id="XAX-at-E1K"/>
->>>>>>> FETCH_HEAD
                         <segue destination="ILI-85-dd3" kind="modal" identifier="loginsuccess" id="q2g-dz-Eux"/>
                     </connections>
                 </viewController>
@@ -2356,11 +1676,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-<<<<<<< HEAD
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="SVM-d9-tye">
-=======
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SVM-d9-tye">
->>>>>>> FETCH_HEAD
                                 <rect key="frame" x="-6" y="-7" width="333" height="581"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -2425,29 +1741,6 @@
                                     <outlet property="delegate" destination="OE9-aL-Be8" id="uwz-SX-Uct"/>
                                 </connections>
                             </textField>
-<<<<<<< HEAD
-=======
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="age" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wkU-zq-ER8">
-                                <rect key="frame" x="122" y="397" width="179" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                                <connections>
-                                    <action selector="TextField_DidEndOnExit:" destination="OE9-aL-Be8" eventType="editingDidEndOnExit" id="Zbg-Kd-u5P"/>
-                                    <outlet property="delegate" destination="OE9-aL-Be8" id="Wml-fE-Aed"/>
-                                </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="gender" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="al0-ET-Dhj" customClass="UICombox">
-                                <rect key="frame" x="122" y="359" width="179" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                                <connections>
-                                    <action selector="TextField_DidEndOnExit:" destination="OE9-aL-Be8" eventType="editingDidEndOnExit" id="ToN-9r-Dyk"/>
-                                    <outlet property="delegate" destination="OE9-aL-Be8" id="ean-Ho-9Aj"/>
-                                </connections>
-                            </textField>
->>>>>>> FETCH_HEAD
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="re-type:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSa-QU-IcI">
                                 <rect key="frame" x="29" y="321" width="53" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2455,27 +1748,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECk-zo-efU">
                                 <rect key="frame" x="20" y="408" width="280" height="30"/>
-=======
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc1-gl-lrm">
-                                <rect key="frame" x="29" y="359" width="56" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Age:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWb-9k-gH6">
-                                <rect key="frame" x="29" y="397" width="39" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECk-zo-efU">
-                                <rect key="frame" x="20" y="443" width="280" height="30"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="save">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2485,11 +1759,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2T-pk-QR0">
-<<<<<<< HEAD
                                 <rect key="frame" x="20" y="451" width="280" height="30"/>
-=======
-                                <rect key="frame" x="20" y="481" width="280" height="30"/>
->>>>>>> FETCH_HEAD
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="cancel">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -2516,13 +1786,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-<<<<<<< HEAD
                         <outlet property="cancel" destination="M2T-pk-QR0" id="cae-7e-sbi"/>
-=======
-                        <outlet property="age" destination="wkU-zq-ER8" id="Mg5-dy-UPF"/>
-                        <outlet property="cancel" destination="M2T-pk-QR0" id="cae-7e-sbi"/>
-                        <outlet property="gender" destination="al0-ET-Dhj" id="lUl-LC-wVc"/>
->>>>>>> FETCH_HEAD
                         <outlet property="imageview" destination="td9-lO-1YG" id="AHB-mI-tyZ"/>
                         <outlet property="mail" destination="cZb-Fi-ItV" id="CNl-ea-fDh"/>
                         <outlet property="name" destination="PcB-Co-D07" id="nYN-gX-6Ks"/>
@@ -2536,17 +1800,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Tk-g5-Fzm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="FUR-gd-ZFD" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-<<<<<<< HEAD
             <point key="canvasLocation" x="-1593" y="1275"/>
-=======
-            <point key="canvasLocation" x="-1577" y="1564"/>
->>>>>>> FETCH_HEAD
         </scene>
     </scenes>
     <resources>
         <image name="02-redo" width="512" height="512"/>
         <image name="06-magnify" width="512" height="512"/>
-<<<<<<< HEAD
         <image name="Select.jpg" width="542" height="360"/>
         <image name="arrow-big-01" width="512" height="512"/>
         <image name="arrow-big-02" width="512" height="512"/>
@@ -2560,23 +1819,6 @@
         <image name="head.png" width="256" height="256"/>
         <image name="partly_cloudy_day-32" width="50" height="50"/>
         <image name="search-50" width="108" height="88"/>
-=======
-        <image name="1394443233142.jpg" width="640" height="1136"/>
-        <image name="Select.jpg" width="345" height="300"/>
-        <image name="arrow-big-01" width="512" height="512"/>
-        <image name="arrow-big-02" width="512" height="512"/>
-        <image name="cancel-512" width="512" height="512"/>
-        <image name="head.png" width="256" height="256"/>
-        <image name="new2.jpg" width="640" height="1136"/>
-        <image name="new3.jpg" width="640" height="960"/>
-        <image name="new4.jpg" width="640" height="960"/>
-        <image name="new5.jpg" width="640" height="1136"/>
-        <image name="partly_cloudy_day-32" width="50" height="50"/>
-        <image name="search-32" width="32" height="32"/>
-        <image name="starfish-32" width="32" height="32"/>
-        <image name="wardrobe-32" width="32" height="32"/>
-        <image name="washing_machine-32" width="32" height="32"/>
->>>>>>> FETCH_HEAD
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -2586,9 +1828,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="QLi-4g-mb4"/>
         <segue reference="ct9-87-z77"/>
-<<<<<<< HEAD
-=======
-        <segue reference="zDO-0n-PgW"/>
->>>>>>> FETCH_HEAD
     </inferredMetricsTieBreakers>
 </document>

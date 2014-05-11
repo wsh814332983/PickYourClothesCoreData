@@ -8,23 +8,10 @@
 
 #import "ClothesTableViewController.h"
 #import "People.h"
-<<<<<<< HEAD
 @interface ClothesTableViewController ()
 @property (strong,nonatomic) People *peo;
 @property (strong,nonatomic) NSString *mailId;
 @end
-=======
-#import "searchTableViewCell.h"
-@interface ClothesTableViewController ()
-@property (strong,nonatomic) People *peo;
-@property (strong,nonatomic) NSString *mailId;
-
-@end
-enum month{
-    JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC
-    
-};
->>>>>>> FETCH_HEAD
 
 @implementation ClothesTableViewController
 @synthesize fetchedResultsController = __fetchedResultsController;
@@ -44,12 +31,7 @@ enum month{
     [super viewDidLoad];
     
     [self fetchpeople];
-<<<<<<< HEAD
    
-=======
-//    UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"3.jpg"]];
-//    [self.tableView.backgroundView addSubview:image];
->>>>>>> FETCH_HEAD
 }
 
 - (void)didReceiveMemoryWarning
@@ -139,7 +121,6 @@ enum month{
 {
     
     Clothes *cloth=nil;
-<<<<<<< HEAD
     if (tableView == self.searchDisplayController.searchResultsTableView)
     {
         
@@ -149,15 +130,6 @@ enum month{
        PickYourClothesCoreDataTableViewCell * cellsearch=[self.tableView dequeueReusableCellWithIdentifier:@"Celler"];
         
 
-=======
-   
-    
-    if (tableView == self.searchDisplayController.searchResultsTableView)
-    {
-        searchTableViewCell * cellsearch=[[searchTableViewCell alloc] init];
-       cellsearch=[self.tableView dequeueReusableCellWithIdentifier:@"search"];
-        
->>>>>>> FETCH_HEAD
         if (self.fetchrearch!=nil) {
             cloth =[self.fetchrearch objectAtIndexPath:indexPath];
             
@@ -168,19 +140,11 @@ enum month{
        
     
         
-<<<<<<< HEAD
         NSLog(@"clothname%@",cloth.name);
             NSData *image=cloth.image;
             cellsearch.image.image=[UIImage imageWithData:image];
             cellsearch.name.text=cloth.name;
         cellsearch.describe.text=cloth.describe;
-=======
-       NSLog(@"clothname%@",cloth.name);
-          // NSData *image=cloth.image;
-          //cellsearch.image.image=[UIImage imageWithData:image];
-            cellsearch.name.text=cloth.name;
-       // cellsearch.describe.text=cloth.describe;
->>>>>>> FETCH_HEAD
             
      
         
@@ -195,43 +159,7 @@ enum month{
         cloth = [self.fetchedResultsController objectAtIndexPath:indexPath];
         
         cell.name.text=cloth.name;
-<<<<<<< HEAD
        cell.describe.text=cloth.brandseries;
-=======
-      
-//        TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(0, 0, cell.rate.frame.size.width,cell.rate.frame.size.height)numberOfStar:5];
-//        [starRatingView setScore:([cloth.rate floatValue]/5) withAnimation:NO];
-        [cell.start setScore:([cloth.rate floatValue]/5) withAnimation:NO];
-        //starRatingView.userInteractionEnabled=NO;
-        //[cell.rate addSubview:starRatingView];
-        NSDate *date=cloth.addTime;
-        NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
-        NSDateComponents *comps = [[NSDateComponents alloc] init];
-        NSInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekdayCalendarUnit |
-        NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit;
-        comps = [calendar components:unitFlags fromDate:date];
-        int hour = [comps hour];
-        
-        int year = [comps year];
-        int month = [comps    month];
-        NSString *m=[self mothcase:month];
-        int day = [comps day];
-        cell.addTime.text=[NSString stringWithFormat:@"add time:%i/%@/%i/%i",hour,m,day,year];
-        UIImage *check=[[UIImage alloc] init];
-        if (cloth.useTime.integerValue<3) {
-            check=[UIImage imageNamed:@"33-cabinet.png"];
-        }else{
-            check=[UIImage imageNamed:@"118-coat-hanger.png"];
-        }
-        UIImageView *i=[[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
-        i.image=check;
-        cell.landryimage.image=check;
-       
-        
-        
-        
-      // cell.describe.text=cloth.brandseries;
->>>>>>> FETCH_HEAD
        NSData *image=cloth.image;
        cell.image.image=[UIImage imageWithData:image];
         
@@ -243,22 +171,7 @@ enum month{
     
     
 }
-<<<<<<< HEAD
 
-=======
--(NSString *) mothcase:(int) month
-{  NSString *m;
-        NSString *t[]={@"JAN",@"FEB",@"MAR",@"APR",@"MAY",@"JUN",@"JUL",@"AUG",@"SEP",@"OCT",@"NOV",@"DEC"};
-    for (int i=1; i<13; i++) {
-        if (month==i) {
-            m=t[i-1];
-            return m;
-        }
-        
-    }
-    return nil;
-}
->>>>>>> FETCH_HEAD
 
 #pragma search;
 
@@ -467,31 +380,7 @@ enum month{
     NSData *image=cloth.image;
     cell.image.image=[UIImage imageWithData:image];
     cell.name.text=cloth.name;
-<<<<<<< HEAD
     cell.describe.text=cloth.brand;
-=======
-    //cell.describe.text=cloth.brand;
-    
-    
-    UIImage *check=[[UIImage alloc] init];
-    if (cloth.useTime.integerValue<3) {
-        check=[UIImage imageNamed:@"33-cabinet.png"];
-    }else{
-        check=[UIImage imageNamed:@"118-coat-hanger.png"];
-    }
-    UIImageView *i=[[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
-    i.image=check;
-    cell.landryimage.image=check;
-    
-//    TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(0, 0, cell.rate.frame.size.width,cell.rate.frame.size.height)numberOfStar:5];
-    //[starRatingView setScore:([cloth.rate floatValue]/5) withAnimation:NO];
-    [cell.start setScore:([cloth.rate floatValue]/5) withAnimation:NO];
-   // starRatingView.userInteractionEnabled=NO;
-    
-    
-    //[cell.rate addSubview:starRatingView];
-    
->>>>>>> FETCH_HEAD
     [_cloth addObject:cloth.name];
     
     

@@ -10,11 +10,7 @@
 #import "Clothes.h"
 #import "UIButton+Bootstrap.h"
 @interface FlowControlViewController ()
-<<<<<<< HEAD
 
-=======
-@property (strong,nonatomic) NSMutableArray *clothset;
->>>>>>> FETCH_HEAD
 @end
 
 @implementation FlowControlViewController
@@ -83,7 +79,6 @@
 }
 -(void) drawpicked {
     
-<<<<<<< HEAD
     NSMutableArray *clothset=[[NSMutableArray alloc] init];
     self.scrollView.lastclothes=[[NSMutableArray alloc] init];
     for (int i=0; i<[self.imagesscroll count]; i++) {
@@ -91,26 +86,11 @@
         if (cloth.onUse.boolValue) {
             [self.scrollView.lastclothes addObject:cloth];
             [clothset addObject:[UIImage imageWithData:cloth.image]];
-=======
-    _clothset=[[NSMutableArray alloc] init];
-    self.scrollView.lastclothes=[[NSMutableArray alloc] init];
-    for (int i=0; i<[self.imagesscroll count]; i++) {
-        Clothes *cloth=[self.imagesscroll objectAtIndex:i];
-        int j;
-        j=[cloth.useTime intValue];
-        if (j>1) {
-            [self.scrollView.lastclothes addObject:cloth];
-            [_clothset addObject:[UIImage imageWithData:cloth.image]];
->>>>>>> FETCH_HEAD
         }
         
     }
     
-<<<<<<< HEAD
     [self.scrollView setScrollViews:clothset];
-=======
-    [self.scrollView setScrollViews:_clothset];
->>>>>>> FETCH_HEAD
    
 }
 
@@ -120,11 +100,7 @@
         [sheet setActionSheetStyle:UIActionSheetStyleBlackTranslucent];
         [sheet showInView:self.view];
     }else {
-<<<<<<< HEAD
         UIActionSheet *sheet=[[UIActionSheet alloc] initWithTitle:@"It is not suitable for today" delegate:self cancelButtonTitle:@"Back" destructiveButtonTitle:nil otherButtonTitles:@"YES",@"Cancel!", nil];
-=======
-        UIActionSheet *sheet=[[UIActionSheet alloc] initWithTitle:@"It is clean now!" delegate:self cancelButtonTitle:@"Back" destructiveButtonTitle:nil otherButtonTitles:@"YES",@"Cancel!", nil];
->>>>>>> FETCH_HEAD
         [sheet setActionSheetStyle:UIActionSheetStyleBlackTranslucent];
         [sheet showInView:self.view];
     }

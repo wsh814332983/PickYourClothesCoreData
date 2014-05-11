@@ -10,10 +10,6 @@
 #import "PickYourClothesCoreDataTableViewCell.h"
 #import "Clothes.h"
 #import "ShowDetailViewController.h"
-<<<<<<< HEAD
-=======
-#import <QuartzCore/QuartzCore.h>
->>>>>>> FETCH_HEAD
 
 @interface ClothesTableViewController : UITableViewController <NSFetchedResultsControllerDelegate,UISearchBarDelegate,UISearchDisplayDelegate,UIActionSheetDelegate>
 - (IBAction)signout:(id)sender;
@@ -25,11 +21,6 @@
 @property (strong,nonatomic) NSMutableArray *filtarray;
 @property (strong,nonatomic) NSMutableArray *cloth;
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> FETCH_HEAD
 @property (weak,nonatomic) NSString *name;
 @property (weak,nonatomic) Clothes *clothpara;
 @end

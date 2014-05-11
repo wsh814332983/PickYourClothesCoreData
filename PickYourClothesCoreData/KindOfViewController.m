@@ -27,23 +27,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-<<<<<<< HEAD
     
     _buttomLook.layer.cornerRadius=8;
     [self.buttomLook infoStyle];
     [self.buttomLook addAwesomeIcon:FAIconBriefcase beforeTitle:YES];_kindOf=@[@"Select",@"Jacketing",@"Pants",@"Belt",@"Glove",@"Eyeglass",@"Shoes",@"Umbrella"];
     _imageout.layer.cornerRadius=8;
     }
-=======
-    _buttomLook.layer.cornerRadius=8;
-    [self.buttomLook infoStyle];
-    [self.buttomLook addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
-    _kindOf=@[@"Select",@"Jacketing",@"Pants",@"Belt",@"Glove",@"Eyeglass",@"Shoes",@"Umbrella"];
-    _imageout.layer.cornerRadius=8;
-    
-}
-
->>>>>>> FETCH_HEAD
 
 - (void)didReceiveMemoryWarning
 {
@@ -63,21 +52,12 @@ numberOfRowsInComponent:(NSInteger)component
     return _kindOf.count;
 }
 
-<<<<<<< HEAD
 - (NSString *)pickerView:(UIPickerView *)pickerView
              titleForRow:(NSInteger)row
             forComponent:(NSInteger)component
 {
     return _kindOf[row];
 } 
-=======
-//- (NSString *)pickerView:(UIPickerView *)pickerView
-//             titleForRow:(NSInteger)row
-//            forComponent:(NSInteger)component
-//{
-//    return _kindOf[row];
-//} 
->>>>>>> FETCH_HEAD
 -(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row
       inComponent:(NSInteger)component
 {
@@ -91,19 +71,6 @@ numberOfRowsInComponent:(NSInteger)component
     
     
 }
-<<<<<<< HEAD
-=======
--(UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(UIView *)view{
-    UILabel *myView=[[UILabel alloc]init];
-    myView.text=_kindOf[row];
-    myView.highlighted=YES;
-    myView.highlightedTextColor=[UIColor blueColor];
-  //  [myView setTextColor:[UIColor whiteColor]];
-    myView.textAlignment = NSTextAlignmentCenter;
-    myView.font=[UIFont boldSystemFontOfSize:30];
-    return myView;
-}
->>>>>>> FETCH_HEAD
 -(void) viewWillAppear:(BOOL)animated{
 
 }

@@ -38,29 +38,17 @@
     [self fetchpeople];
     [self configurefetch];
     NSArray *clothes=_clo;
-<<<<<<< HEAD
     _images=[[NSMutableArray alloc] init];
     _text =[[NSMutableArray alloc] init];
     for (int i=0; i<[clothes count]; i++) {
          NSLog(@"num: %i",[clothes count]);
-=======
-    
-    _images=[[NSMutableArray alloc] init];
-    _text =[[NSMutableArray alloc] init];
-    for (int i=0; i<[clothes count]; i++) {
-        
->>>>>>> FETCH_HEAD
         _cloth=clothes[i];
         
         NSData *image=_cloth.image;
         
         [self.images addObject:[UIImage imageWithData:image]];
         
-<<<<<<< HEAD
         NSString *des=[NSString stringWithFormat:@"name:%@ descript:%@",_cloth.name,_cloth.describe];
-=======
-        NSString *des=[NSString stringWithFormat:@"%@  Wear:%i times",_cloth.brand,[_cloth.useTime intValue]];
->>>>>>> FETCH_HEAD
         [_text addObject:des];
     }
     [self addWaterFollow];
@@ -80,11 +68,7 @@
         
         [self.images addObject:[UIImage imageWithData:image]];
         //NSLog(@"%i",[_images count]);
-<<<<<<< HEAD
         NSString *des=[NSString stringWithFormat:@"NAME:%@ BRAND:%@ DESCRIBE:%@",_cloth.name,_cloth.brand,_cloth.describe];
-=======
-        NSString *des=[NSString stringWithFormat:@"%@  Wear:%i times",_cloth.brand,[_cloth.useTime intValue]];
->>>>>>> FETCH_HEAD
         [_text addObject:des];
     }
     [self addWaterFollow];
@@ -94,14 +78,11 @@
    
     WaterFLayout* flowLayout = [[WaterFLayout alloc]init];
     self.collectView = [[WaterF alloc]initWithCollectionViewLayout:flowLayout];
-<<<<<<< HEAD
     
     UIImageView *image=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background7.jpeg"]];
     [self.view addSubview:image];
     
 
-=======
->>>>>>> FETCH_HEAD
     self.collectView.imagesArr = self.images;
     self.collectView.textsArr = self.text;
     self.collectView.clothes=_clo;

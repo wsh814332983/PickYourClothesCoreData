@@ -102,11 +102,7 @@
     self.cityLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 30)];
     self.cityLabel.backgroundColor = [UIColor clearColor];
     self.cityLabel.textColor = [UIColor whiteColor];
-<<<<<<< HEAD
     self.cityLabel.text = @"Loading...";
-=======
-    self.cityLabel.text = @"";
->>>>>>> FETCH_HEAD
     self.cityLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:40];
     self.cityLabel.textAlignment = NSTextAlignmentCenter;
     [header addSubview:self.cityLabel];
@@ -129,11 +125,7 @@
          self.temperatureLabel.text = [NSString stringWithFormat:@"%.0f°",newCondition.temperature.floatValue];
          NSLog(@"current is %i",newCondition.temperature.intValue);
          self.conditionsLabel.text = [newCondition.condition capitalizedString];
-<<<<<<< HEAD
          self.cityLabel.text = [newCondition.locationName capitalizedString];
-=======
-         //self.cityLabel.text = [newCondition.locationName capitalizedString];
->>>>>>> FETCH_HEAD
          self.iconView.image = [UIImage imageNamed:[newCondition imageName]];
          
          NSString *backName=[[NSString alloc]init];
