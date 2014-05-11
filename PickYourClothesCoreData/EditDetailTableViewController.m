@@ -37,6 +37,10 @@
         _entity.text=_clothedit.kindOf;
         _clothesrate.text=[NSString stringWithFormat:@"Cloth rate:%0.2f",[_clothedit.rate floatValue]];
         _textfield.text=_clothedit.describe;
+<<<<<<< HEAD
+=======
+        _landry.on=_clothedit.landry.boolValue;
+>>>>>>> FETCH_HEAD
        // _color.text=cloth.color;
     }
 }
@@ -170,6 +174,10 @@
     UISwitch *swith=(UISwitch *)sender;
     BOOL buttonison=[swith isOn];
     if (buttonison) {
+<<<<<<< HEAD
+=======
+        NSLog(@"landey");
+>>>>>>> FETCH_HEAD
         _clothedit.landry=[NSNumber numberWithBool:YES];
         
     }else{

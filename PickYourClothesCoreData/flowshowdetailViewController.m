@@ -61,6 +61,7 @@
 */
 
 - (IBAction)selectconfirm:(id)sender {
+<<<<<<< HEAD
    
     UIActionSheet *select=[[UIActionSheet alloc] initWithTitle:@"good for today?" delegate:self cancelButtonTitle:@"cancel" destructiveButtonTitle:nil otherButtonTitles: @"YES",@"No",nil];
     [select setActionSheetStyle:UIActionSheetStyleBlackOpaque];
@@ -91,6 +92,38 @@
             break;
     }
 }
+=======
+    [self performSegueWithIdentifier:@"backto" sender:self];
+//    UIActionSheet *select=[[UIActionSheet alloc] initWithTitle:@"good for today?" delegate:self cancelButtonTitle:@"cancel" destructiveButtonTitle:nil otherButtonTitles: @"YES",@"No",nil];
+//    [select setActionSheetStyle:UIActionSheetStyleBlackOpaque];
+//    [select showInView:self.view];
+}
+//-(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+//{
+//    switch (buttonIndex) {
+//        case 0:
+//            _cloth.onUse=[NSNumber numberWithBool:YES];
+//            [self savecloth];
+//        [self performSegueWithIdentifier:@"backto" sender:self];
+//         
+//            
+//            NSLog(@"hh");
+//           
+//            break;
+//            
+//        case 1:
+//            _cloth.onUse=[NSNumber numberWithBool:NO];
+//            [self savecloth];
+//            break;
+//        case  2:
+//            if ([kAppDelegate.managedObjectContext hasChanges]) {
+//                [kAppDelegate.managedObjectContext rollback];
+//                }
+//            [self performSegueWithIdentifier:@"backto" sender:self];
+//            break;
+//    }
+//}
+>>>>>>> FETCH_HEAD
 -(void) savecloth
 {
     NSManagedObjectContext *context=kAppDelegate.managedObjectContext;

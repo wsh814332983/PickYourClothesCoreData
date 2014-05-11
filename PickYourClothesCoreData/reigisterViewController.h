@@ -9,10 +9,19 @@
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <QuartzCore/QuartzCore.h>
+<<<<<<< HEAD
+=======
+#import "UICombox.h"
+>>>>>>> FETCH_HEAD
 @interface reigisterViewController : UIViewController <UITextFieldDelegate,UITextViewDelegate,UIGestureRecognizerDelegate,UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *mail;
 @property (weak, nonatomic) IBOutlet UITextField *name;
 @property (weak, nonatomic) IBOutlet UITextField *password;
+<<<<<<< HEAD
+=======
+@property (weak, nonatomic) IBOutlet UITextField *age;
+@property (weak, nonatomic) IBOutlet UICombox *gender;
+>>>>>>> FETCH_HEAD
 
 @property (weak, nonatomic) IBOutlet UITextField *repassword;
 - (IBAction)save:(id)sender;

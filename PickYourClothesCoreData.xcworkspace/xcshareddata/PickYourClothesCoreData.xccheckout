@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>7EF32B0D-9C51-41FE-A63B-E9DB7A98090C</string>
+=======
+	<string>E08569DF-DB29-4BB8-BC2F-7EDE45D41848</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>PickYourClothesCoreData</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>

@@ -23,6 +23,10 @@
 @interface EditDetailTableViewController : UITableViewController<NSFetchedResultsControllerDelegate,imageEditViewDelegate,NameEditDelegate,BrandSeriesDelegat,DescribeEditViewDelegate,UIAlertViewDelegate,viewStarViewDelegate>
 
 - (IBAction)cancle:(id)sender;
+<<<<<<< HEAD
+=======
+@property (weak, nonatomic) IBOutlet UISwitch *landry;
+>>>>>>> FETCH_HEAD
 
 @property (weak, nonatomic) IBOutlet UIButton *buttondelete;
 @property (weak, nonatomic) IBOutlet UIView *viewStar;

@@ -16,10 +16,89 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+<<<<<<< HEAD
     
     return YES;
 }
 
+=======
+    [self customizeApperance];
+    return YES;
+}
+-(void)customizeApperance{
+    //竖屏
+    UIImage *image44 = [[UIImage imageNamed:@"surf_gradient_textured_44"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [[UINavigationBar appearance] setBackgroundImage:image44 forBarMetrics:UIBarMetricsDefault];
+    
+    //横屏
+    UIImage *gradientImage32 = [[UIImage imageNamed:@"surf_gradient_textured_32"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [[UINavigationBar appearance] setBackgroundImage:gradientImage32
+                                       forBarMetrics:UIBarMetricsLandscapePhone];
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName]];
+    
+    UIImage *button30 = [[UIImage imageNamed:@"button_textured_30"]
+                         resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 5)];
+    UIImage *button24 = [[UIImage imageNamed:@"button_textured_24"]
+                         resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 5)];
+    [[UIBarButtonItem appearance] setBackgroundImage:button30 forState:UIControlStateNormal
+                                          barMetrics:UIBarMetricsDefault];
+    [[UIBarButtonItem appearance] setBackgroundImage:button24 forState:UIControlStateNormal
+                                          barMetrics:UIBarMetricsLandscapePhone];
+    
+    //    [[UIBarButtonItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:[UIColor blueColor],NSForegroundColorAttributeName,[UIFont fontWithName:@"AmericanTypewriter" size:0.0],NSFontAttributeName, nil] forState:UIControlStateNormal];
+    
+    UIImage *buttonBack30 = [[UIImage imageNamed:@"button_back_textured_30"]
+                             resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 5)];
+    UIImage *buttonBack24 = [[UIImage imageNamed:@"button_back_textured_24"]
+                             resizableImageWithCapInsets:UIEdgeInsetsMake(0, 12, 0, 5)];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:buttonBack30
+                                                      forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:buttonBack24
+                                                      forState:UIControlStateNormal barMetrics:UIBarMetricsLandscapePhone];
+    
+    
+    UIImage *tabBackground = [[UIImage imageNamed:@"tab_bg"]
+                              resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    [[UITabBar appearance] setBackgroundImage:tabBackground];
+    [[UITabBar appearance] setSelectionIndicatorImage:
+     [UIImage imageNamed:@"tab_select_indicator"]];
+    
+//    UIImage *segmentSelected =
+//    [[UIImage imageNamed:@"segcontrol_sel.png"]
+//     resizableImageWithCapInsets:UIEdgeInsetsMake(0, 15, 0, 15)];
+//    UIImage *segmentUnselected =
+//    [[UIImage imageNamed:@"segcontrol_uns.png"]
+//     resizableImageWithCapInsets:UIEdgeInsetsMake(0, 15, 0, 15)];
+//    UIImage *segmentSelectedUnselected =
+//    [UIImage imageNamed:@"segcontrol_sel-uns.png"];
+//    UIImage *segUnselectedSelected =
+//    [UIImage imageNamed:@"segcontrol_uns-sel.png"];
+//    UIImage *segmentUnselectedUnselected =
+//    [UIImage imageNamed:@"segcontrol_uns-uns.png"];
+//    
+//    [[UISegmentedControl appearance] setBackgroundImage:segmentUnselected
+//                                               forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+//    [[UISegmentedControl appearance] setBackgroundImage:segmentSelected
+//                                               forState:UIControlStateSelected barMetrics:UIBarMetricsDefault];
+//    
+//    [[UISegmentedControl appearance] setDividerImage:segmentUnselectedUnselected
+//                                 forLeftSegmentState:UIControlStateNormal
+//                                   rightSegmentState:UIControlStateNormal
+//                                          barMetrics:UIBarMetricsDefault];
+//    [[UISegmentedControl appearance] setDividerImage:segmentSelectedUnselected
+//                                 forLeftSegmentState:UIControlStateSelected
+//                                   rightSegmentState:UIControlStateNormal
+//                                          barMetrics:UIBarMetricsDefault];
+//    [[UISegmentedControl appearance]
+//     setDividerImage:segUnselectedSelected
+//     forLeftSegmentState:UIControlStateNormal
+//     rightSegmentState:UIControlStateSelected
+//     barMetrics:UIBarMetricsDefault];
+    
+
+}
+>>>>>>> FETCH_HEAD
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

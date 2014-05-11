@@ -36,6 +36,12 @@
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UITextField *name;
 @property (weak, nonatomic) IBOutlet UITextField *brand;
+<<<<<<< HEAD
 
+=======
+@property (weak, nonatomic) IBOutlet UILabel *color;
+@property (weak, nonatomic) IBOutlet UILabel *type;
+@property (weak, nonatomic) IBOutlet UILabel *description;
+>>>>>>> FETCH_HEAD
 
 @end

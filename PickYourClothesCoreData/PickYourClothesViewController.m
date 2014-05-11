@@ -64,6 +64,7 @@
             NSInteger i=[sortedArray count];
             _recentCloth1=sortedArray[i-1];
             NSData *clothImage1=_recentCloth1.image;
+<<<<<<< HEAD
             [self.showRecent1 setBackgroundImage:[UIImage imageWithData:clothImage1] forState:UIControlStateNormal];
             if([clothesFilterArray count]>1){
                 _recentCloth2=sortedArray[i-2];
@@ -75,13 +76,33 @@
             }
         }else{
             [self.showRecent1 setBackgroundImage:nil forState:UIControlStateNormal];
+=======
+            self.showRecent1.enabled=YES;
+            [self.showRecent1 setImage:[UIImage imageWithData:clothImage1] forState:UIControlStateNormal];
+            if([clothesFilterArray count]>1){
+                _recentCloth2=sortedArray[i-2];
+                NSData *clothImage2=_recentCloth2.image;
+                self.showRecent2.enabled=YES;
+                [self.showRecent2 setImage:[UIImage imageWithData:clothImage2] forState:UIControlStateNormal];
+            }else{
+                [self.showRecent2 setImage:nil forState:UIControlStateNormal];
+                self.showRecent2.enabled=NO;
+            }
+        }else{
+            [self.showRecent1 setImage:nil forState:UIControlStateNormal];
+>>>>>>> FETCH_HEAD
             self.showRecent1.enabled=NO;
         }
     }else{
         self.showRecent1.enabled=NO;
         self.showRecent2.enabled=NO;
+<<<<<<< HEAD
         [self.showRecent1 setBackgroundImage:nil forState:UIControlStateNormal];
         [self.showRecent2 setBackgroundImage:nil forState:UIControlStateNormal];
+=======
+        [self.showRecent1 setImage:nil forState:UIControlStateNormal];
+        [self.showRecent2 setImage:nil forState:UIControlStateNormal];
+>>>>>>> FETCH_HEAD
     }
 }
 -(NSString *) showTime:(NSDate *)date{
@@ -101,9 +122,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
 //    [self showRecent];
     [self.start primaryStyle];
     [self.start addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
+=======
+    self.showRecent1.layer.cornerRadius=20;
+    self.showRecent1.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
+    self.showRecent2.layer.cornerRadius=20;
+    self.showRecent2.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
+    [self.start primaryStyle];
+    [self.start addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
+//    self.showRecent1.layer.cornerRadius=20;
+//    self.showRecent1.contentEdgeInsets=UIEdgeInsetsMake(10, 10, 10, 10);
+//    [self.showRecent1.imageView setContentMode:UIViewContentModeCenter];
+>>>>>>> FETCH_HEAD
     self.start.layer.cornerRadius=20;
     NSArray *items = [NSArray arrayWithObjects:@"Exercise,Gym,Sports", @"Formal Occasion", @"Others", nil];
     self.gooutPurpose.items = items;

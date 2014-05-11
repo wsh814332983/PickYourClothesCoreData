@@ -34,7 +34,11 @@
     _imageback.layer.borderColor=[[UIColor grayColor] CGColor];
     _imageview.layer.cornerRadius=8;
     _imageview.frame=_imageback.frame;
+<<<<<<< HEAD
     [self shadow];
+=======
+
+>>>>>>> FETCH_HEAD
     [self.login primaryStyle];
     [self.login addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
     [self.newuser successStyle];
@@ -45,9 +49,14 @@
 
     
 }
+<<<<<<< HEAD
 
 -(void) viewWillAppear:(BOOL)animated
 {  
+=======
+-(void) viewWillAppear:(BOOL)animated
+{
+>>>>>>> FETCH_HEAD
     CATransition *trantion=[CATransition animation];
     NSTimeInterval interval=1;
     trantion.duration=interval;
@@ -74,7 +83,11 @@
     [self.passwordId.layer addAnimation:tran forKey:nil];
     
     tran.subtype=kCATransitionFromTop;
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> FETCH_HEAD
     [self.keepInfod.layer addAnimation:tran forKey:nil];
     [self.keepInfor.layer addAnimation:tran forKey:nil];
     [self.login.layer addAnimation:tran forKey:nil];
@@ -83,11 +96,17 @@
     
     
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> FETCH_HEAD
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+<<<<<<< HEAD
 -(void) shadow
 {
     _email.layer.shadowColor=[[UIColor grayColor] CGColor];
@@ -98,6 +117,9 @@
    
 
 }
+=======
+
+>>>>>>> FETCH_HEAD
 /*
 #pragma mark - Navigation
 

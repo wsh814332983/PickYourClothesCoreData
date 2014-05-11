@@ -9,10 +9,24 @@
 #import <UIKit/UIKit.h>
 #import "Clothes.h"
 @interface MainFunctionViewController : UIViewController<NSFetchedResultsControllerDelegate>
+<<<<<<< HEAD
+=======
+@property (strong, nonatomic) IBOutlet UIButton *PickClothes;
+>>>>>>> FETCH_HEAD
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong,nonatomic) NSFetchedResultsController *fetchrearch;
 @property NSString *purpose;
 @property (weak, nonatomic) IBOutlet UIButton *button;
+<<<<<<< HEAD
+=======
+@property (weak, nonatomic) IBOutlet UIView *imageback;
+
+
+- (IBAction)edithead:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imagehead;
+
+>>>>>>> FETCH_HEAD
 
 @property (strong, nonatomic) IBOutlet UIButton *PickedClothes;
 @property (strong, nonatomic) IBOutlet UIButton *PickedPants;

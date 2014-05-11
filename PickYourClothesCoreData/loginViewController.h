@@ -24,4 +24,8 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *keepInfor;
 @property (weak, nonatomic) IBOutlet UIView *imageback;
 @property (weak, nonatomic) IBOutlet UIImageView *imageview;
+<<<<<<< HEAD
+=======
+
+>>>>>>> FETCH_HEAD
 @end
