@@ -19,10 +19,13 @@
 @property (nonatomic, strong) NSMutableArray *checkmarkImageViews;
 @property (nonatomic, strong) NSMutableArray *superviewConstraints;
 @property UIPageControl *page;
+<<<<<<< HEAD
 @property NSInteger count;
 @property NSNumber *originalUsetime;
 @property NSDate *originalSelectTime;
 
+=======
+>>>>>>> FETCH_HEAD
 @end
 
 @implementation flowScrollView
@@ -109,6 +112,10 @@
     if(scrollView.tag==1)
     {
         NSInteger index = fabs(self.contentOffset.x) / self.frame.size.width;
+<<<<<<< HEAD
+=======
+        //NSLog(@"%d",index);
+>>>>>>> FETCH_HEAD
         [_page setCurrentPage:index];
         
     }
@@ -117,12 +124,16 @@
 {
     NSUInteger index = [self.imageViews indexOfObject:[sender view]];
     NSNumber *path = @(index);
+<<<<<<< HEAD
     //    Clothes *cloth1=[_lastclothes objectAtIndex:index];
     //    Clothes *cloth2=[_clothes objectAtIndex:index];
     //    if(_count==0){
     //        _originalUsetime =cloth1.useTime;
     //        _originalSelectTime = cloth1.selectTime;
     //    }
+=======
+    
+>>>>>>> FETCH_HEAD
     if ([self.selectedIndexes containsObject:path]) {
         [self.selectedIndexes removeObject:path];
         
@@ -130,6 +141,7 @@
         UIImageView *checkmarkView = [self.checkmarkImageViews objectAtIndex:index];
         
         if (_whetherPick) {
+<<<<<<< HEAD
             Clothes *cloth1=[_lastclothes objectAtIndex:index];
             cloth1.useTime=_originalUsetime;
             _count++;
@@ -138,6 +150,15 @@
             cloth2.useTime=_originalUsetime;
             cloth2.selectTime=_originalSelectTime;
             _count++;
+=======
+            Clothes *cloth=[_lastclothes objectAtIndex:index];
+            NSLog(@"cloth%lu",(unsigned long)[_lastclothes count]);
+            cloth.onUse=[NSNumber numberWithBool:YES];
+        }else{
+            Clothes *cloth=[_clothes objectAtIndex:index];
+            NSLog(@"clothlast%lu",(unsigned long)_lastclothes.count);
+            cloth.onUse=[NSNumber numberWithBool:NO];
+>>>>>>> FETCH_HEAD
         }
         [checkmarkView setImage:emptyCheckmark];
         checkmarkView.alpha=0;
@@ -148,6 +169,7 @@
         UIImage *fullCheckmark = [UIImage imageNamed:@"checked.png"];
         UIImageView *checkmarkView = [self.checkmarkImageViews objectAtIndex:index];
         
+<<<<<<< HEAD
         if (_whetherPick) {
             Clothes *cloth1=[_lastclothes objectAtIndex:index];
             if(_count==0){
@@ -164,6 +186,16 @@
             cloth2.useTime=[NSNumber numberWithInt:1+[_originalUsetime intValue]];
             cloth2.selectTime=[NSDate date];
             _count++;
+=======
+        NSLog(@"index%lu",(unsigned long)index);
+        if (_whetherPick) {
+            Clothes *cloth=[_lastclothes objectAtIndex:index];
+            cloth.onUse=[NSNumber numberWithBool:NO];
+            
+        }else{
+            Clothes *cloth=[_clothes objectAtIndex:index];
+            cloth.onUse=[NSNumber numberWithBool:YES];
+>>>>>>> FETCH_HEAD
         }
         
         [checkmarkView setImage:fullCheckmark];
@@ -174,6 +206,7 @@
     if (self.delegate && [self.delegate respondsToSelector:@selector(selectionDidUpdateForPicker:)]) {
         [self.delegate selectionDidUpdateForPicker:self];
     }
+<<<<<<< HEAD
     CATransition *tran=[CATransition animation];
     NSTimeInterval inter=1.5;
     tran.duration=inter;
@@ -182,6 +215,8 @@
     tran.subtype=kCATransitionFromLeft;
     tran.delegate=self;
     [self.layer addAnimation:tran forKey:nil];
+=======
+>>>>>>> FETCH_HEAD
 }
 - (NSArray *)selectedImageIndexes;
 {

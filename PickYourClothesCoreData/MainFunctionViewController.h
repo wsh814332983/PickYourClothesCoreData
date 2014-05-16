@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Clothes.h"
 @interface MainFunctionViewController : UIViewController<NSFetchedResultsControllerDelegate>
+<<<<<<< HEAD
 @property (strong, nonatomic) IBOutlet UIButton *PickClothes;
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong,nonatomic) NSFetchedResultsController *fetchrearch;
@@ -19,6 +20,11 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imagehead;
 
 
+=======
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (strong,nonatomic) NSFetchedResultsController *fetchrearch;
+@property NSString *purpose;
+>>>>>>> FETCH_HEAD
 @property (strong, nonatomic) IBOutlet UIButton *PickedClothes;
 @property (strong, nonatomic) IBOutlet UIButton *PickedPants;
 @property (strong, nonatomic) IBOutlet UIButton *PickedShoes;

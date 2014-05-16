@@ -8,8 +8,12 @@
 
 #import "EditDetailTableViewController.h"
 @interface EditDetailTableViewController ()
+<<<<<<< HEAD
 
 @property (nonatomic)NSNumber *originalUsetime;
+=======
+@property (strong,nonatomic) Clothes *clothedit;
+>>>>>>> FETCH_HEAD
 @end
 
 @implementation EditDetailTableViewController
@@ -30,7 +34,10 @@
 
         
         _clothedit=cloth;
+<<<<<<< HEAD
         _originalUsetime=_clothedit.useTime;
+=======
+>>>>>>> FETCH_HEAD
         _name.text=_clothedit.name;
         _brand.text=_clothedit.brand;
         NSData *image=_clothedit.image;
@@ -109,7 +116,11 @@
 }
 #pragma delegate
 -(void) changeImage:(NSData *)image
+<<<<<<< HEAD
 {
+=======
+{  NSLog(@"11");
+>>>>>>> FETCH_HEAD
     self.image.image=[UIImage imageWithData:image];
     _clothedit.image=image;
     
@@ -172,6 +183,7 @@
     UISwitch *swith=(UISwitch *)sender;
     BOOL buttonison=[swith isOn];
     if (buttonison) {
+<<<<<<< HEAD
         _clothedit.useTime=[NSNumber numberWithInt:0];
         
     }else{
@@ -186,4 +198,12 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 - (IBAction)unwindToThisViewController:(UIStoryboardSegue *)unwindSegue {}
+=======
+        _clothedit.landry=[NSNumber numberWithBool:YES];
+        
+    }else{
+        _clothedit.landry=[NSNumber numberWithBool:NO];
+    }
+}
+>>>>>>> FETCH_HEAD
 @end

@@ -22,7 +22,18 @@
     return [self initWithFrame:frame numberOfStar:5];
 }
 
+<<<<<<< HEAD
 
+=======
+/**
+ *  初始化TQStarRatingView
+ *
+ *  @param frame  Rectangles
+ *  @param number 星星个数
+ *
+ *  @return TQStarRatingViewObject
+ */
+>>>>>>> FETCH_HEAD
 - (id)initWithFrame:(CGRect)frame numberOfStar:(int)number
 {
     self = [super initWithFrame:frame];
@@ -123,7 +134,17 @@
 #pragma mark -
 #pragma mark - Buidl Star View
 
+<<<<<<< HEAD
 
+=======
+/**
+ *  通过图片构建星星视图
+ *
+ *  @param imageName 图片名称
+ *
+ *  @return 星星视图
+ */
+>>>>>>> FETCH_HEAD
 - (UIView *)buidlStarViewWithImageName:(NSString *)imageName
 {
     CGRect frame = self.bounds;

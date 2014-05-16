@@ -8,7 +8,10 @@
 
 #import "flowshowdetailViewController.h"
 #import "UIImage+ImageEffects.h"
+<<<<<<< HEAD
 #import "UIButton+Bootstrap.h"
+=======
+>>>>>>> FETCH_HEAD
 @interface flowshowdetailViewController ()
 
 @end
@@ -32,8 +35,12 @@
     
     _buttonsetting.layer.cornerRadius=5;
     
+<<<<<<< HEAD
     [self.buttonsetting successStyle];
     [self.buttonsetting addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
+=======
+    
+>>>>>>> FETCH_HEAD
    
 }
 //
@@ -61,10 +68,37 @@
 */
 
 - (IBAction)selectconfirm:(id)sender {
+<<<<<<< HEAD
     [self performSegueWithIdentifier:@"backto" sender:self];
 //    UIActionSheet *select=[[UIActionSheet alloc] initWithTitle:@"good for today?" delegate:self cancelButtonTitle:@"cancel" destructiveButtonTitle:nil otherButtonTitles: @"YES",@"No",nil];
 //    [select setActionSheetStyle:UIActionSheetStyleBlackOpaque];
 //    [select showInView:self.view];
+=======
+   
+    UIActionSheet *select=[[UIActionSheet alloc] initWithTitle:@"good for today?" delegate:self cancelButtonTitle:@"cancel" destructiveButtonTitle:nil otherButtonTitles: @"YES",nil];
+    [select setActionSheetStyle:UIActionSheetStyleBlackOpaque];
+    [select showInView:self.view];
+}
+-(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    switch (buttonIndex) {
+        case 0:
+            _cloth.onUse=[NSNumber numberWithBool:YES];
+            [self savecloth];
+        [self performSegueWithIdentifier:@"backto" sender:self];
+         
+            
+            NSLog(@"hh");
+           
+            break;
+            
+        case 1:
+            _cloth.onUse=[NSNumber numberWithBool:NO];
+            [self savecloth];
+            [self performSegueWithIdentifier:@"backto" sender:self];
+            break;
+    }
+>>>>>>> FETCH_HEAD
 }
 -(void) savecloth
 {

@@ -33,7 +33,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     self.collectionView.backgroundColor=[UIColor clearColor];
+=======
+    self.collectionView.backgroundColor=[UIColor whiteColor];
+>>>>>>> FETCH_HEAD
     
 
     [self.collectionView setAllowsSelection:YES];
@@ -102,6 +106,10 @@
 {
     
     self.index=indexPath;
+<<<<<<< HEAD
+=======
+    NSLog(@"row= %i,section = %i",indexPath.item,indexPath.section);
+>>>>>>> FETCH_HEAD
     
             
 }
@@ -109,6 +117,10 @@
 
 -(void) drawdetailpic:(Clothes *)cloth
 {
+<<<<<<< HEAD
+=======
+    //NSLog(@"delegate11%@",self.index);
+>>>>>>> FETCH_HEAD
     
     [self.delegate updatecollectview:cloth];
     

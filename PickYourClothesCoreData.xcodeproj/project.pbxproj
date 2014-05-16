@@ -23,6 +23,7 @@
 		781ECADD19156D2800B71C7A /* PagesScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECACC19156D2800B71C7A /* PagesScrollViewController.m */; };
 		781ECADE19156D2800B71C7A /* flowScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECACE19156D2800B71C7A /* flowScrollView.m */; };
 		781ECADF19156D2800B71C7A /* FlowControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAD019156D2800B71C7A /* FlowControlViewController.m */; };
+<<<<<<< HEAD
 		7837B2301915813700C89A50 /* BrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7837B22F1915813700C89A50 /* BrandViewController.m */; };
 		7837B23C1915924D00C89A50 /* brandTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7837B23B1915924D00C89A50 /* brandTableViewCell.m */; };
 		7837B2EA1916A86800C89A50 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 7837B2E91916A86800C89A50 /* People.m */; };
@@ -30,6 +31,9 @@
 		7837B2F11916A8A800C89A50 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7837B2EF1916A8A800C89A50 /* loginViewController.m */; };
 		7837B2F61916A8B400C89A50 /* NSString+FontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7837B2F31916A8B400C89A50 /* NSString+FontAwesome.m */; };
 		7837B2F71916A8B400C89A50 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 7837B2F51916A8B400C89A50 /* UIButton+Bootstrap.m */; };
+=======
+		781ECAE319156DC500B71C7A /* Clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECAE219156DC500B71C7A /* Clothes.m */; };
+>>>>>>> FETCH_HEAD
 		784A725F18EF888100AA746D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A725E18EF888100AA746D /* Foundation.framework */; };
 		784A726118EF888100AA746D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A726018EF888100AA746D /* CoreGraphics.framework */; };
 		784A726318EF888100AA746D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A726218EF888100AA746D /* UIKit.framework */; };
@@ -44,6 +48,7 @@
 		784A728018EF888200AA746D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784A726418EF888100AA746D /* CoreData.framework */; };
 		784A728818EF888200AA746D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 784A728618EF888200AA746D /* InfoPlist.strings */; };
 		784A728A18EF888200AA746D /* PickYourClothesCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784A728918EF888200AA746D /* PickYourClothesCoreDataTests.m */; };
+<<<<<<< HEAD
 		7854CEE01925BBE2000708E1 /* editbrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7854CEDF1925BBE2000708E1 /* editbrandViewController.m */; };
 		7854CFB51926B173000708E1 /* Jacketing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7854CFB41926B173000708E1 /* Jacketing.jpg */; };
 		7854CFB71926B7BE000708E1 /* Shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7854CFB61926B7BE000708E1 /* Shoes.jpg */; };
@@ -53,17 +58,34 @@
 		7854CFC31926BDAE000708E1 /* Umbrella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7854CFC21926BDAE000708E1 /* Umbrella.jpg */; };
 		7854CFC51926C1D6000708E1 /* Belt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7854CFC41926C1D6000708E1 /* Belt.jpg */; };
 		7854CFC71926C1E1000708E1 /* Select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7854CFC61926C1E1000708E1 /* Select.jpg */; };
+=======
+>>>>>>> FETCH_HEAD
 		7875CB8618F314840073BBA0 /* imageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7875CB8518F314840073BBA0 /* imageEditViewController.m */; };
 		787DB49E18F0928400F96ECF /* Umbrella.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB49D18F0928400F96ECF /* Umbrella.m */; };
 		787DB4A118F0928400F96ECF /* Glove.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4A018F0928400F96ECF /* Glove.m */; };
 		787DB4A418F0928400F96ECF /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4A318F0928400F96ECF /* Friends.m */; };
 		787DB4A718F0928400F96ECF /* Pants.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4A618F0928400F96ECF /* Pants.m */; };
+<<<<<<< HEAD
+=======
+		787DB4AD18F0928400F96ECF /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4AC18F0928400F96ECF /* People.m */; };
+>>>>>>> FETCH_HEAD
 		787DB4B018F0928400F96ECF /* Glass.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4AF18F0928400F96ECF /* Glass.m */; };
 		787DB4B318F0928400F96ECF /* Belt.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4B218F0928400F96ECF /* Belt.m */; };
 		787DB4B918F0928400F96ECF /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4B818F0928400F96ECF /* Shoes.m */; };
 		787DB4BD18F095A400F96ECF /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4BC18F095A400F96ECF /* CameraViewController.m */; };
 		787DB4C118F098D400F96ECF /* PickYourClothesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */; };
 		787DB4CD18F0C4BC00F96ECF /* KindOfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */; };
+<<<<<<< HEAD
+=======
+		787DB4EC18F0DD6A00F96ECF /* Select.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E418F0DD6A00F96ECF /* Select.jpg */; };
+		787DB4ED18F0DD6A00F96ECF /* Pants.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E518F0DD6A00F96ECF /* Pants.jpg */; };
+		787DB4EE18F0DD6A00F96ECF /* Belt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E618F0DD6A00F96ECF /* Belt.jpg */; };
+		787DB4EF18F0DD6A00F96ECF /* Glove.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E718F0DD6A00F96ECF /* Glove.jpg */; };
+		787DB4F018F0DD6A00F96ECF /* Eyeglass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E818F0DD6A00F96ECF /* Eyeglass.jpg */; };
+		787DB4F118F0DD6A00F96ECF /* Shoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4E918F0DD6A00F96ECF /* Shoes.jpg */; };
+		787DB4F218F0DD6A00F96ECF /* Umbrella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4EA18F0DD6A00F96ECF /* Umbrella.jpg */; };
+		787DB4F318F0DD6A00F96ECF /* Jacketing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4EB18F0DD6A00F96ECF /* Jacketing.jpg */; };
+>>>>>>> FETCH_HEAD
 		787DB4FB18F11A1800F96ECF /* btn_close_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4F518F11A1800F96ECF /* btn_close_normal.png */; };
 		787DB4FC18F11A1800F96ECF /* btn_close_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4F618F11A1800F96ECF /* btn_close_normal@2x.png */; };
 		787DB4FD18F11A1800F96ECF /* btn_close_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 787DB4F718F11A1800F96ECF /* btn_close_selected.png */; };
@@ -73,6 +95,7 @@
 		787DB50C18F1EB7300F96ECF /* ShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB50B18F1EB7300F96ECF /* ShowDetailViewController.m */; };
 		787DB51018F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB50F18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m */; };
 		787DB51618F258C500F96ECF /* EditDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787DB51518F258C500F96ECF /* EditDetailTableViewController.m */; };
+<<<<<<< HEAD
 		78D39BBA1918ABE100A8655A /* searchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D39BB91918ABE100A8655A /* searchTableViewCell.m */; };
 		78D39BBC1918AEBF00A8655A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D39BBB1918AEBF00A8655A /* Main.storyboard */; };
 		78D4051719187B4A00A9C501 /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D4051619187B4A00A9C501 /* 33-cabinet.png */; };
@@ -97,13 +120,22 @@
 		78FF138F18F33FC400EBC87F /* NameEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF138E18F33FC400EBC87F /* NameEditViewController.m */; };
 		78FF139218F348CC00EBC87F /* BrandSeriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF139118F348CC00EBC87F /* BrandSeriesViewController.m */; };
 		78FF139518F34C8500EBC87F /* DescribeEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF139418F34C8500EBC87F /* DescribeEditViewController.m */; };
+=======
+		78FF138F18F33FC400EBC87F /* NameEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF138E18F33FC400EBC87F /* NameEditViewController.m */; };
+		78FF139218F348CC00EBC87F /* BrandSeriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF139118F348CC00EBC87F /* BrandSeriesViewController.m */; };
+		78FF139518F34C8500EBC87F /* DescribeEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF139418F34C8500EBC87F /* DescribeEditViewController.m */; };
+		78FF13D818F376D700EBC87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78FF13D718F376D700EBC87F /* Main.storyboard */; };
+>>>>>>> FETCH_HEAD
 		78FF144618F37CA200EBC87F /* backgroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144018F37CA200EBC87F /* backgroundStar.png */; };
 		78FF144718F37CA200EBC87F /* backgroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144118F37CA200EBC87F /* backgroundStar@2x.png */; };
 		78FF144818F37CA200EBC87F /* foregroundStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144218F37CA200EBC87F /* foregroundStar.png */; };
 		78FF144918F37CA200EBC87F /* foregroundStar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF144318F37CA200EBC87F /* foregroundStar@2x.png */; };
 		78FF144A18F37CA200EBC87F /* TQStarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144518F37CA200EBC87F /* TQStarRatingView.m */; };
 		78FF144D18F385B100EBC87F /* viewStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF144C18F385B100EBC87F /* viewStarViewController.m */; };
+<<<<<<< HEAD
 		CC495BD71923BBC1008FCE78 /* HJScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC495BD61923BBC1008FCE78 /* HJScrollView.m */; };
+=======
+>>>>>>> FETCH_HEAD
 		CC7F97E1190C364F00BE850C /* SearchInternet.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7F97E0190C364F00BE850C /* SearchInternet.m */; };
 		CC7F97E4190C3CE100BE850C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7F97E3190C3CE100BE850C /* Images.xcassets */; };
 		CCCC8AD31901882F007E9E19 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC8ACC1901882F007E9E19 /* WXClient.m */; };
@@ -155,6 +187,7 @@
 		781ECACE19156D2800B71C7A /* flowScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flowScrollView.m; sourceTree = "<group>"; };
 		781ECACF19156D2800B71C7A /* FlowControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowControlViewController.h; sourceTree = "<group>"; };
 		781ECAD019156D2800B71C7A /* FlowControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowControlViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7837B22E1915813700C89A50 /* BrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandViewController.h; sourceTree = "<group>"; };
 		7837B22F1915813700C89A50 /* BrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandViewController.m; sourceTree = "<group>"; };
 		7837B23A1915924D00C89A50 /* brandTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brandTableViewCell.h; sourceTree = "<group>"; };
@@ -170,6 +203,11 @@
 		7837B2F41916A8B400C89A50 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
 		7837B2F51916A8B400C89A50 /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
 		784A725B18EF888100AA746D /* PYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		781ECAE119156DC500B71C7A /* Clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clothes.h; sourceTree = "<group>"; };
+		781ECAE219156DC500B71C7A /* Clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clothes.m; sourceTree = "<group>"; };
+		784A725B18EF888100AA746D /* PickYourClothesCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickYourClothesCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> FETCH_HEAD
 		784A725E18EF888100AA746D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		784A726018EF888100AA746D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		784A726218EF888100AA746D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -186,6 +224,7 @@
 		784A728518EF888200AA746D /* PickYourClothesCoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickYourClothesCoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		784A728718EF888200AA746D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		784A728918EF888200AA746D /* PickYourClothesCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesCoreDataTests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7854CEDE1925BBE2000708E1 /* editbrandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editbrandViewController.h; sourceTree = "<group>"; };
 		7854CEDF1925BBE2000708E1 /* editbrandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editbrandViewController.m; sourceTree = "<group>"; };
 		7854CFB41926B173000708E1 /* Jacketing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jacketing.jpg; sourceTree = "<group>"; };
@@ -196,6 +235,8 @@
 		7854CFC21926BDAE000708E1 /* Umbrella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Umbrella.jpg; sourceTree = "<group>"; };
 		7854CFC41926C1D6000708E1 /* Belt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Belt.jpg; sourceTree = "<group>"; };
 		7854CFC61926C1E1000708E1 /* Select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Select.jpg; sourceTree = "<group>"; };
+=======
+>>>>>>> FETCH_HEAD
 		7875CB8418F314840073BBA0 /* imageEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageEditViewController.h; sourceTree = "<group>"; };
 		7875CB8518F314840073BBA0 /* imageEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageEditViewController.m; sourceTree = "<group>"; };
 		787DB49C18F0928400F96ECF /* Umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Umbrella.h; sourceTree = "<group>"; };
@@ -206,6 +247,11 @@
 		787DB4A318F0928400F96ECF /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
 		787DB4A518F0928400F96ECF /* Pants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pants.h; sourceTree = "<group>"; };
 		787DB4A618F0928400F96ECF /* Pants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pants.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		787DB4AB18F0928400F96ECF /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		787DB4AC18F0928400F96ECF /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 		787DB4AE18F0928400F96ECF /* Glass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glass.h; sourceTree = "<group>"; };
 		787DB4AF18F0928400F96ECF /* Glass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glass.m; sourceTree = "<group>"; };
 		787DB4B118F0928400F96ECF /* Belt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Belt.h; sourceTree = "<group>"; };
@@ -218,6 +264,17 @@
 		787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesViewController.m; sourceTree = "<group>"; };
 		787DB4CB18F0C4BC00F96ECF /* KindOfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KindOfViewController.h; sourceTree = "<group>"; };
 		787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KindOfViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		787DB4E418F0DD6A00F96ECF /* Select.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Select.jpg; sourceTree = "<group>"; };
+		787DB4E518F0DD6A00F96ECF /* Pants.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pants.jpg; sourceTree = "<group>"; };
+		787DB4E618F0DD6A00F96ECF /* Belt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Belt.jpg; sourceTree = "<group>"; };
+		787DB4E718F0DD6A00F96ECF /* Glove.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glove.jpg; sourceTree = "<group>"; };
+		787DB4E818F0DD6A00F96ECF /* Eyeglass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eyeglass.jpg; sourceTree = "<group>"; };
+		787DB4E918F0DD6A00F96ECF /* Shoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shoes.jpg; sourceTree = "<group>"; };
+		787DB4EA18F0DD6A00F96ECF /* Umbrella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Umbrella.jpg; sourceTree = "<group>"; };
+		787DB4EB18F0DD6A00F96ECF /* Jacketing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jacketing.jpg; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 		787DB4F518F11A1800F96ECF /* btn_close_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_normal.png; sourceTree = "<group>"; };
 		787DB4F618F11A1800F96ECF /* btn_close_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_close_normal@2x.png"; sourceTree = "<group>"; };
 		787DB4F718F11A1800F96ECF /* btn_close_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close_selected.png; sourceTree = "<group>"; };
@@ -232,6 +289,7 @@
 		787DB50F18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickYourClothesCoreDataTableViewCell.m; sourceTree = "<group>"; };
 		787DB51418F258C500F96ECF /* EditDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDetailTableViewController.h; sourceTree = "<group>"; };
 		787DB51518F258C500F96ECF /* EditDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDetailTableViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		78D39BB81918ABE100A8655A /* searchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = searchTableViewCell.h; sourceTree = "<group>"; };
 		78D39BB91918ABE100A8655A /* searchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchTableViewCell.m; sourceTree = "<group>"; };
 		78D39BBB1918AEBF00A8655A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -257,12 +315,18 @@
 		78FEE97F191FD85C006C6A7F /* new1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new1.jpg; sourceTree = "<group>"; };
 		78FEE981191FDFA4006C6A7F /* headchangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headchangeViewController.h; sourceTree = "<group>"; };
 		78FEE982191FDFA4006C6A7F /* headchangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headchangeViewController.m; sourceTree = "<group>"; };
+=======
+>>>>>>> FETCH_HEAD
 		78FF138D18F33FC400EBC87F /* NameEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameEditViewController.h; sourceTree = "<group>"; };
 		78FF138E18F33FC400EBC87F /* NameEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameEditViewController.m; sourceTree = "<group>"; };
 		78FF139018F348CC00EBC87F /* BrandSeriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandSeriesViewController.h; sourceTree = "<group>"; };
 		78FF139118F348CC00EBC87F /* BrandSeriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandSeriesViewController.m; sourceTree = "<group>"; };
 		78FF139318F34C8500EBC87F /* DescribeEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescribeEditViewController.h; sourceTree = "<group>"; };
 		78FF139418F34C8500EBC87F /* DescribeEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeEditViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		78FF13D718F376D700EBC87F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 		78FF144018F37CA200EBC87F /* backgroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundStar.png; sourceTree = "<group>"; };
 		78FF144118F37CA200EBC87F /* backgroundStar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundStar@2x.png"; sourceTree = "<group>"; };
 		78FF144218F37CA200EBC87F /* foregroundStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foregroundStar.png; sourceTree = "<group>"; };
@@ -271,8 +335,11 @@
 		78FF144518F37CA200EBC87F /* TQStarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TQStarRatingView.m; path = ../TQStarRatingView.m; sourceTree = "<group>"; };
 		78FF144B18F385B100EBC87F /* viewStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewStarViewController.h; sourceTree = "<group>"; };
 		78FF144C18F385B100EBC87F /* viewStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewStarViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CC495BD51923BBC1008FCE78 /* HJScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJScrollView.h; sourceTree = "<group>"; };
 		CC495BD61923BBC1008FCE78 /* HJScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJScrollView.m; sourceTree = "<group>"; };
+=======
+>>>>>>> FETCH_HEAD
 		CC7F97DF190C364F00BE850C /* SearchInternet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchInternet.h; sourceTree = "<group>"; };
 		CC7F97E0190C364F00BE850C /* SearchInternet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchInternet.m; sourceTree = "<group>"; };
 		CC7F97E3190C3CE100BE850C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -328,8 +395,13 @@
 				781ECAB719156D2800B71C7A /* WaterFallFooter.h */,
 				781ECAB819156D2800B71C7A /* WaterFallFooter.m */,
 				781ECAB919156D2800B71C7A /* WaterFallHeader.h */,
+<<<<<<< HEAD
 				781ECABA19156D2800B71C7A /* WaterFallHeader.m */,
 				781ECABB19156D2800B71C7A /* WaterFCell.h */,
+=======
+				781ECABB19156D2800B71C7A /* WaterFCell.h */,
+				781ECABA19156D2800B71C7A /* WaterFallHeader.m */,
+>>>>>>> FETCH_HEAD
 				781ECABC19156D2800B71C7A /* WaterFCell.m */,
 				781ECABD19156D2800B71C7A /* WaterFLayout.h */,
 				781ECABE19156D2800B71C7A /* WaterFLayout.m */,
@@ -355,6 +427,7 @@
 			name = flow;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7837B2EB1916A89300C89A50 /* login */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +441,8 @@
 			name = login;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> FETCH_HEAD
 		784A725218EF888100AA746D = {
 			isa = PBXGroup;
 			children = (
@@ -382,7 +457,11 @@
 		784A725C18EF888100AA746D /* Products */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				784A725B18EF888100AA746D /* PYC.app */,
+=======
+				784A725B18EF888100AA746D /* PickYourClothesCoreData.app */,
+>>>>>>> FETCH_HEAD
 				784A727B18EF888200AA746D /* PickYourClothesCoreDataTests.xctest */,
 			);
 			name = Products;
@@ -404,6 +483,7 @@
 		784A726618EF888100AA746D /* PickYourClothesCoreData */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				7854CF2219269392000708E1 /* iPad */,
 				CC7F97E3190C3CE100BE850C /* Images.xcassets */,
 				78ED8E02191743AA009C3D5D /* head.png */,
@@ -425,6 +505,16 @@
 				7837B2EB1916A89300C89A50 /* login */,
 				781ECAE019156D2D00B71C7A /* flow */,
 				784A727218EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld */,
+=======
+				CC7F97E3190C3CE100BE850C /* Images.xcassets */,
+				78FF13D718F376D700EBC87F /* Main.storyboard */,
+				784A726F18EF888100AA746D /* PickYourClothesCoreDataAppDelegate.h */,
+				784A727018EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m */,
+				781ECAE019156D2D00B71C7A /* flow */,
+				784A727218EF888200AA746D /* PickYourClothesCoreData.xcdatamodeld */,
+				781ECAE119156DC500B71C7A /* Clothes.h */,
+				781ECAE219156DC500B71C7A /* Clothes.m */,
+>>>>>>> FETCH_HEAD
 				CC7F97E2190C365800BE850C /* Internet */,
 				CCCC8AE31901A699007E9E19 /* MainFunction */,
 				CCCC8AD619018834007E9E19 /* Weather */,
@@ -441,7 +531,10 @@
 			isa = PBXGroup;
 			children = (
 				784A726818EF888100AA746D /* PickYourClothesCoreData-Info.plist */,
+<<<<<<< HEAD
 				78ED8E141917FA54009C3D5D /* StrapButton-Info.plist */,
+=======
+>>>>>>> FETCH_HEAD
 				784A726918EF888100AA746D /* InfoPlist.strings */,
 				784A726C18EF888100AA746D /* main.m */,
 				784A726E18EF888100AA746D /* PickYourClothesCoreData-Prefix.pch */,
@@ -471,11 +564,17 @@
 			isa = PBXGroup;
 			children = (
 				78FF143E18F37CA200EBC87F /* TQStarRating */,
+<<<<<<< HEAD
 				CC495BD41923BB8A008FCE78 /* MainView */,
+=======
+				787DB4BF18F098D400F96ECF /* PickYourClothesViewController.h */,
+				787DB4C018F098D400F96ECF /* PickYourClothesViewController.m */,
+>>>>>>> FETCH_HEAD
 			);
 			name = "New Group";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7854CF2219269392000708E1 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +582,8 @@
 			name = iPad;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> FETCH_HEAD
 		7875CB8318F3145C0073BBA0 /* edit */ = {
 			isa = PBXGroup;
 			children = (
@@ -496,8 +597,11 @@
 				78FF139418F34C8500EBC87F /* DescribeEditViewController.m */,
 				78FF144B18F385B100EBC87F /* viewStarViewController.h */,
 				78FF144C18F385B100EBC87F /* viewStarViewController.m */,
+<<<<<<< HEAD
 				7854CEDE1925BBE2000708E1 /* editbrandViewController.h */,
 				7854CEDF1925BBE2000708E1 /* editbrandViewController.m */,
+=======
+>>>>>>> FETCH_HEAD
 			);
 			name = edit;
 			sourceTree = "<group>";
@@ -505,8 +609,11 @@
 		787DB4BA18F0929000F96ECF /* model */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				78ED8E7219187548009C3D5D /* Clothes.h */,
 				78ED8E7319187548009C3D5D /* Clothes.m */,
+=======
+>>>>>>> FETCH_HEAD
 				787DB49C18F0928400F96ECF /* Umbrella.h */,
 				787DB49D18F0928400F96ECF /* Umbrella.m */,
 				787DB4B718F0928400F96ECF /* Shoes.h */,
@@ -515,14 +622,22 @@
 				787DB4B218F0928400F96ECF /* Belt.m */,
 				787DB4AE18F0928400F96ECF /* Glass.h */,
 				787DB4AF18F0928400F96ECF /* Glass.m */,
+<<<<<<< HEAD
+=======
+				787DB4AB18F0928400F96ECF /* People.h */,
+				787DB4AC18F0928400F96ECF /* People.m */,
+>>>>>>> FETCH_HEAD
 				787DB4A518F0928400F96ECF /* Pants.h */,
 				787DB4A618F0928400F96ECF /* Pants.m */,
 				787DB4A218F0928400F96ECF /* Friends.h */,
 				787DB4A318F0928400F96ECF /* Friends.m */,
 				787DB49F18F0928400F96ECF /* Glove.h */,
 				787DB4A018F0928400F96ECF /* Glove.m */,
+<<<<<<< HEAD
 				7837B2E81916A86800C89A50 /* People.h */,
 				7837B2E91916A86800C89A50 /* People.m */,
+=======
+>>>>>>> FETCH_HEAD
 				787DB4CA18F0C49600F96ECF /* kindof */,
 			);
 			name = model;
@@ -535,10 +650,13 @@
 				CCCC8AE51901CE30007E9E19 /* UICombox.m */,
 				787DB4BB18F095A400F96ECF /* CameraViewController.h */,
 				787DB4BC18F095A400F96ECF /* CameraViewController.m */,
+<<<<<<< HEAD
 				7837B22E1915813700C89A50 /* BrandViewController.h */,
 				7837B22F1915813700C89A50 /* BrandViewController.m */,
 				7837B23A1915924D00C89A50 /* brandTableViewCell.h */,
 				7837B23B1915924D00C89A50 /* brandTableViewCell.m */,
+=======
+>>>>>>> FETCH_HEAD
 			);
 			name = "add&edite";
 			sourceTree = "<group>";
@@ -546,6 +664,7 @@
 		787DB4CA18F0C49600F96ECF /* kindof */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				7854CFB41926B173000708E1 /* Jacketing.jpg */,
 				7854CFBC1926B82F000708E1 /* Glove.jpg */,
 				7854CFBE1926B84D000708E1 /* Pants.jpg */,
@@ -555,6 +674,17 @@
 				7854CFC61926C1E1000708E1 /* Select.jpg */,
 				7854CFC01926BD89000708E1 /* Eyeglass.jpg */,
 				787DB4F418F11A1800F96ECF /* Vendor */,
+=======
+				787DB4F418F11A1800F96ECF /* Vendor */,
+				787DB4E418F0DD6A00F96ECF /* Select.jpg */,
+				787DB4E518F0DD6A00F96ECF /* Pants.jpg */,
+				787DB4E618F0DD6A00F96ECF /* Belt.jpg */,
+				787DB4E718F0DD6A00F96ECF /* Glove.jpg */,
+				787DB4E818F0DD6A00F96ECF /* Eyeglass.jpg */,
+				787DB4E918F0DD6A00F96ECF /* Shoes.jpg */,
+				787DB4EA18F0DD6A00F96ECF /* Umbrella.jpg */,
+				787DB4EB18F0DD6A00F96ECF /* Jacketing.jpg */,
+>>>>>>> FETCH_HEAD
 				787DB4CB18F0C4BC00F96ECF /* KindOfViewController.h */,
 				787DB4CC18F0C4BC00F96ECF /* KindOfViewController.m */,
 			);
@@ -579,11 +709,15 @@
 			children = (
 				787DB50E18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.h */,
 				787DB50F18F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m */,
+<<<<<<< HEAD
 				78D39BB81918ABE100A8655A /* searchTableViewCell.h */,
 				78D39BB91918ABE100A8655A /* searchTableViewCell.m */,
 				787DB50718F1E4A000F96ECF /* ClothesTableViewController.h */,
 				78D4051619187B4A00A9C501 /* 33-cabinet.png */,
 				78D4051819187BC400A9C501 /* 118-coat-hanger.png */,
+=======
+				787DB50718F1E4A000F96ECF /* ClothesTableViewController.h */,
+>>>>>>> FETCH_HEAD
 				787DB50818F1E4A000F96ECF /* ClothesTableViewController.m */,
 				787DB50D18F1EC6000F96ECF /* detail */,
 			);
@@ -593,10 +727,13 @@
 		787DB50D18F1EC6000F96ECF /* detail */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				7837B2F21916A8B400C89A50 /* NSString+FontAwesome.h */,
 				7837B2F31916A8B400C89A50 /* NSString+FontAwesome.m */,
 				7837B2F41916A8B400C89A50 /* UIButton+Bootstrap.h */,
 				7837B2F51916A8B400C89A50 /* UIButton+Bootstrap.m */,
+=======
+>>>>>>> FETCH_HEAD
 				787DB50A18F1EB7300F96ECF /* ShowDetailViewController.h */,
 				787DB50B18F1EB7300F96ECF /* ShowDetailViewController.m */,
 				787DB51418F258C500F96ECF /* EditDetailTableViewController.h */,
@@ -627,6 +764,7 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		CC495BD41923BB8A008FCE78 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
@@ -638,6 +776,8 @@
 			name = MainView;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> FETCH_HEAD
 		CC7F97E2190C365800BE850C /* Internet */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,8 +809,11 @@
 			children = (
 				CCCC8AE01901A694007E9E19 /* MainFunctionViewController.h */,
 				CCCC8AE11901A694007E9E19 /* MainFunctionViewController.m */,
+<<<<<<< HEAD
 				78FEE981191FDFA4006C6A7F /* headchangeViewController.h */,
 				78FEE982191FDFA4006C6A7F /* headchangeViewController.m */,
+=======
+>>>>>>> FETCH_HEAD
 			);
 			name = MainFunction;
 			sourceTree = "<group>";
@@ -694,7 +837,11 @@
 			);
 			name = PickYourClothesCoreData;
 			productName = PickYourClothesCoreData;
+<<<<<<< HEAD
 			productReference = 784A725B18EF888100AA746D /* PYC.app */;
+=======
+			productReference = 784A725B18EF888100AA746D /* PickYourClothesCoreData.app */;
+>>>>>>> FETCH_HEAD
 			productType = "com.apple.product-type.application";
 		};
 		784A727A18EF888200AA746D /* PickYourClothesCoreDataTests */ = {
@@ -725,9 +872,12 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "tianxiang zhang";
 				TargetAttributes = {
+<<<<<<< HEAD
 					784A725A18EF888100AA746D = {
 						DevelopmentTeam = YUJMC2DQU2;
 					};
+=======
+>>>>>>> FETCH_HEAD
 					784A727A18EF888200AA746D = {
 						TestTargetID = 784A725A18EF888100AA746D;
 					};
@@ -756,6 +906,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				7854CFC71926C1E1000708E1 /* Select.jpg in Resources */,
 				787DB4FC18F11A1800F96ECF /* btn_close_normal@2x.png in Resources */,
 				781ECADA19156D2800B71C7A /* unchecked@2x.png in Resources */,
@@ -792,6 +943,28 @@
 				78ED8E111917F2AB009C3D5D /* background7.jpeg in Resources */,
 				784A726B18EF888100AA746D /* InfoPlist.strings in Resources */,
 				78ED8E0719174F7C009C3D5D /* background2.jpeg in Resources */,
+=======
+				787DB4ED18F0DD6A00F96ECF /* Pants.jpg in Resources */,
+				787DB4FC18F11A1800F96ECF /* btn_close_normal@2x.png in Resources */,
+				787DB4F018F0DD6A00F96ECF /* Eyeglass.jpg in Resources */,
+				781ECADA19156D2800B71C7A /* unchecked@2x.png in Resources */,
+				78FF144618F37CA200EBC87F /* backgroundStar.png in Resources */,
+				787DB4EE18F0DD6A00F96ECF /* Belt.jpg in Resources */,
+				78FF144818F37CA200EBC87F /* foregroundStar.png in Resources */,
+				781ECAD919156D2800B71C7A /* checked@2x.png in Resources */,
+				787DB4FB18F11A1800F96ECF /* btn_close_normal.png in Resources */,
+				78FF144918F37CA200EBC87F /* foregroundStar@2x.png in Resources */,
+				787DB4EC18F0DD6A00F96ECF /* Select.jpg in Resources */,
+				787DB4FE18F11A1800F96ECF /* btn_close_selected@2x.png in Resources */,
+				787DB4F218F0DD6A00F96ECF /* Umbrella.jpg in Resources */,
+				78FF144718F37CA200EBC87F /* backgroundStar@2x.png in Resources */,
+				787DB4F118F0DD6A00F96ECF /* Shoes.jpg in Resources */,
+				787DB4F318F0DD6A00F96ECF /* Jacketing.jpg in Resources */,
+				78FF13D818F376D700EBC87F /* Main.storyboard in Resources */,
+				CC7F97E4190C3CE100BE850C /* Images.xcassets in Resources */,
+				787DB4EF18F0DD6A00F96ECF /* Glove.jpg in Resources */,
+				784A726B18EF888100AA746D /* InfoPlist.strings in Resources */,
+>>>>>>> FETCH_HEAD
 				787DB4FD18F11A1800F96ECF /* btn_close_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -847,21 +1020,32 @@
 				787DB4A718F0928400F96ECF /* Pants.m in Sources */,
 				781ECAD719156D2800B71C7A /* FlowPicViewController.m in Sources */,
 				781ECADB19156D2800B71C7A /* showDetailview.m in Sources */,
+<<<<<<< HEAD
 				7837B2EA1916A86800C89A50 /* People.m in Sources */,
 				781ECADE19156D2800B71C7A /* flowScrollView.m in Sources */,
 				CCCC8AE21901A694007E9E19 /* MainFunctionViewController.m in Sources */,
 				781ECAD819156D2800B71C7A /* flowcellTableViewCell.m in Sources */,
 				7837B2301915813700C89A50 /* BrandViewController.m in Sources */,
+=======
+				781ECADE19156D2800B71C7A /* flowScrollView.m in Sources */,
+				CCCC8AE21901A694007E9E19 /* MainFunctionViewController.m in Sources */,
+				781ECAD819156D2800B71C7A /* flowcellTableViewCell.m in Sources */,
+>>>>>>> FETCH_HEAD
 				787DB4B918F0928400F96ECF /* Shoes.m in Sources */,
 				781ECAD619156D2800B71C7A /* flowTableViewController.m in Sources */,
 				787DB51018F1FC0900F96ECF /* PickYourClothesCoreDataTableViewCell.m in Sources */,
 				7875CB8618F314840073BBA0 /* imageEditViewController.m in Sources */,
+<<<<<<< HEAD
 				7854CEE01925BBE2000708E1 /* editbrandViewController.m in Sources */,
 				787DB4A118F0928400F96ECF /* Glove.m in Sources */,
 				78D8A9191916E35500A69683 /* uiswitch.m in Sources */,
 				7837B2F71916A8B400C89A50 /* UIButton+Bootstrap.m in Sources */,
 				CCCC8ADE19018874007E9E19 /* WXDailyForecast.m in Sources */,
 				78ED8E7419187548009C3D5D /* Clothes.m in Sources */,
+=======
+				787DB4A118F0928400F96ECF /* Glove.m in Sources */,
+				CCCC8ADE19018874007E9E19 /* WXDailyForecast.m in Sources */,
+>>>>>>> FETCH_HEAD
 				781ECADD19156D2800B71C7A /* PagesScrollViewController.m in Sources */,
 				78FF139518F34C8500EBC87F /* DescribeEditViewController.m in Sources */,
 				78FF144A18F37CA200EBC87F /* TQStarRatingView.m in Sources */,
@@ -870,6 +1054,7 @@
 				781ECAD119156D2800B71C7A /* WaterF.m in Sources */,
 				78FF139218F348CC00EBC87F /* BrandSeriesViewController.m in Sources */,
 				787DB4B018F0928400F96ECF /* Glass.m in Sources */,
+<<<<<<< HEAD
 				7837B2F11916A8A800C89A50 /* loginViewController.m in Sources */,
 				7837B2F01916A8A800C89A50 /* reigisterViewController.m in Sources */,
 				78D39BBA1918ABE100A8655A /* searchTableViewCell.m in Sources */,
@@ -877,19 +1062,33 @@
 				787DB50C18F1EB7300F96ECF /* ShowDetailViewController.m in Sources */,
 				787DB4BD18F095A400F96ECF /* CameraViewController.m in Sources */,
 				CC495BD71923BBC1008FCE78 /* HJScrollView.m in Sources */,
+=======
+				781ECAE319156DC500B71C7A /* Clothes.m in Sources */,
+				781ECAD219156D2800B71C7A /* WaterFallFooter.m in Sources */,
+				787DB50C18F1EB7300F96ECF /* ShowDetailViewController.m in Sources */,
+				787DB4BD18F095A400F96ECF /* CameraViewController.m in Sources */,
+>>>>>>> FETCH_HEAD
 				CC7F97E1190C364F00BE850C /* SearchInternet.m in Sources */,
 				784A727118EF888200AA746D /* PickYourClothesCoreDataAppDelegate.m in Sources */,
 				781ECAD419156D2800B71C7A /* WaterFCell.m in Sources */,
 				787DB50918F1E4A000F96ECF /* ClothesTableViewController.m in Sources */,
+<<<<<<< HEAD
 				7837B2F61916A8B400C89A50 /* NSString+FontAwesome.m in Sources */,
 				78FEE983191FDFA4006C6A7F /* headchangeViewController.m in Sources */,
+=======
+>>>>>>> FETCH_HEAD
 				787DB4C118F098D400F96ECF /* PickYourClothesViewController.m in Sources */,
 				CCCC8AD41901882F007E9E19 /* WXController.m in Sources */,
 				787DB51618F258C500F96ECF /* EditDetailTableViewController.m in Sources */,
 				78FF144D18F385B100EBC87F /* viewStarViewController.m in Sources */,
 				781ECADC19156D2800B71C7A /* flowshowdetailViewController.m in Sources */,
+<<<<<<< HEAD
 				7837B23C1915924D00C89A50 /* brandTableViewCell.m in Sources */,
 				787DB4FF18F11A1800F96ECF /* DXAlertView.m in Sources */,
+=======
+				787DB4FF18F11A1800F96ECF /* DXAlertView.m in Sources */,
+				787DB4AD18F0928400F96ECF /* People.m in Sources */,
+>>>>>>> FETCH_HEAD
 				781ECAD519156D2800B71C7A /* WaterFLayout.m in Sources */,
 				CCCC8ADF19018874007E9E19 /* WXManager.m in Sources */,
 				787DB4B318F0928400F96ECF /* Belt.m in Sources */,
@@ -1017,10 +1216,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECF5443994734E37B8C6A233 /* Pods.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+=======
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+>>>>>>> FETCH_HEAD
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -1028,10 +1233,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PickYourClothesCoreData/PickYourClothesCoreData-Prefix.pch";
 				INFOPLIST_FILE = "PickYourClothesCoreData/PickYourClothesCoreData-Info.plist";
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = PYC;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
+=======
+				PRODUCT_NAME = "$(TARGET_NAME)";
+>>>>>>> FETCH_HEAD
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1040,10 +1249,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECF5443994734E37B8C6A233 /* Pods.xcconfig */;
 			buildSettings = {
+<<<<<<< HEAD
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+=======
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+>>>>>>> FETCH_HEAD
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -1051,10 +1266,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PickYourClothesCoreData/PickYourClothesCoreData-Prefix.pch";
 				INFOPLIST_FILE = "PickYourClothesCoreData/PickYourClothesCoreData-Info.plist";
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = PYC;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
+=======
+				PRODUCT_NAME = "$(TARGET_NAME)";
+>>>>>>> FETCH_HEAD
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

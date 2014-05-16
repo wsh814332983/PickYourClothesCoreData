@@ -11,13 +11,20 @@
 #import "WaterFLayout.h"
 #import "FlowControlViewController.h"
 #import "flowshowdetailViewController.h"
+<<<<<<< HEAD
 #import "People.h"
+=======
+
+>>>>>>> FETCH_HEAD
 
 @interface FlowPicViewController ()
 
 @property (strong,nonatomic) UIImage *image;
+<<<<<<< HEAD
 @property (strong,nonatomic) People *peo;
 @property (strong,nonatomic) NSString *mailId;
+=======
+>>>>>>> FETCH_HEAD
 @end
 
 @implementation FlowPicViewController
@@ -34,10 +41,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
 //    
     [self fetchpeople];
     self.view.backgroundColor=[UIColor clearColor];
 
+=======
+   
+    [self configurefetch];
+    NSArray *clothes=_clo;
+    _images=[[NSMutableArray alloc] init];
+    _text =[[NSMutableArray alloc] init];
+    for (int i=0; i<[clothes count]; i++) {
+         NSLog(@"num: %i",[clothes count]);
+        _cloth=clothes[i];
+        
+        NSData *image=_cloth.image;
+        
+        [self.images addObject:[UIImage imageWithData:image]];
+        
+        NSString *des=[NSString stringWithFormat:@"name:%@ descript:%@",_cloth.name,_cloth.describe];
+        [_text addObject:des];
+    }
+    [self addWaterFollow];
+>>>>>>> FETCH_HEAD
 }
 -(void) viewDidAppear:(BOOL)animated
 {
@@ -46,6 +73,7 @@
     NSArray *clothes=_clo;
     _images=[[NSMutableArray alloc] init];
     _text =[[NSMutableArray alloc] init];
+<<<<<<< HEAD
     if ([clothes count]!=0||clothes!=nil) {
         for (int i=0; i<[clothes count]; i++) {
             
@@ -60,6 +88,20 @@
 
     }
         [self addWaterFollow];
+=======
+    for (int i=0; i<[clothes count]; i++) {
+       
+        _cloth=clothes[i];
+        
+        NSData *image=_cloth.image;
+        
+        [self.images addObject:[UIImage imageWithData:image]];
+        //NSLog(@"%i",[_images count]);
+        NSString *des=[NSString stringWithFormat:@"name:%@ descript:%@",_cloth.name,_cloth.describe];
+        [_text addObject:des];
+    }
+    [self addWaterFollow];
+>>>>>>> FETCH_HEAD
 }
 - (void)addWaterFollow
 {
@@ -73,6 +115,10 @@
     self.collectView.imagewidth = 150;
     [self.collectView setDelegate:self];
     [self.view addSubview:self.collectView.view];
+<<<<<<< HEAD
+=======
+    //NSLog(@"add %i",[self.images count]);
+>>>>>>> FETCH_HEAD
 }
 
 - (void)didReceiveMemoryWarning
@@ -82,10 +128,17 @@
 }
 -(NSFetchedResultsController *) configurefetch
 {
+<<<<<<< HEAD
 //    if (_fetchrequestcontrol!=nil) {
 //        return _fetchrequestcontrol;
 //    }
 //    else{
+=======
+    if (_fetchrequestcontrol!=nil) {
+        return _fetchrequestcontrol;
+    }
+    else{
+>>>>>>> FETCH_HEAD
         NSFetchRequest *request=[[NSFetchRequest alloc]init];
         NSManagedObjectContext *context=kAppDelegate.managedObjectContext;
         NSEntityDescription *entity=[NSEntityDescription entityForName:@"Clothes" inManagedObjectContext:context];
@@ -94,6 +147,10 @@
         [self setSelect:_selectcondition];
       
         [request setPredicate:_predicate];
+<<<<<<< HEAD
+=======
+        
+>>>>>>> FETCH_HEAD
         NSArray *des=[NSArray arrayWithObjects:descript, nil];
         [request setSortDescriptors:des];
         
@@ -104,6 +161,7 @@
             abort();
         }
         _fetchrequestcontrol=afetch;
+<<<<<<< HEAD
         NSMutableArray *tem=[[NSMutableArray alloc] init];
         [tem addObjectsFromArray:[context executeFetchRequest:request error:&error]];
         _clo=[[NSMutableArray alloc] init];
@@ -123,6 +181,17 @@
 }
 -(void) setSelect:(NSString *)select
 {
+=======
+        _clo=[context executeFetchRequest:request error:&error];
+        NSLog(@"11");
+        return _fetchrequestcontrol;
+        
+    }
+    
+}
+-(void) setSelect:(NSString *)select
+{   NSLog(@"null: %@",_select);
+>>>>>>> FETCH_HEAD
     if ([select isEqualToString:@"All"]) {
         _select=@"ALL";
         _predicate=nil;
@@ -130,6 +199,10 @@
     {
         _select=select;
         _predicate=[NSPredicate predicateWithFormat:@"kindOf = %@",self.select];
+<<<<<<< HEAD
+=======
+         NSLog(@"jacketing: %@",_select);
+>>>>>>> FETCH_HEAD
     }else if ([select isEqualToString:@"Pants"])
     {
         _select=select;
@@ -157,7 +230,11 @@
         //[detail setImage:_editcloth.image];
         detail.cloth=_editcloth;
         modal.cloth=_editcloth;
+<<<<<<< HEAD
         detail.frame=CGRectMake(40, 100, 240, 300);
+=======
+        detail.frame=CGRectMake(40, 150, 240, 300);
+>>>>>>> FETCH_HEAD
         
         
         [detail awakeFromNib];
@@ -176,7 +253,11 @@
 
 
 -(void) updatecollectview:(Clothes *)cloth;
+<<<<<<< HEAD
 {
+=======
+{   NSLog(@"maindelegate");
+>>>>>>> FETCH_HEAD
     self.editcloth=cloth;
     [self.delegate setdetailflow:cloth];
     [self performSegueWithIdentifier:@"toDetail" sender:self];
@@ -193,11 +274,19 @@
     
 }
 -(void) navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated{
+<<<<<<< HEAD
+=======
+    NSLog(@"testdelegat");
+>>>>>>> FETCH_HEAD
     flowshowdetailViewController *modal=(flowshowdetailViewController *)viewController;
    
     showDetailview *detail=[[showDetailview alloc] init];
     [detail setImage:_image];
+<<<<<<< HEAD
     detail.frame=CGRectMake(40, 100, 240, 250);
+=======
+    detail.frame=CGRectMake(40, 150, 240, 300);
+>>>>>>> FETCH_HEAD
    
     
     [detail awakeFromNib];
@@ -216,6 +305,7 @@
     _cloth.landry=set;
 }
 #pragma change
+<<<<<<< HEAD
 
 -(void) takePeople{
     
@@ -250,4 +340,15 @@
     
 }
 
+=======
+//-(void) controllerWillChangeContent:(NSFetchedResultsController *)controller
+//{
+//    NSLog(@"chang");
+//    [self.collectView reloadInputViews];
+//}
+//-(void) controllerDidChangeContent:(NSFetchedResultsController *)controller
+//{
+//    NSLog(@"didchange");
+//}
+>>>>>>> FETCH_HEAD
 @end

@@ -22,8 +22,12 @@
 
 @interface EditDetailTableViewController : UITableViewController<NSFetchedResultsControllerDelegate,imageEditViewDelegate,NameEditDelegate,BrandSeriesDelegat,DescribeEditViewDelegate,UIAlertViewDelegate,viewStarViewDelegate>
 
+<<<<<<< HEAD
 - (IBAction)cancle:(id)sender;
 @property (strong,nonatomic) Clothes *clothedit;
+=======
+
+>>>>>>> FETCH_HEAD
 @property (weak, nonatomic) IBOutlet UIButton *buttondelete;
 @property (weak, nonatomic) IBOutlet UIView *viewStar;
 @property (weak, nonatomic) IBOutlet UILabel *clothesrate;

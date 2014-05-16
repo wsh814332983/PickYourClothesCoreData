@@ -40,6 +40,10 @@
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
+<<<<<<< HEAD
+=======
+    NSLog(@"%i",buttonIndex);
+>>>>>>> FETCH_HEAD
     switch (buttonIndex) {
         case 0:
             [self.navigationController popViewControllerAnimated:YES];
@@ -47,6 +51,11 @@
             
         case 1:
             if (_name!=nil) {
+<<<<<<< HEAD
+=======
+                NSLog(@"2");
+                
+>>>>>>> FETCH_HEAD
                 [self.delegate editName:_name.text];
                 [self.navigationController popViewControllerAnimated:YES];
             }

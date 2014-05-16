@@ -7,6 +7,7 @@
 //
 
 #import "ClothesTableViewController.h"
+<<<<<<< HEAD
 #import "People.h"
 #import "searchTableViewCell.h"
 
@@ -20,6 +21,12 @@ enum month{
     JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC
     
 };
+=======
+
+@interface ClothesTableViewController ()
+
+@end
+>>>>>>> FETCH_HEAD
 
 @implementation ClothesTableViewController
 @synthesize fetchedResultsController = __fetchedResultsController;
@@ -38,8 +45,13 @@ enum month{
 {
     [super viewDidLoad];
     
+<<<<<<< HEAD
     [self fetchpeople];
    
+=======
+    self.navigationItem.leftBarButtonItem=self.editButtonItem;
+    
+>>>>>>> FETCH_HEAD
 }
 
 - (void)didReceiveMemoryWarning
@@ -129,6 +141,7 @@ enum month{
 {
     
     Clothes *cloth=nil;
+<<<<<<< HEAD
    
     
     if (tableView == self.searchDisplayController.searchResultsTableView)
@@ -136,14 +149,37 @@ enum month{
         searchTableViewCell * cellsearch=[[searchTableViewCell alloc] init];
        cellsearch=[self.tableView dequeueReusableCellWithIdentifier:@"search"];
         
+=======
+    if (tableView == self.searchDisplayController.searchResultsTableView)
+    {
+        
+        
+           
+
+       PickYourClothesCoreDataTableViewCell * cellsearch=[self.tableView dequeueReusableCellWithIdentifier:@"Celler"];
+        
+
+>>>>>>> FETCH_HEAD
         if (self.fetchrearch!=nil) {
             cloth =[self.fetchrearch objectAtIndexPath:indexPath];
             
         }else{
             cloth=nil;
         }
+<<<<<<< HEAD
             cellsearch.name.text=cloth.name;
        // cellsearch.describe.text=cloth.describe;
+=======
+        
+       
+    
+        
+        NSLog(@"clothname%@",cloth.name);
+            NSData *image=cloth.image;
+            cellsearch.image.image=[UIImage imageWithData:image];
+            cellsearch.name.text=cloth.name;
+        cellsearch.describe.text=cloth.describe;
+>>>>>>> FETCH_HEAD
             
      
         
@@ -158,6 +194,7 @@ enum month{
         cloth = [self.fetchedResultsController objectAtIndexPath:indexPath];
         
         cell.name.text=cloth.name;
+<<<<<<< HEAD
       
         TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(0, 0, cell.rate.frame.size.width,cell.rate.frame.size.height)numberOfStar:5];
         [starRatingView setScore:([cloth.rate floatValue]/5) withAnimation:NO];
@@ -191,10 +228,14 @@ enum month{
         
         
       // cell.describe.text=cloth.brandseries;
+=======
+       cell.describe.text=cloth.brandseries;
+>>>>>>> FETCH_HEAD
        NSData *image=cloth.image;
        cell.image.image=[UIImage imageWithData:image];
         
         NSArray *clothes=[self.fetchedResultsController fetchedObjects];
+<<<<<<< HEAD
 
       return  cell;
     }
@@ -212,6 +253,17 @@ enum month{
     return nil;
 }
 
+=======
+        NSLog(@"%i",[clothes count]);
+
+      return  cell;
+    }
+    
+    
+}
+
+
+>>>>>>> FETCH_HEAD
 #pragma search;
 
 
@@ -236,10 +288,19 @@ enum month{
        if (![scope isEqualToString:@"Jacketing"]&&![scope isEqualToString:@"Pants"]&&![scope isEqualToString:@"Shoes"]) {
         NSPredicate *predicate=[NSPredicate predicateWithFormat:@"name contains[c] %@",searchText];
         [fetchRequest setPredicate:predicate];
+<<<<<<< HEAD
     }else {
         NSPredicate *predicate=[NSPredicate predicateWithFormat:@"kindOf =%@ AND name contains[c] %@",scope,searchText];
         [fetchRequest setPredicate:predicate];
 }
+=======
+        NSLog(@"else:%@",scope);
+    }else {
+        NSPredicate *predicate=[NSPredicate predicateWithFormat:@"kindOf =%@ AND name contains[c] %@",scope,searchText];
+        [fetchRequest setPredicate:predicate];
+        NSLog(@"%@",scope);
+    }
+>>>>>>> FETCH_HEAD
     
     NSFetchedResultsController *aFetched=[[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest managedObjectContext:moc sectionNameKeyPath:@"name" cacheName:nil];
     aFetched.delegate=self;
@@ -287,6 +348,14 @@ enum month{
     }
     if ([self.searchDisplayController isActive]) {
       NSIndexPath *indexpath=[self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
+<<<<<<< HEAD
+=======
+//        
+//        Clothes *cloth=[_fetchrearch objectAtIndexPath:indexpath];
+        
+        NSLog(@"%@",indexpath);
+//        _clothpara=[_fetchrearch objectAtInexPath:indexpath];
+>>>>>>> FETCH_HEAD
         Clothes *cloth=[[self fetchrearch] objectAtIndexPath:indexpath];
         ShowDetailViewController *moredetai=(ShowDetailViewController *)[segue destinationViewController];
         
@@ -366,7 +435,10 @@ enum month{
 
 
 #pragma fetch;
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 - (NSFetchedResultsController *)fetchedResultsController
 {
     if (__fetchedResultsController!=nil) {
@@ -380,9 +452,12 @@ enum month{
     [fetchRequest setEntity:entity];
     [fetchRequest setFetchBatchSize:20];
     
+<<<<<<< HEAD
     NSPredicate *pre=[NSPredicate predicateWithFormat:@"belong ==%@",_peo];
     [fetchRequest setPredicate:pre];
     
+=======
+>>>>>>> FETCH_HEAD
     //NSSortDescriptor *sortDescriptor=[[NSSortDescriptor alloc]initWithKey:@"name" ascending:YES];
     NSSortDescriptor *sortDescr=[[NSSortDescriptor alloc]initWithKey:@"kindOf" ascending:YES];
     
@@ -412,6 +487,7 @@ enum month{
     NSData *image=cloth.image;
     cell.image.image=[UIImage imageWithData:image];
     cell.name.text=cloth.name;
+<<<<<<< HEAD
     UIImage *check=[[UIImage alloc] init];
     if (cloth.useTime.integerValue<3) {
         check=[UIImage imageNamed:@"33-cabinet.png"];
@@ -432,10 +508,14 @@ enum month{
     
     
     //cell.describe.text=cloth.brand;
+=======
+    cell.describe.text=cloth.brand;
+>>>>>>> FETCH_HEAD
     [_cloth addObject:cloth.name];
     
     
 }
+<<<<<<< HEAD
 - (IBAction)signout:(id)sender {
     UIActionSheet *action=[[UIActionSheet alloc] initWithTitle:@"Do you want to sign out" delegate:self cancelButtonTitle:@"No" destructiveButtonTitle:@"Yes" otherButtonTitles: nil];
     [action showInView:self.view];
@@ -487,4 +567,6 @@ enum month{
     
 }
 
+=======
+>>>>>>> FETCH_HEAD
 @end

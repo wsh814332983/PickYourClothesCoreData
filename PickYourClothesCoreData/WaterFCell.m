@@ -42,6 +42,10 @@
 }
 - (void)imageViewTapped:(UITapGestureRecognizer *)sender
 {
+<<<<<<< HEAD
+=======
+    NSLog(@"22");
+>>>>>>> FETCH_HEAD
     [self.delegate drawdetailpic:_cloth];
     
     
@@ -74,7 +78,10 @@
     self.textView.editable=NO;
     self.textView.selectable=NO;
     self.textView.scrollEnabled=NO;
+<<<<<<< HEAD
     
+=======
+>>>>>>> FETCH_HEAD
     [self addSubview:self.textView];
 }
 

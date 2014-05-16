@@ -8,9 +8,14 @@
 
 #import "FlowControlViewController.h"
 #import "Clothes.h"
+<<<<<<< HEAD
 #import "UIButton+Bootstrap.h"
 @interface FlowControlViewController ()
 @property (strong,nonatomic) NSMutableArray *clothset;
+=======
+@interface FlowControlViewController ()
+
+>>>>>>> FETCH_HEAD
 @end
 
 @implementation FlowControlViewController
@@ -27,8 +32,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     [self.buttonsetting infoStyle];
     [self.buttonsetting addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
+=======
+    
+>>>>>>> FETCH_HEAD
     
     [_segments addTarget:self action:@selector(changeStyle:) forControlEvents:UIControlEventValueChanged];
     _buttonsetting.layer.cornerRadius=5;
@@ -53,6 +62,10 @@
 
 
 - (IBAction)changeStyle:(id)sender {
+<<<<<<< HEAD
+=======
+    NSLog(@"%ld",(long)_segments.selectedSegmentIndex);
+>>>>>>> FETCH_HEAD
     switch (_segments.selectedSegmentIndex) {
         case 0:
             self.scrollView.whetherPick=NO;
@@ -62,13 +75,17 @@
             
         case 1:
             self.scrollView.whetherPick=YES;
+<<<<<<< HEAD
             [self roolback];
+=======
+>>>>>>> FETCH_HEAD
             [self drawpicked];
             [self.scrollView awakeFromNib];
             
             break;
     }
 }
+<<<<<<< HEAD
 -(void) roolback
 {
     if ([kAppDelegate.managedObjectContext hasChanges]) {
@@ -87,11 +104,26 @@
         if (j>3) {
             [self.scrollView.lastclothes addObject:cloth];
             [_clothset addObject:[UIImage imageWithData:cloth.image]];
+=======
+-(void) drawpicked {
+    
+    NSMutableArray *clothset=[[NSMutableArray alloc] init];
+    self.scrollView.lastclothes=[[NSMutableArray alloc] init];
+    for (int i=0; i<[self.imagesscroll count]; i++) {
+        Clothes *cloth=[self.imagesscroll objectAtIndex:i];
+        if (cloth.onUse.boolValue) {
+            [self.scrollView.lastclothes addObject:cloth];
+            [clothset addObject:[UIImage imageWithData:cloth.image]];
+>>>>>>> FETCH_HEAD
         }
         
     }
     
+<<<<<<< HEAD
     [self.scrollView setScrollViews:_clothset];
+=======
+    [self.scrollView setScrollViews:clothset];
+>>>>>>> FETCH_HEAD
    
 }
 
@@ -101,7 +133,11 @@
         [sheet setActionSheetStyle:UIActionSheetStyleBlackTranslucent];
         [sheet showInView:self.view];
     }else {
+<<<<<<< HEAD
         UIActionSheet *sheet=[[UIActionSheet alloc] initWithTitle:@"It is clean now!" delegate:self cancelButtonTitle:@"Back" destructiveButtonTitle:nil otherButtonTitles:@"YES",@"Cancel!", nil];
+=======
+        UIActionSheet *sheet=[[UIActionSheet alloc] initWithTitle:@"It is not suitable for today" delegate:self cancelButtonTitle:@"Back" destructiveButtonTitle:nil otherButtonTitles:@"YES",@"Cancel!", nil];
+>>>>>>> FETCH_HEAD
         [sheet setActionSheetStyle:UIActionSheetStyleBlackTranslucent];
         [sheet showInView:self.view];
     }
@@ -117,6 +153,7 @@
                 [self drawpicked];
                 [self.scrollView awakeFromNib];
             }
+<<<<<<< HEAD
            [self performSegueWithIdentifier:@"backtoflowpicview" sender:self];
             break;
             
@@ -129,6 +166,15 @@
             break;
         case 2:
             [self roolback];
+=======
+           
+            break;
+            
+        case 1:
+            
+            break;
+        case 2:
+>>>>>>> FETCH_HEAD
             [self performSegueWithIdentifier:@"backtoflowpicview" sender:self];
             break;
     }

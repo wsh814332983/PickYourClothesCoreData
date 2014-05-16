@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "784A725A18EF888100AA746D"
+<<<<<<< HEAD
                BuildableName = "PYC.app"
+=======
+               BuildableName = "PickYourClothesCoreData.app"
+>>>>>>> FETCH_HEAD
                BlueprintName = "PickYourClothesCoreData"
                ReferencedContainer = "container:PickYourClothesCoreData.xcodeproj">
             </BuildableReference>
@@ -43,7 +47,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "784A725A18EF888100AA746D"
+<<<<<<< HEAD
             BuildableName = "PYC.app"
+=======
+            BuildableName = "PickYourClothesCoreData.app"
+>>>>>>> FETCH_HEAD
             BlueprintName = "PickYourClothesCoreData"
             ReferencedContainer = "container:PickYourClothesCoreData.xcodeproj">
          </BuildableReference>
@@ -62,7 +70,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "784A725A18EF888100AA746D"
+<<<<<<< HEAD
             BuildableName = "PYC.app"
+=======
+            BuildableName = "PickYourClothesCoreData.app"
+>>>>>>> FETCH_HEAD
             BlueprintName = "PickYourClothesCoreData"
             ReferencedContainer = "container:PickYourClothesCoreData.xcodeproj">
          </BuildableReference>
@@ -80,7 +92,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "784A725A18EF888100AA746D"
+<<<<<<< HEAD
             BuildableName = "PYC.app"
+=======
+            BuildableName = "PickYourClothesCoreData.app"
+>>>>>>> FETCH_HEAD
             BlueprintName = "PickYourClothesCoreData"
             ReferencedContainer = "container:PickYourClothesCoreData.xcodeproj">
          </BuildableReference>

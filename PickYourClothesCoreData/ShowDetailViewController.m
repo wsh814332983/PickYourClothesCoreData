@@ -36,7 +36,12 @@
         _series.text=cloth.brandseries;
         _describe.text=cloth.describe;
         _useTime.text=[NSString stringWithFormat:@"%i",[cloth.useTime intValue]];
+<<<<<<< HEAD
         TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(100, 300, 65,15)numberOfStar:5];
+=======
+        TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(50, 250, 150, 25)
+                                                                      numberOfStar:5];
+>>>>>>> FETCH_HEAD
         [starRatingView setScore:([cloth.rate floatValue]/5) withAnimation:NO];
         //starRatingView.delegate = self;
         starRatingView.userInteractionEnabled=NO;
@@ -61,6 +66,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
+=======
+
+>>>>>>> FETCH_HEAD
     [self configure];
 
 }

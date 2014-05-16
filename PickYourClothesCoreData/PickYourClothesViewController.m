@@ -7,6 +7,7 @@
 //
 
 #import "PickYourClothesViewController.h"
+<<<<<<< HEAD
 #import "UIButton+Bootstrap.h"
 #import "HJScrollView.h"
 @interface PickYourClothesViewController ()
@@ -17,11 +18,16 @@
         UIImageView *pantsImage;
     }
 
+=======
+
+@interface PickYourClothesViewController ()
+>>>>>>> FETCH_HEAD
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong,nonatomic) NSFetchedResultsController *fetchrearch;
 @property (strong,nonatomic) NSArray *clothesArray;
 @property (nonatomic) Clothes *recentCloth1;
 @property (nonatomic) Clothes *recentCloth2;
+<<<<<<< HEAD
 @property (nonatomic) Clothes *recentCloth3;
 @property (nonatomic) Clothes *recentPants1;
 @property (nonatomic) Clothes *recentPants2;
@@ -29,6 +35,8 @@
 @property (strong,nonatomic) NSMutableArray *clothesFilterArray;
 @property (strong,nonatomic) NSMutableArray *pantsFilterArray;
 @property (nonatomic) NSInteger recentChoice;
+=======
+>>>>>>> FETCH_HEAD
 @end
 
 @implementation PickYourClothesViewController
@@ -43,8 +51,12 @@
 }
 -(void) viewWillAppear:(BOOL)animated{
     self.gooutPurpose.text=@"";
+<<<<<<< HEAD
     [self createView];
     
+=======
+    [self showRecent];
+>>>>>>> FETCH_HEAD
 }
 -(void) showRecent{
     self.fetchrearch=nil;
@@ -64,13 +76,20 @@
         abort();
     }
     _clothesArray=[self.fetchrearch fetchedObjects];
+<<<<<<< HEAD
     _clothesFilterArray=[[NSMutableArray alloc]init];
     _pantsFilterArray=[[NSMutableArray alloc]init];
     if([_clothesArray count]!=0){
+=======
+    
+    if([_clothesArray count]!=0){
+    NSMutableArray *clothesFilterArray=[[NSMutableArray alloc]init];
+>>>>>>> FETCH_HEAD
     for(Clothes *cloth in _clothesArray){
         NSString *check=[self showTime:cloth.selectTime];
         BOOL a=[check length]==0;
         if ([cloth.kindOf isEqualToString:@"Jacketing"]&&!a) {
+<<<<<<< HEAD
             [_clothesFilterArray addObject:cloth];
         }
         if ([cloth.kindOf isEqualToString:@"Pants"]&&!a) {
@@ -99,6 +118,34 @@
                 _recentPants3=sortedPantsArray[i-3];
             }
         }
+=======
+            [clothesFilterArray addObject:cloth];
+        }
+    }
+        if([clothesFilterArray count]>0){
+            NSArray *sortedArray=[self compareDate:clothesFilterArray];
+            NSInteger i=[sortedArray count];
+            _recentCloth1=sortedArray[i-1];
+            NSData *clothImage1=_recentCloth1.image;
+            [self.showRecent1 setBackgroundImage:[UIImage imageWithData:clothImage1] forState:UIControlStateNormal];
+            if([clothesFilterArray count]>1){
+                _recentCloth2=sortedArray[i-2];
+                NSData *clothImage2=_recentCloth2.image;
+                [self.showRecent2 setBackgroundImage:[UIImage imageWithData:clothImage2] forState:UIControlStateNormal];
+            }else{
+                [self.showRecent2 setBackgroundImage:nil forState:UIControlStateNormal];
+                self.showRecent2.enabled=NO;
+            }
+        }else{
+            [self.showRecent1 setBackgroundImage:nil forState:UIControlStateNormal];
+            self.showRecent1.enabled=NO;
+        }
+    }else{
+        self.showRecent1.enabled=NO;
+        self.showRecent2.enabled=NO;
+        [self.showRecent1 setBackgroundImage:nil forState:UIControlStateNormal];
+        [self.showRecent2 setBackgroundImage:nil forState:UIControlStateNormal];
+>>>>>>> FETCH_HEAD
     }
 }
 -(NSString *) showTime:(NSDate *)date{
@@ -118,17 +165,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+<<<<<<< HEAD
     [self.start primaryStyle];
     [self.start addAwesomeIcon:FAIconBriefcase beforeTitle:YES];
+=======
+//    [self showRecent];
+>>>>>>> FETCH_HEAD
     self.start.layer.cornerRadius=20;
     NSArray *items = [NSArray arrayWithObjects:@"Exercise,Gym,Sports", @"Formal Occasion", @"Others", nil];
     self.gooutPurpose.items = items;
     // Do any additional setup after loading the view.
 }
+<<<<<<< HEAD
 -(void)viewWillDisappear:(BOOL)animated{
     [scrollView removeFromSuperview];
     
 }
+=======
+
+>>>>>>> FETCH_HEAD
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -160,17 +215,26 @@
 
 - (IBAction)startPick:(id)sender {
     if([self.gooutPurpose.text length]==0){
+<<<<<<< HEAD
            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Oops" message:@"Please Choose A Purpose ABOVE." delegate:self cancelButtonTitle:@"ok" otherButtonTitles: nil];
+=======
+           UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Oops" message:@"Please enter a purpose" delegate:self cancelButtonTitle:@"ok" otherButtonTitles: nil];
+>>>>>>> FETCH_HEAD
         [alert show];
     }
 }
 
+<<<<<<< HEAD
 - (void)chooseRecent{
+=======
+- (IBAction)chooseRecent:(id)sender {
+>>>>>>> FETCH_HEAD
     UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Want Choose Again?" message:@"make a decision" delegate:self cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
     [alert show];
     alert.tag=1;
 }
 
+<<<<<<< HEAD
 //- (void)chooseRecent2{
 //    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Want Choose Again?" message:@"make a decision" delegate:self cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
 //    [alert show];
@@ -179,11 +243,34 @@
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if([alertView tag]==1){
+=======
+- (IBAction)chooseRecent2:(id)sender {
+    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Want Choose Again?" message:@"make a decision" delegate:self cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
+    [alert show];
+    alert.tag=2;
+}
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"%i",buttonIndex);
+    if([alertView tag]==1)
+    switch (buttonIndex) {
+        case 0:
+            break;
+        case 1:
+        { NSDate *now=[NSDate date];
+           
+                [self save:_recentCloth1 atTime:now];
+            NSLog(@"this is tag 1");
+        }
+            break;
+    }else{
+>>>>>>> FETCH_HEAD
         switch (buttonIndex) {
             case 0:
                 break;
             case 1:
             { NSDate *now=[NSDate date];
+<<<<<<< HEAD
                 {
                 switch (_recentChoice){
                     case 1:
@@ -211,6 +298,17 @@
         }
     }
 }
+=======
+                
+                [self save:_recentCloth2 atTime:now];
+                [self showRecent];
+                 NSLog(@"this is tag 2");
+            }
+                break;
+    }
+}
+}
+>>>>>>> FETCH_HEAD
 -(void)save:(Clothes *)cloth atTime:(NSDate *)date{
     NSManagedObjectID *clothID=[[NSManagedObjectID alloc]init];
     clothID=[cloth objectID];
@@ -229,6 +327,7 @@
     else{return YES;}
     
 }
+<<<<<<< HEAD
 -(void)createView
 {
     [self showRecent];
@@ -420,4 +519,6 @@
     
     
 }
+=======
+>>>>>>> FETCH_HEAD
 @end

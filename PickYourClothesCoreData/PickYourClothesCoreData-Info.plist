@@ -8,12 +8,17 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+<<<<<<< HEAD
 	<key>CFBundleIcons</key>
 	<dict/>
 	<key>CFBundleIcons~ipad</key>
 	<dict/>
 	<key>CFBundleIdentifier</key>
 	<string>nyu.tianxiang.pyc${PRODUCT_NAME:rfc1034identifier}</string>
+=======
+	<key>CFBundleIdentifier</key>
+	<string>NYU.${PRODUCT_NAME:rfc1034identifier}</string>
+>>>>>>> FETCH_HEAD
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -28,8 +33,11 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+<<<<<<< HEAD
 	<key>NSMainNibFile~ipad</key>
 	<string>Main-iPad</string>
+=======
+>>>>>>> FETCH_HEAD
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -39,6 +47,11 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+<<<<<<< HEAD
+=======
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+>>>>>>> FETCH_HEAD
 	</array>
 </dict>
 </plist>

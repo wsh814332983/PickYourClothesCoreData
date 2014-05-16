@@ -5,18 +5,28 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>EA353CA3-826C-45CF-91AE-66DD718C4FA0</string>
+=======
+	<string>365F27BD-C21F-4635-A2AD-6489AFB221E6</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>PickYourClothesCoreData</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>B8E90B1F-1F9D-4947-8902-2596FAC06E45</key>
 		<string>https://github.com/kevin0493559/PickYourClothesCoreData-backup.git</string>
+=======
+		<key>2AA45A55-B2E8-4CE3-A615-1B098F67B43E</key>
+		<string>https://github.com/wsh814332983/PickYourClothesCoreData.git</string>
+>>>>>>> FETCH_HEAD
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PickYourClothesCoreData.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>B8E90B1F-1F9D-4947-8902-2596FAC06E45</key>
 		<string>..</string>
 	</dict>
@@ -26,15 +36,32 @@
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
 	<string>B8E90B1F-1F9D-4947-8902-2596FAC06E45</string>
+=======
+		<key>2AA45A55-B2E8-4CE3-A615-1B098F67B43E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wsh814332983/PickYourClothesCoreData.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2AA45A55-B2E8-4CE3-A615-1B098F67B43E</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>B8E90B1F-1F9D-4947-8902-2596FAC06E45</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PickYourClothesCoreData-backup</string>
+=======
+			<string>2AA45A55-B2E8-4CE3-A615-1B098F67B43E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PickYourClothes</string>
+>>>>>>> FETCH_HEAD
 		</dict>
 	</array>
 </dict>

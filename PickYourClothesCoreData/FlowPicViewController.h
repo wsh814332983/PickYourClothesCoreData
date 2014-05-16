@@ -23,7 +23,11 @@
 
 @property (nonatomic,strong)NSMutableArray *text;
 @property (nonatomic,strong) NSFetchedResultsController *fetchrequestcontrol;
+<<<<<<< HEAD
 @property (nonatomic ,strong) NSMutableArray *clo;
+=======
+@property (nonatomic ,strong) NSArray *clo;
+>>>>>>> FETCH_HEAD
 @property (nonatomic,strong) Clothes *cloth;
 @property (nonatomic,strong) Clothes *editcloth;
 @property (strong,nonatomic) NSString *selectcondition;

@@ -66,6 +66,10 @@
         FlowPicViewController *pic=(FlowPicViewController *)[segue destinationViewController];
         NSIndexPath *index=[self.tableView indexPathForSelectedRow];
         pic.selectcondition=[_list objectAtIndex:[index row]];
+<<<<<<< HEAD
+=======
+        NSLog(@"%@",pic.selectcondition);
+>>>>>>> FETCH_HEAD
     }
 }
 //-(void) tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath

@@ -27,6 +27,10 @@
 }
 
 - (RACSignal *)fetchJSONFromURL:(NSURL *)url {
+<<<<<<< HEAD
+=======
+    NSLog(@"Fetching: %@",url.absoluteString);
+>>>>>>> FETCH_HEAD
     
     return [[RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         NSURLSessionDataTask *dataTask = [self.session dataTaskWithURL:url
@@ -56,6 +60,10 @@
             [dataTask cancel];
         }];
     }] doError:^(NSError *error) {
+<<<<<<< HEAD
+=======
+        NSLog(@"%@",error);
+>>>>>>> FETCH_HEAD
     }];
 }
 

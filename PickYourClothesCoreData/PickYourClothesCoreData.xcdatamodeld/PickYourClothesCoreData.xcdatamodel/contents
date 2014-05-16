@@ -5,8 +5,12 @@
         <attribute name="uniform" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
     </entity>
     <entity name="Clothes" representedClassName="Clothes" syncable="YES">
+<<<<<<< HEAD
         <attribute name="addTime" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="brand" optional="YES" attributeType="String" spotlightIndexingEnabled="YES" syncable="YES"/>
+=======
+        <attribute name="brand" optional="YES" attributeType="String" maxValueString="15" spotlightIndexingEnabled="YES" syncable="YES"/>
+>>>>>>> FETCH_HEAD
         <attribute name="brandseries" optional="YES" attributeType="String" maxValueString="100" syncable="YES"/>
         <attribute name="color" optional="YES" attributeType="String" maxValueString="20" defaultValueString="not select" syncable="YES"/>
         <attribute name="describe" optional="YES" attributeType="String" maxValueString="200" spotlightIndexingEnabled="YES" syncable="YES"/>
@@ -42,12 +46,17 @@
         <attribute name="usage" optional="YES" attributeType="String" maxValueString="20" syncable="YES"/>
     </entity>
     <entity name="People" representedClassName="People" syncable="YES">
+<<<<<<< HEAD
         <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="gender" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="mail" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+=======
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+>>>>>>> FETCH_HEAD
         <relationship name="owner" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Clothes" inverseName="belong" inverseEntity="Clothes" syncable="YES"/>
     </entity>
     <entity name="Shoes" representedClassName="Shoes" parentEntity="Clothes" syncable="YES">
@@ -60,13 +69,21 @@
     </entity>
     <elements>
         <element name="Belt" positionX="-171" positionY="-27" width="128" height="73"/>
+<<<<<<< HEAD
         <element name="Clothes" positionX="-20" positionY="-288" width="128" height="270"/>
+=======
+        <element name="Clothes" positionX="-20" positionY="-288" width="128" height="255"/>
+>>>>>>> FETCH_HEAD
         <element name="Friends" positionX="36" positionY="-63" width="128" height="73"/>
         <element name="Glass" positionX="178" positionY="-280" width="128" height="73"/>
         <element name="Glove" positionX="223" positionY="-153" width="128" height="45"/>
         <element name="Jacketing" positionX="72" positionY="92" width="128" height="88"/>
         <element name="Pants" positionX="241" positionY="92" width="128" height="103"/>
+<<<<<<< HEAD
         <element name="People" positionX="-180" positionY="-286" width="128" height="150"/>
+=======
+        <element name="People" positionX="-180" positionY="-286" width="128" height="88"/>
+>>>>>>> FETCH_HEAD
         <element name="Shoes" positionX="-99" positionY="90" width="128" height="88"/>
         <element name="Umbrella" positionX="214" positionY="-45" width="128" height="58"/>
     </elements>

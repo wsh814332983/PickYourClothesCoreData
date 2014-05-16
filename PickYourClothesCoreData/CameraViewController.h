@@ -15,6 +15,7 @@
 @interface CameraViewController : UIViewController <UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate,StarRatingViewDelegate,UITextFieldDelegate,UITextViewDelegate>
 @property BOOL newMedia;
 @property NSString *entitycloth;
+<<<<<<< HEAD
 
 @property (strong, nonatomic) IBOutlet UICombox *TypeSelection;
 @property (strong, nonatomic) IBOutlet UICombox *ColorSelection;
@@ -24,20 +25,35 @@
 - (IBAction)save:(id)sender;
 - (IBAction)cancel:(id)sender;
 
+=======
+@property (strong, nonatomic) IBOutlet UICombox *TypeSelection;
+@property (strong, nonatomic) IBOutlet UICombox *ColorSelection;
+@property (strong, nonatomic) IBOutlet UILabel *typeLabel;
+
+- (IBAction)save:(id)sender;
+- (IBAction)cancel:(id)sender;
+>>>>>>> FETCH_HEAD
 @property (weak, nonatomic) IBOutlet UILabel *clothrate;
 @property (weak, nonatomic) IBOutlet UIView *ratestar;
 @property (strong ,nonatomic) NSNumber *ratecons;
 @property (weak, nonatomic) IBOutlet UITextView *describe;
 
 @property (weak, nonatomic) IBOutlet UIView *imageView;
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 - (IBAction)takepicture:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UIImageView *image;
 @property (weak, nonatomic) IBOutlet UITextField *name;
 @property (weak, nonatomic) IBOutlet UITextField *brand;
+<<<<<<< HEAD
 @property (weak, nonatomic) IBOutlet UILabel *color;
 @property (weak, nonatomic) IBOutlet UILabel *type;
 @property (weak, nonatomic) IBOutlet UILabel *description;
+=======
+
+>>>>>>> FETCH_HEAD
 
 @end

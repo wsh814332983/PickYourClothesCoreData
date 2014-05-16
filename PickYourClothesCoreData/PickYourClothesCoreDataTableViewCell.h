@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+<<<<<<< HEAD
 #import <QuartzCore/QuartzCore.h>
 @interface PickYourClothesCoreDataTableViewCell : UITableViewCell
 
@@ -16,5 +17,12 @@
 @property (weak, nonatomic) IBOutlet UIView *rate;
 @property (weak, nonatomic) IBOutlet UIView *imageback;
 @property (weak, nonatomic) IBOutlet UIView *useMark;
+=======
+
+@interface PickYourClothesCoreDataTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *describe;
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+>>>>>>> FETCH_HEAD
 
 @end

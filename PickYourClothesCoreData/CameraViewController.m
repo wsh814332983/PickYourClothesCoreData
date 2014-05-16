@@ -7,6 +7,7 @@
 //
 
 #import "CameraViewController.h"
+<<<<<<< HEAD
 #import "BrandViewController.h"
 #import "People.h"
 
@@ -17,6 +18,11 @@
 @property (strong,nonatomic) People *peo;
 @property (strong,nonatomic) NSDate *date;
 @property (nonatomic)BOOL needType;
+=======
+
+@interface CameraViewController ()
+
+>>>>>>> FETCH_HEAD
 @end
 
 @implementation CameraViewController
@@ -48,6 +54,7 @@
 {
     [super viewDidLoad];
     //set imageview;
+<<<<<<< HEAD
     [self fetchpeople];
     
     _date=[NSDate date];    
@@ -61,11 +68,14 @@
     _description.font=[UIFont boldSystemFontOfSize:17];
 
     _describe.layer.cornerRadius=8;
+=======
+>>>>>>> FETCH_HEAD
     _imageView.layer.cornerRadius=8;
     _imageView.layer.masksToBounds=YES;
     _imageView.layer.borderWidth=2;
     _imageView.layer.borderColor=[[UIColor grayColor] CGColor];
     _image.layer.cornerRadius=8;
+<<<<<<< HEAD
     _image.contentMode=UIViewContentModeScaleAspectFit;
     _image.frame=_imageView.frame;
     
@@ -93,6 +103,30 @@
     }
    
    
+=======
+    _image.frame=_imageView.frame;
+    TQStarRatingView *starRatingView = [[TQStarRatingView alloc] initWithFrame:CGRectMake(0, 0, 100, 20)
+                                                                  numberOfStar:5];
+    starRatingView.delegate = self;
+    [self.ratestar addSubview:starRatingView];
+    
+    NSArray *colorItem=[NSArray arrayWithObjects:@"Black",@"White",@"Red",@"Green",@"Yellow",@"Blue",@"Brown",@"Purple",@"Orange",@"Cyan",@"Pink", nil];
+    self.ColorSelection.items=colorItem;
+    if ([self.entitycloth isEqualToString:@"Jacketing"]) {
+        NSArray *items=[NSArray arrayWithObjects:@"T-shirt", @"Shirt",@"Sweater", @"Jacket",@"Sports Long",@"Sports Short",@"Suit",nil];
+        self.TypeSelection.items=items;}
+    if ([self.entitycloth isEqualToString:@"Pants"]) {
+        NSArray *items=[NSArray arrayWithObjects:@"Pants Long",@"Pants Middle",@"Pants Short",@"Suit", @"Sports Long",@"Sports Short",nil];
+        self.TypeSelection.items=items;}
+    if ([self.entitycloth isEqualToString:@"Shoes"]) {
+        NSArray *items=[NSArray arrayWithObjects:@"Exercise",@"Suit", @"Sandal",@"Plimsolls",@"Warm Shoes",nil];
+        self.TypeSelection.items=items;}
+    if([self.entitycloth isEqualToString:@"Umbrella"]||[self.entitycloth isEqualToString:@"Glove"]){
+        self.TypeSelection.hidden=YES;
+        self.typeLabel.hidden=YES;
+    }
+   
+>>>>>>> FETCH_HEAD
 }
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -127,8 +161,15 @@
                        otherButtonTitles:@"Photo Library",@"Take Photo", nil];
     [photoBtnActionSheet setActionSheetStyle:UIActionSheetStyleBlackOpaque];
     [photoBtnActionSheet showInView:[self.view window]];
+<<<<<<< HEAD
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+=======
+     NSLog(@"%@",self.TypeSelection.text);
+}
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    // NSLog(@"Action Sheet Button Index: %d",buttonIndex);
+>>>>>>> FETCH_HEAD
     if (buttonIndex == 0) {
         
         if ([UIImagePickerController isSourceTypeAvailable:
@@ -140,7 +181,11 @@
             imagePicker.sourceType =
             UIImagePickerControllerSourceTypePhotoLibrary;
             imagePicker.mediaTypes = @[(NSString *) kUTTypeImage];
+<<<<<<< HEAD
             imagePicker.allowsEditing = YES;
+=======
+            imagePicker.allowsEditing = NO;
+>>>>>>> FETCH_HEAD
             [self presentViewController:imagePicker
                                animated:YES completion:nil];
             _newMedia = NO;
@@ -156,7 +201,11 @@
             imagePicker.sourceType =
             UIImagePickerControllerSourceTypeCamera;
             imagePicker.mediaTypes = @[(NSString *) kUTTypeImage];
+<<<<<<< HEAD
             imagePicker.allowsEditing = YES;
+=======
+            imagePicker.allowsEditing = NO;
+>>>>>>> FETCH_HEAD
             [self presentViewController:imagePicker
                                animated:YES completion:nil];
             _newMedia = YES;
@@ -185,6 +234,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     {
         
     }
+<<<<<<< HEAD
     CATransition *tran=[CATransition animation];
     NSTimeInterval inter=1;
     tran.duration=inter;
@@ -193,6 +243,8 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     tran.subtype=kCAMediaTimingFunctionEaseIn;
     tran.delegate=self;
     [self.imageView.layer addAnimation:tran forKey:nil];
+=======
+>>>>>>> FETCH_HEAD
 }
 
 -(void)image:(UIImage *)image
@@ -213,8 +265,13 @@ finishedSavingWithError:(NSError *)error
 
 #pragma save;
 - (IBAction)save:(id)sender {
+<<<<<<< HEAD
     _brandname=_brandbutton.titleLabel.text;
        if (_image.image!=nil&&![_name.text isEqualToString:@""]&&!([self.TypeSelection.text isEqualToString:@""]&&self.needType)&&!([_ratecons intValue]==0)&&![self.ColorSelection.text isEqualToString:@""]) {
+=======
+       if (_image.image!=nil&&![_name.text isEqualToString:@""]) {
+        NSLog(@"save");
+>>>>>>> FETCH_HEAD
            NSString *choice=_entitycloth;
            NSManagedObjectContext *moc=[kAppDelegate managedObjectContext];
         
@@ -227,6 +284,7 @@ finishedSavingWithError:(NSError *)error
            [newCloth setValue:choice forKey:@"kindOf"];
            [newCloth setValue:_ratecons forKeyPath:@"rate"];
            [newCloth setValue:_describe.text forKeyPath:@"describe"];
+<<<<<<< HEAD
            [newCloth setValue:_brand.text forKeyPath:@"describe"];
            [newCloth setValue:0 forKeyPath:@"useTime"];
            [newCloth setValue:_brandname forKey:@"brand"];
@@ -236,6 +294,16 @@ finishedSavingWithError:(NSError *)error
            [newCloth setValue:_date forKey:@"addTime"];
     NSError *mocSaveError=nil;
     if ([moc save:&mocSaveError]) {
+=======
+           [newCloth setValue:_brand.text forKeyPath:@"brandseries"];
+           [newCloth setValue:0 forKeyPath:@"useTime"];
+           [newCloth setValue:self.ColorSelection.text forKey:@"color"];
+           [newCloth setValue:self.TypeSelection.text forKeyPath:@"type"];
+    
+    NSError *mocSaveError=nil;
+    if ([moc save:&mocSaveError]) {
+        NSLog(@"Save completed successfully");
+>>>>>>> FETCH_HEAD
         
         [self performSegueWithIdentifier:@"backToMain" sender:self];
     }
@@ -247,6 +315,7 @@ finishedSavingWithError:(NSError *)error
 
     }
     else{
+<<<<<<< HEAD
     UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Oops" message:@"Lack of Necessity(*)" delegate:self cancelButtonTitle:@"ok" otherButtonTitles: nil];
         [alert show];}
 
@@ -282,6 +351,12 @@ finishedSavingWithError:(NSError *)error
     
 
 }
+=======
+    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Oops" message:@"lack of photo or name" delegate:self cancelButtonTitle:@"ok" otherButtonTitles: nil];
+        [alert show];}
+
+}
+>>>>>>> FETCH_HEAD
 
 - (IBAction)cancel:(id)sender {
     [self performSegueWithIdentifier:@"backToMain" sender:self];
@@ -289,6 +364,10 @@ finishedSavingWithError:(NSError *)error
 #pragma keyboard;
 -(void) textViewDidBeginEditing:(UITextView *)textView
 {
+<<<<<<< HEAD
+=======
+    NSLog(@"111");
+>>>>>>> FETCH_HEAD
     textView.text=nil;
     CGRect frame = textView.frame;
     int offset = frame.origin.y + 80 - (self.view.frame.size.height - 216.0);
@@ -310,7 +389,11 @@ finishedSavingWithError:(NSError *)error
 
 }
 -(void)textFieldDidBeginEditing:(UITextField *)textField
+<<<<<<< HEAD
 {   
+=======
+{   NSLog(@"111");
+>>>>>>> FETCH_HEAD
     textField.text=nil;
     CGRect frame = textField.frame;
     int offset = frame.origin.y + 32 - (self.view.frame.size.height - 216.0);
@@ -329,6 +412,7 @@ finishedSavingWithError:(NSError *)error
 {
     self.view.frame =CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
 }
+<<<<<<< HEAD
 -(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"toBrand"]) {
@@ -337,4 +421,7 @@ finishedSavingWithError:(NSError *)error
     }
 }
 - (IBAction)unwindToThisViewController:(UIStoryboardSegue *)unwindSegue {}
+=======
+
+>>>>>>> FETCH_HEAD
 @end

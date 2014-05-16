@@ -7,7 +7,11 @@
 //
 
 #import "imageEditViewController.h"
+<<<<<<< HEAD
 #import "UIButton+Bootstrap.h"
+=======
+
+>>>>>>> FETCH_HEAD
 @interface imageEditViewController ()
 
 @end
@@ -27,8 +31,11 @@
 {
     [super viewDidLoad];
     _button.layer.cornerRadius=20;
+<<<<<<< HEAD
     [self.button infoStyle];
     [self.button addAwesomeIcon:FAIconCamera beforeTitle:YES];
+=======
+>>>>>>> FETCH_HEAD
     _imageView.image=[UIImage imageWithData:_cloth.image];
 }
 
@@ -60,6 +67,10 @@
     [photoBtnActionSheet showInView:[self.view window]];
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+<<<<<<< HEAD
+=======
+    // NSLog(@"Action Sheet Button Index: %d",buttonIndex);
+>>>>>>> FETCH_HEAD
     if (buttonIndex == 0) {
         //Show Photo Library
         if ([UIImagePickerController isSourceTypeAvailable:
@@ -71,7 +82,11 @@
             imagePicker.sourceType =
             UIImagePickerControllerSourceTypePhotoLibrary;
             imagePicker.mediaTypes = @[(NSString *) kUTTypeImage];
+<<<<<<< HEAD
             imagePicker.allowsEditing = YES;
+=======
+            imagePicker.allowsEditing = NO;
+>>>>>>> FETCH_HEAD
             [self presentViewController:imagePicker
                                animated:YES completion:nil];
             _newMedia = NO;
@@ -87,7 +102,11 @@
             imagePicker.sourceType =
             UIImagePickerControllerSourceTypeCamera;
             imagePicker.mediaTypes = @[(NSString *) kUTTypeImage];
+<<<<<<< HEAD
             imagePicker.allowsEditing = YES;
+=======
+            imagePicker.allowsEditing = NO;
+>>>>>>> FETCH_HEAD
             [self presentViewController:imagePicker
                                animated:YES completion:nil];
             _newMedia = YES;
@@ -116,6 +135,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
         // Code here to support video if enabled
     }
 }
+<<<<<<< HEAD
 -(void)image:(UIImage *)image
 finishedSavingWithError:(NSError *)error
  contextInfo:(void *)contextInfo
@@ -132,6 +152,8 @@ finishedSavingWithError:(NSError *)error
 }
 
 
+=======
+>>>>>>> FETCH_HEAD
 #pragma button
 - (IBAction)done:(id)sender {
     UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Want Change" message:@"make a decision" delegate:self cancelButtonTitle:@"NO" otherButtonTitles:@"YES", nil];
@@ -139,6 +161,10 @@ finishedSavingWithError:(NSError *)error
 }
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
+<<<<<<< HEAD
+=======
+    NSLog(@"%i",buttonIndex);
+>>>>>>> FETCH_HEAD
     switch (buttonIndex) {
         case 0:
             [self.navigationController popViewControllerAnimated:YES];
@@ -147,6 +173,10 @@ finishedSavingWithError:(NSError *)error
             
         case 1:
             if (_imageView!=nil) {
+<<<<<<< HEAD
+=======
+                NSLog(@"2");
+>>>>>>> FETCH_HEAD
                 NSData *image=UIImageJPEGRepresentation(_imageView.image, 1);
                 [self.delegate changeImage:image];
                 [self.navigationController popViewControllerAnimated:YES];

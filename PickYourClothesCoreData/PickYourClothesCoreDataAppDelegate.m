@@ -15,6 +15,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+<<<<<<< HEAD
 {  
     [self customizeApperance];
     return YES;
@@ -57,6 +58,13 @@
      [UIImage imageNamed:@"tab_select_indicator"]];
     
 }
+=======
+{
+    
+    return YES;
+}
+
+>>>>>>> FETCH_HEAD
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -93,6 +101,10 @@
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
              // Replace this implementation with code to handle the error appropriately.
              // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+<<<<<<< HEAD
+=======
+            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+>>>>>>> FETCH_HEAD
             abort();
         } 
     }
@@ -141,6 +153,10 @@
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {
+<<<<<<< HEAD
+=======
+                NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+>>>>>>> FETCH_HEAD
         abort();
     }    
     

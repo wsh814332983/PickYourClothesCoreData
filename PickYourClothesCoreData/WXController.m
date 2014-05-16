@@ -69,8 +69,13 @@
     CGFloat temperatureHeight = 110;
     CGFloat hiloHeight = 40;
     CGFloat iconHeight = 80;
+<<<<<<< HEAD
     CGRect hiloFrame = CGRectMake(inset, headerFrame.size.height - hiloHeight-self.view.bounds.size.height/568*150, self.view.bounds.size.width/2, hiloHeight);
     CGRect temperatureFrame = CGRectMake(inset, headerFrame.size.height - temperatureHeight - hiloHeight-self.view.bounds.size.height/568*150,self.view.bounds.size.width/2, temperatureHeight);
+=======
+    CGRect hiloFrame = CGRectMake(inset, headerFrame.size.height - hiloHeight-150, self.view.bounds.size.width/2, hiloHeight);
+    CGRect temperatureFrame = CGRectMake(inset, headerFrame.size.height - temperatureHeight - hiloHeight-150,self.view.bounds.size.width/2, temperatureHeight);
+>>>>>>> FETCH_HEAD
     CGRect iconFrame = CGRectMake(inset, temperatureFrame.origin.y - iconHeight, iconHeight, iconHeight);
     CGRect conditionsFrame = iconFrame;
     // make the conditions text a little smaller than the view
@@ -99,7 +104,11 @@
     [header addSubview:self.hiloLabel];
     
     // top
+<<<<<<< HEAD
     self.cityLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height/568*100, self.view.bounds.size.width, 30)];
+=======
+    self.cityLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 30)];
+>>>>>>> FETCH_HEAD
     self.cityLabel.backgroundColor = [UIColor clearColor];
     self.cityLabel.textColor = [UIColor whiteColor];
     self.cityLabel.text = @"Loading...";
@@ -123,6 +132,10 @@
       deliverOn:RACScheduler.mainThreadScheduler]
      subscribeNext:^(WXCondition *newCondition) {
          self.temperatureLabel.text = [NSString stringWithFormat:@"%.0f°",newCondition.temperature.floatValue];
+<<<<<<< HEAD
+=======
+         NSLog(@"current is %i",newCondition.temperature.intValue);
+>>>>>>> FETCH_HEAD
          self.conditionsLabel.text = [newCondition.condition capitalizedString];
          self.cityLabel.text = [newCondition.locationName capitalizedString];
          self.iconView.image = [UIImage imageNamed:[newCondition imageName]];
@@ -267,6 +280,10 @@
     NSDateFormatter *hourlyFormatter=[[NSDateFormatter alloc]init];
     [hourlyFormatter setDateFormat:@"h a"];
     cell.textLabel.text = [hourlyFormatter stringFromDate:weather.date];
+<<<<<<< HEAD
+=======
+  //  NSLog(@"it is %@",[_hourlyFormatter stringFromDate:weather.date]);
+>>>>>>> FETCH_HEAD
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%.0f°",weather.temperature.floatValue];
     cell.imageView.image = [UIImage imageNamed:[weather imageName]];
     cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
